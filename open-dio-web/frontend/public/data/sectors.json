@@ -1,0 +1,72 @@
+[
+  {
+    "code": "336411",
+    "name": "Aircraft Manufacturing",
+    "description": "Manufacturing of military and civilian aircraft",
+    "category": "Defense Manufacturing",
+    "naics": "336411"
+  },
+  {
+    "code": "336414",
+    "name": "Guided Missile and Space Vehicle Manufacturing",
+    "description": "Manufacturing of missiles, rockets, and space vehicles",
+    "category": "Defense Manufacturing",
+    "naics": "336414"
+  },
+  {
+    "code": "336611",
+    "name": "Ship Building and Repairing",
+    "description": "Construction and repair of ships, submarines, and naval vessels",
+    "category": "Defense Manufacturing",
+    "naics": "336611"
+  },
+  {
+    "code": "336992",
+    "name": "Military Armored Vehicle Manufacturing",
+    "description": "Manufacturing of tanks, armored vehicles, and military trucks",
+    "category": "Defense Manufacturing",
+    "naics": "336992"
+  },
+  {
+    "code": "541330",
+    "name": "Engineering Services",
+    "description": "Engineering and technical services for defense systems",
+    "category": "Professional Services",
+    "naics": "541330"
+  },
+  {
+    "code": "541512",
+    "name": "Computer Systems Design Services",
+    "description": "IT systems design and cybersecurity for defense",
+    "category": "Professional Services",
+    "naics": "541512"
+  },
+  {
+    "code": "541715",
+    "name": "R&D in Physical, Engineering, and Life Sciences",
+    "description": "Defense research and weapons development",
+    "category": "Research",
+    "naics": "541715"
+  },
+  {
+    "code": "237990",
+    "name": "Other Heavy and Civil Engineering Construction",
+    "description": "Military base construction and infrastructure",
+    "category": "Construction",
+    "naics": "237990"
+  },
+  {
+    "code": "324110",
+    "name": "Petroleum Refineries",
+    "description": "Fuel production for military operations",
+    "category": "Energy",
+    "naics": "324110"
+  },
+  {
+    "code": "221100",
+    "name": "Electric Power Generation",
+    "description": "Electricity for military operations and bases",
+    "category": "Utilities",
+    "naics": "221100"
+  }
+]

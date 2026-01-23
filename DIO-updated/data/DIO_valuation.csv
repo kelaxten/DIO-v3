@@ -1,0 +1,19 @@
+﻿Method,Indicator,Indicator unit,Endpoint Indicator,Endpoint Indicator unit,Conversion factor
+ImpactWorld+ - Midpoint,"Climate change, long term",kg CO2-eq,Climate change,USD2014,0.04
+ImpactWorld+ - Endpoint,Particulate matter formation,DALY,"Human health, respiratory inorganics",USD2014,129744.6666
+ImpactWorld+ - Endpoint,Photochemical oxidant formation,DALY,"Human health, respiratory organics",USD2014,129744.6666
+ImpactWorld+ - Endpoint,"Human toxicity cancer, long term",DALY,"Human health, cancer, unspecified",USD2014,129744.6666
+ImpactWorld+ - Endpoint,"Human toxicity non-cancer, long term",DALY,"Human health, non-cancer, unspecified",USD2014,129744.6666
+ImpactWorld+ - Endpoint,"Water availability, human health",DALY,"Human health, water use",USD2014,129744.6666
+ImpactWorld+ - Endpoint,"Water availability, terrestrial ecosystem",PDF-m2-yr,"Ecosystem quality, water use",USD2014,0.245
+ImpactWorld+ - Endpoint,"Land occupation, biodiversity",PDF-m2-yr,"Ecosystem quality, land use",USD2014,0.245
+ImpactWorld+ - Endpoint,"Freshwater ecotoxicity, long term",PDF-m2-yr,"Ecosystem quality, aquatic ecosystem toxicity",USD2014,0.245
+ImpactWorld+ - Endpoint,Particulate matter formation,DALY,"Human productivity, respiratory inorganics",USD2014,40326.04501
+ImpactWorld+ - Endpoint,Photochemical oxidant formation,DALY,"Human productivity, respiratory organics",USD2014,40326.04501
+ImpactWorld+ - Endpoint,"Human toxicity cancer, long term",DALY,"Human productivity, cancer, unspecified",USD2014,40326.04501
+ImpactWorld+ - Endpoint,"Human toxicity non-cancer, long term",DALY,"Human productivity, non-cancer, unspecified",USD2014,40326.04501
+ImpactWorld+ - Endpoint,"Water availability, human health",DALY,"Human productivity, water use",USD2014,40326.04501
+ReCiPe 2016 - Endpoint/H,Fossil resource scarcity,USD2013,"Resource productivity, fossil energy use",USD2014,1.0146
+ReCiPe 2016 - Endpoint/H,Mineral resource scarcity,USD2013,"Resource productivity, mineral use",USD2014,1.0146
+ReCiPe 2016 - Midpoint/H,Water consumption,m3,"Resource availability, water depletion",MJ extra,1.87
+ReCiPe 2016 - Midpoint/H,Water consumption,m3,"Resource productivity, water use",USD2014,0.0131274

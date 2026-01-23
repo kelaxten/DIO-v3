@@ -1,0 +1,1216 @@
+Model: "DIOv2.0" # Mimics structure of USEEIOv2.0.1-411
+BaseIOSchema: 2012
+BaseIOLevel: "Detail"
+IOYear: 2012 # Year for IO data
+ModelRegionAcronyms: ["US"]
+ModelType: "EEIO-IH" #Integrated hybrid model
+IODataSource: "BEA"
+BasePriceType: "PRO" #producer
+BasewithRedefinitions: FALSE
+CommodityorIndustryType: "Commodity"
+ScrapIncluded: FALSE
+DisaggregationSpecs: "WasteDisaggregationDetail"
+HybridizationSpecs: "DIOProcesses" #Name of hybridization yml file.
+
+SatelliteTable:
+  WAT:
+    FullName: "Water withdrawals"
+    Abbreviation: "WAT"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/Water_national_2015_m1_v1.0.1_0470867.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2015]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    DataSources:
+      USGS_NWIS_WU_2015:
+        Title: "Water Use in the US"
+        Author: "USGS"
+        DataYear: 2015
+        URL: "https://waterdata.usgs.gov/"
+        Primary: TRUE
+  CHAIR:
+    FullName: "Criteria and Hazardous Air Emissions"
+    Abbreviation: "CHAIR"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/CAP_HAP_national_2017_m2_v2.0.0_a52db57.parquet" # secondary contexts
+    FileLocation: "DataCommons"
+    DataYears: [2017]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    DataSources:
+      EPA_NEI_2017:
+        Title: "National Emissions Inventory"
+        Author: "EPA"
+        DataYear: 2017
+        URL: "https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei"
+        Primary: TRUE
+      EPA_TRI_2017:
+        Title: "Toxic Release Inventory"
+        Author: "EPA"
+        DataYear: 2017
+        URL: "https://www.epa.gov/toxics-release-inventory-tri-program"
+        Primary: TRUE
+  GRDREL:
+    FullName: "Point source industrial releases to ground"
+    Abbreviation: "GRDREL"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/GRDREL_national_2017_v0.3.1_f3cdf5b.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2017]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    DataSources:
+      EPA_TRI_2017:
+        Title: "Toxic Release Inventory"
+        Author: "EPA"
+        DataYear: 2017
+        URL: "https://www.epa.gov/toxics-release-inventory-tri-program"
+        Primary: TRUE
+  WATREL:
+    FullName: "Point source releases to water"
+    Abbreviation: "WATREL"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/TRI_DMR_national_2017_v0.3.1_f3cdf5b.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2017]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    DataSources:
+      EPA_TRI_2017:
+        Title: "Toxic Release Inventory"
+        Author: "EPA"
+        DataYear: 2017
+        URL: "https://www.epa.gov/toxics-release-inventory-tri-program"
+        Primary: TRUE
+      EPA_DMR_2017:
+        Title: "Discharge Monitoring Report"
+        Author: "EPA"
+        DataYear: 2017
+        URL: "https://echo.epa.gov/tools/data-downloads/icis-npdes-dmr-and-limit-data-set"
+        Primary: TRUE
+  GHG:
+    FullName: "Greenhouse Gases"
+    Abbreviation: "GHG"
+    StaticSource: TRUE
+    StaticFile: "useeior/NGHGIAM_GHG_TotalsBySector_wUUIDs.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2016]
+    Locations: ["US"]
+    SectorListSource: "BEA" # or, NAICS
+    SectorListYear: 2012
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    DataSources:
+      USEPA_GHG_2018:
+        Title: "GHG Inventory"
+        Author: "USEPA"
+        DataYear: 2016
+        URL: "https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2016"
+        Primary: TRUE
+  LAND:
+    FullName: "Land use"
+    Abbreviation: "LAND"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/Land_national_2012_v1.0.1_0470867.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2012]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    DataSources:
+      BLM_PLS:
+        Title: "Public Land Statistics"
+        Author: "BLM"
+        DataYear: 2012
+        URL: "https://www.blm.gov/about/data/public-land-statistics"
+        Primary: FALSE
+      EIA_CBECS_Land:
+        Title: "Commercial Building Energy Consumption Survey"
+        Author: "EIA"
+        DataYear: 2012
+        URL: "https://www.eia.gov/consumption/commercial/data/2012/"
+        Primary: FALSE
+      EIA_MECS_Land:
+        Title: "Manufacturing Energy Consumption Survey"
+        Author: "EIA"
+        DataYear: 2014
+        URL: "https://www.eia.gov/consumption/manufacturing/data/2014/"
+        Primary: FALSE     
+      USDA_ERS_MLU:
+        Title: "Major Uses of Land in the United States"
+        Author: "USDA"
+        DataYear: 2012
+        URL: "https://www.ers.usda.gov/data-products/major-land-uses/"
+        Primary: TRUE  
+  MINE:
+    FullName: "Mineral extraction"
+    Abbreviation: "MINE"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_MINE_TotalsBySector_FEDEFL_wUUIDs.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2014]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    DataSources:
+       USGS_MCS:
+        Title: "Mineral Commodity Summary"
+        Author: "USGS"
+        DataYear: 2014
+        URL: "https://www.usgs.gov/centers/nmic/mineral-commodity-summaries"
+        Primary: TRUE    
+  ENERGY:
+    FullName: "Energy extraction"
+    Abbreviation: "ENERGY"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_Energy_TotalsBySector_FEDEFL_wUUIDs.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2014]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    DataSources:
+      EIA_MER:
+        Title: "Monthly Energy Review"
+        Author: "EIA"
+        DataYear: 2014
+        URL: "http://www.eia.gov/totalenergy/data/monthly/"
+        Primary: TRUE
+      EIA_923:
+        Title: "Form EIA-923 Detailed"
+        Author: "EIA"
+        DataYear: 2014
+        URL: "https://www.eia.gov/electricity/data/eia923/"
+        Primary: TRUE
+  NPAG:
+    FullName: "Nitrogen and Phosphorus Releases from Agriculture"
+    Abbreviation: "NPAG"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_NPAG_TotalsBySector_wUUIDs.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2013, 2015]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    DataSources:
+      USDA_CUS_Corn_Potatoes:
+        Title: "Chemical Use Survey - Corn and Potatoes"
+        Author: "USDA"
+        DataYear: 2014
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2014_Corn_and_Potatoes/"
+        Primary: FALSE 
+      USDA_CUS_Cotton:
+        Title: "Chemical Use Survey - Cotton"
+        Author: "USDA"
+        DataYear: 2010
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2010_Corn_Upland_Cotton_Fall_Potatoes/"
+        Primary: FALSE            
+      USDA_CUS_Fruit:
+        Title: "Chemical Use Survey - Fruit"
+        Author: "USDA"
+        DataYear: 2011
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2011_Fruit_Chem_Usage/"
+        Primary: FALSE   
+      USDA_CUS_Peanuts_Rice:
+        Title: "Chemical Use Survey - Peanuts and Rice"
+        Author: "USDA"
+        DataYear: 2013
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2013_Peanuts_and_Rice/"
+        Primary: FALSE    
+      USDA_CUS_Soybeans_Wheat:
+        Title: "Chemical Use Survey - Soybeans and Wheat"
+        Author: "USDA"
+        DataYear: 2012
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2012_Soybeans_and_Wheat/"
+        Primary: FALSE     
+      USDA_CUS_Vegetables:
+        Title: "Chemical Use Survey - Vegetables"
+        Author: "USDA"
+        DataYear: 2014
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2014_Vegetables/"
+        Primary: FALSE  
+  PEST:
+    FullName: "Pesticide releases"
+    Abbreviation: "PEST"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_PEST_TotalsBySector_wUUIDs.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2004, 2005, 2010, 2011, 2012, 2013, 2014]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "FEDEFLv1.0.6"
+    DataSources:
+      USDA_CUS_Corn_Potatoes:
+        Title: "Chemical Use Survey - Corn and Potatoes"
+        Author: "USDA"
+        DataYear: 2014
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2014_Corn_and_Potatoes/"
+        Primary: FALSE 
+      USDA_CUS_Cotton:
+        Title: "Chemical Use Survey - Cotton"
+        Author: "USDA"
+        DataYear: 2010
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2010_Corn_Upland_Cotton_Fall_Potatoes/"
+        Primary: FALSE            
+      USDA_CUS_Fruit:
+        Title: "Chemical Use Survey - Fruit"
+        Author: "USDA"
+        DataYear: 2011
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2011_Fruit_Chem_Usage/"
+        Primary: FALSE   
+      USDA_CUS_Peanuts_Rice:
+        Title: "Chemical Use Survey - Peanuts and Rice"
+        Author: "USDA"
+        DataYear: 2013
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2013_Peanuts_and_Rice/"
+        Primary: FALSE    
+      USDA_CUS_Soybeans_Wheat:
+        Title: "Chemical Use Survey - Soybeans and Wheat"
+        Author: "USDA"
+        DataYear: 2012
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2012_Soybeans_and_Wheat/"
+        Primary: FALSE     
+      USDA_CUS_Vegetables:
+        Title: "Chemical Use Survey - Vegetables"
+        Author: "USDA"
+        DataYear: 2014
+        URL: "https://www.nass.usda.gov/Data_and_Statistics/Pre-Defined_Queries/2014_Vegetables/"
+        Primary: FALSE  
+  CNHW:
+    FullName: "Commercial non-hazardous waste excluding construction activities"
+    Abbreviation: "CNHW"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_CNHW_TotalsBySector.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2015]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "Waste Characterization Study 2014"
+    DataSources:
+      CalRecycle_CWCS:
+        Title: "2014 Generator-Based Characterization of Commercial Sector"
+        Author: "CalRecycle"
+        DataYear: 2014
+        URL: "https://www2.calrecycle.ca.gov/WasteCharacterization/PubExtracts/2014/GenSummary.pdf"
+        Primary: TRUE     
+  CNHWC:
+    FullName: "Commercial non-hazardous waste from construction activities"
+    Abbreviation: "CNHWC"
+    StaticSource: TRUE
+    StaticFile: "useeior/USEEIOv1.1_CNHWC_TotalsBySector.csv"
+    FileLocation: "DataCommons"
+    DataYears: [2014]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2007
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "CDDPath"
+    DataSources:
+      USEPA_FF_2014:
+        Title: "Advancing Sustainable Materials Management: 2014 Fact Sheet"
+        Author: "USEPA"
+        DataYear: 2014
+        URL: "https://www.epa.gov/sites/production/files/2016-11/documents/2014_smmfactsheet_508.pdf"
+        Primary: TRUE     
+  CRHW:
+    FullName: "Commercial RCRA-defined hazardous waste"
+    Abbreviation: "CRHW"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/CRHW_national_2017_v0.3.1_f3cdf5b.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2017]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "RCRAInfo"
+    DataSources:
+      USEPA_RCRAInfo_2017:
+        Title: "National Biennial RCRA Hazardous Waste Report"
+        Author: "USEPA"
+        DataYear: 2017
+        URL: "https://rcrapublic.epa.gov/rcrainfoweb/action/modules/br/main/broverview"
+        Primary: TRUE       
+  EMP:
+    FullName: "Employment"
+    Abbreviation: "EMP"
+    StaticSource: TRUE
+    StaticFile: "flowsa/FlowBySector/Employment_national_2017_v0.3.1_f3cdf5b.parquet"
+    FileLocation: "DataCommons"
+    DataYears: [2017]
+    Locations: ["US"]
+    SectorListSource: "NAICS"
+    SectorListYear: 2012
+    SectorListLevel: "6"
+    ScriptFunctionCall: "getFlowbySectorCollapsed" #function to call for script
+    ScriptFunctionParameters: null
+    OriginalFlowSource: "National Employment Matrix"
+    DataSources:
+      BLS_QCEW_2017:
+        Title: "Quarterly Census of Employment and Wages"
+        Author: "BLS"
+        DataYear: 2017
+        URL: "https://www.bls.gov/cew/"
+        Primary: TRUE  
+  VADD:
+    FullName: "Value Added"
+    Abbreviation: "VADD"
+    StaticSource: FALSE
+    StaticFile: null
+    FileLocation: None
+    DataYears: [2012]
+    Locations: ["US"]
+    SectorListSource: "BEA"
+    SectorListYear: 2012
+    SectorListLevel: "Detail"
+    OriginalFlowSource: "Input-Output Tables"
+    ScriptFunctionCall: "getValueAddedTotalsbySector" #function to call for script
+    ScriptFunctionParameters: ["model"] #list of parameters
+    DataSources:
+     BEA_USE:
+       Title: "Detail Use Before Redefinitions"
+       Author: "BEA"
+       DataYear: 2012
+       URL: "https://apps.bea.gov//industry/iTables%20Static%20Files/AllTablesIO.zip"
+       Primary: TRUE
+
+Indicators:
+  ClimateChange:
+    Name: "Climate change"
+    Code: "IC00001"
+    Group: "DIO Midpoint"
+    Unit: "kg CO2 eq"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Climate change, long term"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RespiratoryInorganics:
+    Name: "Human toxicity, respiratory effects, inorganics"
+    Code: "IC00002"
+    Group: "DIO Midpoint"
+    Unit: "kg PM2.5 eq"
+    SimpleUnit: ""
+    SimpleName: ""      
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Particulate matter formation"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RespiratoryOrganics:
+    Name: "Human toxicity, respiratory effects, organics"
+    Code: "IC00003"
+    Group: "DIO Midpoint"
+    Unit: "kg NMVOC eq"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Photochemical oxidant formation"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  CarcinogensUnspecified:
+    Name: "Human toxicity, carcinogens, unspecified"
+    Code: "IC00004"
+    Group: "DIO Midpoint"
+    Unit: "CTUh"
+    SimpleUnit: ""
+    SimpleName: ""   
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human toxicity cancer"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  NonCarcinogensUnspecified:
+    Name: "Human toxicity, non-carcinogens, unspecified"
+    Code: "IC00006"
+    Group: "DIO Midpoint"
+    Unit: "CTUh"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human toxicity non cancer"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  WaterDeprivation:
+    Name: "Water deprivation"
+    Code: "IC00008"
+    Group: "DIO Midpoint"
+    Unit: "m3 deprived"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Water scarcity"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  FossilEnergyUse:
+    Name: "Fossil Energy Use"
+    Code: "IC00009"
+    Group: "DIO Midpoint"
+    Unit: "kg oil eq"
+    SimpleUnit: ""
+    SimpleName: ""   
+    StaticSource: TRUE
+    StaticFile: "lciafmt/recipe/ReCiPe_2016_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Fossil resource scarcity"]
+      methods: ["ReCiPe 2016 - Midpoint/H"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  LandUse:
+    Name: "Land use"
+    Code: "IC00010"
+    Group: "DIO Midpoint"
+    Unit: "m2-yr arable-eq"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Land occupation, biodiversity"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  MineralUse:
+    Name: "Mineral use"
+    Code: "IC00011"
+    Group: "DIO Midpoint"
+    Unit: "kg Cu eq"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/recipe/ReCiPe_2016_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Mineral resource scarcity"]
+      methods: ["ReCiPe 2016 - Midpoint/H"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  AquaticEcotoxicity:
+    Name: "Aquatic ecosystem toxicity"
+    Code: "IC00012"
+    Group: "DIO Midpoint"
+    Unit: "CTUe"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Freshwater ecotoxicity"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  ClimateChange2:
+    Name: "Climate change - Endpoint"
+    Code: "IC00013"
+    Group: "DIO Endpoint"
+    Unit: "kg CO2 eq"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Climate change, long term"]
+      methods: ["ImpactWorld+ - Midpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHRespiratoryInorganics:
+    Name: "Human health, respiratory inorganics"
+    Code: "IC00014"
+    Group: "DIO Endpoint"
+    Unit: "DALY"
+    SimpleUnit: ""
+    SimpleName: ""      
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Particulate matter formation"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHRespiratoryOrganics:
+    Name: "Human health, respiratory organics"
+    Code: "IC00015"
+    Group: "DIO Endpoint"
+    Unit: "DALY"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Photochemical oxidant formation"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHCarcinogensUnspecified:
+    Name: "Human health, cancer, unspecified"
+    Code: "IC00016"
+    Group: "DIO Endpoint"
+    Unit: "DALY"
+    SimpleUnit: ""
+    SimpleName: ""   
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human toxicity cancer, long term"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHNonCarcinogensUnspecified:
+    Name: "Human health, non-cancer, unspecified"
+    Code: "IC00018"
+    Group: "DIO Endpoint"
+    Unit: "DALY"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human toxicity non-cancer, long term"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHWater:
+    Name: "Human health, water depletion"
+    Code: "IC00020"
+    Group: "DIO Endpoint"
+    Unit: "DALY"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Water availability, human health"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  EQWater:
+    Name: "Ecosystem quality, water depletion"
+    Code: "IC00021"
+    Group: "DIO Endpoint"
+    Unit: "PDF m2-yr"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Water availability, terrestrial ecosystem"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RAWater:
+    Name: "Resource availability, water depletion"
+    Code: "IC00023"
+    Group: "DIO Endpoint"
+    Unit: "MJ extra"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Resource availability, water depletion"]
+  EQLand:
+    Name: "Ecosystem quality, land use"
+    Code: "IC00024"
+    Group: "DIO Endpoint"
+    Unit: "PDF m2-yr"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Land occupation, biodiversity"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  EQAquaticEcotoxicity:
+    Name: "Ecosystem quality, aquatic ecosystem toxicity"
+    Code: "IC00025"
+    Group: "DIO Endpoint"
+    Unit: "PDF m2-yr"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/impactworld/ImpactWorld%2B_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Freshwater ecotoxicity, long term"]
+      methods: ["ImpactWorld+ - Endpoint"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RAFossilEnergy:
+    Name: "Resource availability, fossil energy use"
+    Code: "IC00026"
+    Group: "DIO Endpoint"
+    Unit: "USD2013"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/recipe/ReCiPe_2016_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Fossil resource scarcity"]
+      methods: ["ReCiPe 2016 - Endpoint/H"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  RAMinerals:
+    Name: "Resource availability, mineral use"
+    Code: "IC00027"
+    Group: "DIO Endpoint"
+    Unit: "USD2013"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/recipe/ReCiPe_2016_v1.0.0_5555779.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Mineral resource scarcity"]
+      methods: ["ReCiPe 2016 - Endpoint/H"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  ClimateChangeValuation:
+    Name: "Climate change - Valuation"
+    Code: "IC00028"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Climate change"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHRespiratoryInorganicsValuation:
+    Name: "Human health, respiratory inorganics - Valuation"
+    Code: "IC00029"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human health, respiratory inorganics"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HPRespiratoryInorganicsValuation:
+    Name: "Human productivity, respiratory inorganics - Valuation"
+    Code: "IC00030"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human productivity, respiratory inorganics"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHRespiratoryOrganicsValuation:
+    Name: "Human health, respiratory organics - Valuation"
+    Code: "IC00031"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human health, respiratory organics"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HPRespiratoryOrganicsValuation:
+    Name: "Human productivity, respiratory organics - Valuation"
+    Code: "IC00032"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human productivity, respiratory organics"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHCancerUnspecifiedValuation:
+    Name: "Human health, cancer, unspecified - Valuation"
+    Code: "IC00033"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human health, cancer, unspecified"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HPCancerUnspecifiedValuation:
+    Name: "Human productivity, cancer, unspecified - Valuation"
+    Code: "IC00034"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human productivity, cancer, unspecified"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHNonCancerUnspecifiedValuation:
+    Name: "Human health, non-cancer, unspecified - Valuation"
+    Code: "IC00037"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human health, non-cancer, unspecified"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HPNonCancerUnspecifiedValuation:
+    Name: "Human productivity, non-cancer, unspecified - Valuation"
+    Code: "IC00038"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human productivity, non-cancer, unspecified"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HHWaterUseValuation:
+    Name: "Human health, water use - Valuation"
+    Code: "IC00041"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human health, water use"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  HPWaterUseValuation:
+    Name: "Human productivity, water use - Valuation"
+    Code: "IC00042"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Human productivity, water use"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  EQWaterValuation:
+    Name: "Ecosystem quality, water use - Valuation"
+    Code: "IC00043"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Ecosystem quality, water use"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RPWaterUseValuation:
+    Name: "Resource productivity, water use - Valuation"
+    Code: "IC00045"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Resource productivity, water use"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  EQLandValuation:
+    Name: "Ecosystem quality, land use - Valuation"
+    Code: "IC00046"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Ecosystem quality, land use"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  EQAquaticEcotoxicityValuation:
+    Name: "Ecosystem quality, aquatic ecosystem toxicity - Valuation"
+    Code: "IC00047"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Ecosystem quality, aquatic ecosystem toxicity"]
+    DataSources:
+      bulle_impact_2019:
+        Title: "Impact World+"
+        Author: "Bulle et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-019-01583-0"
+        Primary: TRUE
+  RPFossilEnergyValuation:
+    Name: "Resource productivity, fossil energy use - Valuation"
+    Code: "IC00048"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Resource productivity, fossil energy use"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+  RPMineralsValuation:
+    Name: "Resource productivity, mineral use - Valuation"
+    Code: "IC00049"
+    Group: "DIO Valuation"
+    Unit: "USD2014"
+    SimpleUnit: ""
+    SimpleName: ""  
+    StaticSource: TRUE
+    StaticFile: "lciafmt/dio/DIO%20Valuation_v1.0.0_fa9215b.parquet"
+    FileLocation: "DataCommons"
+    ScriptFunctionCall: "getImpactMethod" #function to call for script
+    ScriptFunctionParameters: 
+      indicators: ["Resource productivity, mineral use"]
+    DataSources:
+      huijbregts_recipe_2017:
+        Title: "ReCiPe 2016"
+        Author: "Huijbregts et al."
+        DataYear: NA
+        URL: "https://doi.org/10.1007/s11367-016-1246-y"
+        Primary: TRUE
+DemandVectors:
+    DefaultDemand: "DefaultDemandVectors" # Name of default demand vectors yml file
+    HouseholdConsumption:
+      Type: "Consumption"
+      Year: 2012
+      System: "Household"
+      Location: "US"
+

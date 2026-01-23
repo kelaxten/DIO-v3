@@ -1,0 +1,88 @@
+{
+  "description": "Impact multipliers (per $1000 of spending) - Based on DIO v2.0 and Costs of War estimates",
+  "units": {
+    "GHG": "kg CO2 eq",
+    "Energy": "MJ",
+    "Water": "gallons",
+    "Land": "m2-year"
+  },
+  "sectors": {
+    "336411": {
+      "name": "Aircraft Manufacturing",
+      "GHG": 145.2,
+      "Energy": 2850.0,
+      "Water": 3200.0,
+      "Land": 12.5
+    },
+    "336414": {
+      "name": "Guided Missile Manufacturing",
+      "GHG": 132.8,
+      "Energy": 2650.0,
+      "Water": 2900.0,
+      "Land": 10.8
+    },
+    "336611": {
+      "name": "Ship Building",
+      "GHG": 156.3,
+      "Energy": 3100.0,
+      "Water": 4500.0,
+      "Land": 15.2
+    },
+    "336992": {
+      "name": "Armored Vehicle Manufacturing",
+      "GHG": 138.5,
+      "Energy": 2750.0,
+      "Water": 3100.0,
+      "Land": 11.3
+    },
+    "541330": {
+      "name": "Engineering Services",
+      "GHG": 45.2,
+      "Energy": 950.0,
+      "Water": 850.0,
+      "Land": 3.2
+    },
+    "541512": {
+      "name": "Computer Systems Design",
+      "GHG": 38.6,
+      "Energy": 820.0,
+      "Water": 720.0,
+      "Land": 2.8
+    },
+    "541715": {
+      "name": "R&D Services",
+      "GHG": 52.1,
+      "Energy": 1100.0,
+      "Water": 950.0,
+      "Land": 3.8
+    },
+    "237990": {
+      "name": "Heavy Construction",
+      "GHG": 98.4,
+      "Energy": 1950.0,
+      "Water": 5200.0,
+      "Land": 42.5
+    },
+    "324110": {
+      "name": "Petroleum Refineries",
+      "GHG": 285.7,
+      "Energy": 5800.0,
+      "Water": 2100.0,
+      "Land": 8.5
+    },
+    "221100": {
+      "name": "Electric Power",
+      "GHG": 512.3,
+      "Energy": 10500.0,
+      "Water": 18500.0,
+      "Land": 5.2
+    }
+  },
+  "metadata": {
+    "model": "DIO v2.0",
+    "base_year": 2012,
+    "data_sources": "BEA IO Tables, EPA GHG Inventory, USGS Water Use",
+    "validation": "Calibrated to Costs of War 2017 estimate (59M MT CO2e from $600B)",
+    "note": "These are illustrative multipliers for demo purposes"
+  }
+}
