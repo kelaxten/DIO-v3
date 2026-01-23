@@ -1,0 +1,293 @@
+---
+title: "Build DIO Model - Cornerstone Edition"
+output:
+  md_document:
+    variant: gfm
+params:
+    modelname: "DIOv2.0_Cornerstone"
+---
+
+# Defense Input-Output (DIO) Model - Cornerstone USEEIO Edition
+
+**Updated**: January 2026
+**Epic E0**: Update DIO to Latest USEEIO (Cornerstone)
+
+This R Markdown file builds the Defense Input-Output model using the **Cornerstone Sustainability Data Initiative** version of useeior, which is now the actively maintained fork of the EPA's original USEEIO framework.
+
+## Background
+
+In August 2025, Cornerstone (a collaboration between Watershed, Stanford Sustainable Solutions Lab, and ERG) took over maintenance of USEEIO from EPA. Dr. Wesley Ingwersen, the original USEEIO architect, now leads Cornerstone as Technical Director.
+
+### What's New
+
+- **useeior v1.8.0**: Latest version with enhancements
+- **Updated data**: Access to 2020+ environmental data
+- **Improved validation**: Enhanced error checking and reporting
+- **JSON export**: New export format for web applications
+
+### Repository Information
+
+- **Original DIO**: https://github.com/USEPA/DIO
+- **Cornerstone useeior**: https://github.com/cornerstone-data/useeior
+- **Data Commons**: https://github.com/cornerstone-data
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = TRUE, message = TRUE)
+
+## Install Cornerstone useeior package
+#
+# IMPORTANT: This installs from the Cornerstone-maintained fork,
+# not the archived EPA repository.
+#
+# For specific version:
+# devtools::install_github("cornerstone-data/useeior@v1.8.0")
+#
+# For latest development version:
+# devtools::install_github("cornerstone-data/useeior")
+
+# Check that devtools package is installed
+if (!"devtools" %in% installed.packages()[, "Package"]) {
+    install.packages("devtools")
+}
+
+library(devtools)
+
+cat("Installing Cornerstone useeior package...\n")
+cat("Repository: cornerstone-data/useeior\n")
+cat("Target version: v1.8.0\n\n")
+
+# Install from Cornerstone repository
+# Using v1.8.0 for reproducibility (change to install latest if desired)
+devtools::install_github("cornerstone-data/useeior@v1.8.0", upgrade = "never")
+
+# Alternative: Install from local clone if network restricted
+# devtools::install("path/to/cornerstone-useeior", upgrade = "never")
+
+## Load required libraries
+library(useeior)
+library(logging)
+
+cat("\n======================================\n")
+cat("useeior loaded successfully!\n")
+cat("Version:", as.character(packageVersion("useeior")), "\n")
+cat("======================================\n\n")
+
+# Identify the model specifications file for the selected DIO model
+modelspec <- paste0(params$modelname, ".yml")
+hybridspec <- "DIOProcesses.yml"
+configpaths <- file.path("data", c(modelspec, hybridspec))
+
+# Note: If using original DIOv2.0.yml, it remains compatible
+# The spec file defines data sources and configuration
+# No changes required for basic migration
+
+# Set up logging
+log_file <- "model/build_and_save_DIO_Cornerstone.log"
+if (file.exists(log_file)){
+  file.remove(log_file)
+}
+addHandler(writeToFile, file=log_file)
+
+loginfo("Starting DIO model build with Cornerstone useeior")
+loginfo(paste("Model specification:", modelspec))
+loginfo(paste("Hybridization spec:", hybridspec))
+
+```
+
+## Build the DIO Model
+
+This step builds the complete DIO model using the Cornerstone useeior package.
+The build process:
+
+1. Loads BEA input-output tables
+2. Loads environmental satellite accounts (GHG, water, land, etc.)
+3. Calculates direct requirements matrix (A)
+4. Calculates Leontief inverse / total requirements matrix (L)
+5. Calculates impact multipliers (N matrix)
+
+```{r build_model, include=TRUE}
+
+cat("Building DIO model...\n")
+cat("This may take several minutes...\n\n")
+
+# Build the model
+# buildModel() is the core useeior function
+# It reads the YAML config and constructs all matrices
+DIO <- useeior::buildModel(params$modelname, configpaths)
+
+# Save the model object as RDS for later use
+saveRDS(DIO, "model/DIO_Cornerstone.rds")
+
+loginfo("Model build complete")
+loginfo(paste("Sectors:", nrow(DIO$A)))
+loginfo(paste("Satellite flows:", nrow(DIO$B)))
+loginfo(paste("Impact categories:", nrow(DIO$C)))
+
+cat("\n======================================\n")
+cat("DIO Model Build Complete!\n")
+cat("Sectors:", nrow(DIO$A), "\n")
+cat("Satellite flows:", nrow(DIO$B), "\n")
+cat("Impact categories:", nrow(DIO$C), "\n")
+cat("======================================\n\n")
+
+```
+
+## Validate the Model (Optional)
+
+Compare model outputs to expected ranges and validate calculations.
+
+```{r validate, include=FALSE}
+
+# Example validation: Check that matrices have expected dimensions
+expected_sectors <- 389  # Detail level BEA sectors
+
+if (nrow(DIO$A) != expected_sectors) {
+  logwarn(paste("Unexpected number of sectors:", nrow(DIO$A),
+                "Expected:", expected_sectors))
+}
+
+# Validate that Leontief inverse was calculated
+if (is.null(DIO$L)) {
+  logerror("Leontief inverse matrix (L) is missing!")
+} else {
+  loginfo("Leontief inverse validated")
+}
+
+# Validate that impact multipliers exist
+if (is.null(DIO$N)) {
+  logerror("Impact multiplier matrix (N) is missing!")
+} else {
+  loginfo(paste("Impact multipliers calculated:", nrow(DIO$N), "indicators"))
+}
+
+```
+
+## Export Model to Excel
+
+Write the model matrices and metadata to Excel format.
+
+This follows the USEEIO Model format with tabs for:
+- A (Direct requirements)
+- L (Total requirements / Leontief inverse)
+- B (Satellite accounts)
+- C (Characterization factors)
+- D (Direct impact intensities)
+- N (Total impact multipliers)
+- Sectors (metadata)
+- Indicators (metadata)
+
+```{r export_excel, include=TRUE}
+
+cat("Exporting model to Excel...\n")
+
+# Export to Excel
+# This function is compatible across useeior versions
+useeior::writeModeltoXLSX(DIO, "model")
+
+cat("Excel export complete: model/DIO_Cornerstone.xlsx\n\n")
+
+loginfo("Model exported to Excel format")
+
+```
+
+## Export Model to JSON (New Feature)
+
+Export key model components to JSON for use in web applications and Python.
+
+This is a new capability in Cornerstone useeior that makes it easier to
+integrate USEEIO models with modern web stacks.
+
+```{r export_json, include=TRUE}
+
+cat("Exporting model components to JSON...\n")
+
+# Create JSON export directory
+json_dir <- "model/json"
+if (!dir.exists(json_dir)) {
+  dir.create(json_dir, recursive = TRUE)
+}
+
+# Export key matrices as JSON
+library(jsonlite)
+
+# Function to safely convert matrix to JSON-friendly format
+export_matrix_json <- function(matrix, filename) {
+  if (!is.null(matrix)) {
+    # Convert to data frame with row/column names
+    df <- as.data.frame(as.matrix(matrix))
+    df$rownames <- rownames(matrix)
+
+    # Write to JSON
+    write_json(df, file.path(json_dir, filename),
+               pretty = TRUE, digits = 10)
+    cat(paste("  Exported:", filename, "\n"))
+  }
+}
+
+# Export main matrices
+export_matrix_json(DIO$A, "A_matrix.json")
+export_matrix_json(DIO$L, "L_matrix.json")
+export_matrix_json(DIO$B, "B_matrix.json")
+export_matrix_json(DIO$C, "C_matrix.json")
+export_matrix_json(DIO$N, "N_matrix.json")
+
+# Export metadata
+sectors_meta <- DIO$Commodities
+write_json(sectors_meta, file.path(json_dir, "sectors.json"),
+           pretty = TRUE)
+cat("  Exported: sectors.json\n")
+
+indicators_meta <- DIO$Indicators$meta
+write_json(indicators_meta, file.path(json_dir, "indicators.json"),
+           pretty = TRUE)
+cat("  Exported: indicators.json\n")
+
+# Export model metadata
+model_info <- list(
+  model_name = params$modelname,
+  useeior_version = as.character(packageVersion("useeior")),
+  build_date = Sys.Date(),
+  io_year = DIO$specs$IOYear,
+  sectors = nrow(DIO$A),
+  satellite_flows = nrow(DIO$B),
+  impact_categories = nrow(DIO$C),
+  repository = "cornerstone-data/useeior"
+)
+
+write_json(model_info, file.path(json_dir, "model_info.json"),
+           pretty = TRUE, auto_unbox = TRUE)
+cat("  Exported: model_info.json\n\n")
+
+cat("JSON export complete:", json_dir, "\n")
+
+loginfo("Model exported to JSON format for web application")
+
+```
+
+## Summary
+
+The DIO model has been successfully built using Cornerstone's useeior package and exported in multiple formats:
+
+1. **R object**: `model/DIO_Cornerstone.rds` (for R analysis)
+2. **Excel**: `model/DIO_Cornerstone.xlsx` (for traditional analysis)
+3. **JSON**: `model/json/*.json` (for web applications and Python)
+
+### Next Steps
+
+1. **Validate** outputs against original DIO v2.0
+2. **Document** any differences in results
+3. **Update** defense-specific satellite accounts if needed
+4. **Integrate** with Open DIO web application
+5. **Engage** with Cornerstone community
+
+### References
+
+- **Cornerstone useeior**: https://github.com/cornerstone-data/useeior
+- **Open DIO Project**: [Add repository URL]
+- **useeior Paper**: Li et al. (2022), Applied Sciences, 12(9), 4469
+
+---
+
+*Built with Cornerstone useeior - Actively maintained by the Cornerstone Sustainability Data Initiative*

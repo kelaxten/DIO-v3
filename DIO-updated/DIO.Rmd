@@ -1,0 +1,53 @@
+---
+title: "Build DIO Model"
+output:
+  md_document:
+    variant: gfm
+params:
+    modelname: "DIOv2.0"
+---
+
+
+```{r setup, include=FALSE}
+
+
+## Install useeior version with hybridization
+
+#First check that devtools package is installed
+#if (!"devtools"%in%installed.packages()[, "Package"]) {
+#    install.packages("devtools")
+#}
+library(devtools)
+
+devtools::install_github("USEPA/useeior@v1.7.2")
+# devtools::load_all("../useeior")
+
+## Build the model using useeior
+library(useeior)
+library(logging)
+# Identify the model specifications file for the selected DIO model
+modelspec <- paste0(params$modelname, ".yml")
+hybridspec <- "DIOProcesses.yml"
+configpaths <- file.path("data", c(modelspec, hybridspec))
+
+log_file <- "model/build_and_save_DIO_model.log"
+if (file.exists(log_file)){
+  file.remove(log_file)
+}
+addHandler(writeToFile, file=log_file)
+
+DIO <- useeior::buildModel(params$modelname, configpaths)
+saveRDS(DIO, "model/DIO.rds")
+
+```
+
+Write the model to Excel and a log to a log file
+
+```{r, include=FALSE}
+# See Issue 7 (https://github.com/USEPA/DIO/issues/7)
+# which will cause writing model to fail due to checkNamesandOrdering()
+# if using useeior prior to v1.4.0
+
+useeior::writeModeltoXLSX(DIO,"model")
+```
+
