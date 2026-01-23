@@ -1,0 +1,40 @@
+# R temporary files
+*.Rhistory
+*.RData
+*.Rproj.user
+.Rproj.user/
+
+# Installation scripts (temporary)
+install_*.R
+test_*.R
+install_log.txt
+
+# Cloned repositories (large, reference only)
+EPA-DIO-original/
+cornerstone-useeior/
+
+# R package build artifacts
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
