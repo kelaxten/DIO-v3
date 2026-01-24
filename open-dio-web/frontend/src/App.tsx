@@ -72,9 +72,9 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>🌍 Open DIO</h1>
+        <h1>Open DIO</h1>
         <p className="tagline">
-          Calculate the environmental impact of defense spending
+          Defense Environmental Impact Analysis
         </p>
         <p className="subtitle">
           Using the Defense Input-Output Model v2.0
@@ -100,15 +100,15 @@ function App() {
 
           <footer className="footer">
             <p>
-              <strong>About</strong>: Open DIO makes military environmental
+              <strong>About:</strong> Open DIO makes military environmental
               impact analysis accessible to researchers, journalists, and the public.
             </p>
             <p>
-              <strong>Data</strong>: Based on EPA's Defense Input-Output Model v2.0
-              | <strong>Method</strong>: Environmentally-Extended Input-Output Analysis
+              <strong>Data:</strong> Based on EPA's Defense Input-Output Model v2.0
+              | <strong>Method:</strong> Environmentally-Extended Input-Output Analysis
             </p>
             <p className="credit">
-              Built with ❤️ for transparency | Open Source |{' '}
+              Open Source |{' '}
               <a href="https://github.com/kelaxten/DIO-v3" target="_blank" rel="noopener noreferrer">
                 View on GitHub
               </a>

@@ -1,15 +1,17 @@
 .results-dashboard {
   background: white;
-  border-radius: 16px;
+  border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  border: 1px solid #e5e7eb;
 }
 
 .results-dashboard h2 {
   margin: 0 0 2rem;
-  color: #333;
-  font-size: 1.8rem;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .results-summary {
@@ -21,116 +23,98 @@
 
 .summary-card {
   padding: 1.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 12px;
-  color: white;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
   text-align: center;
 }
 
 .summary-label {
-  font-size: 0.9rem;
-  opacity: 0.9;
+  font-size: 0.85rem;
+  color: #6b7280;
   margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
 .summary-value {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
+  color: #1a1a1a;
 }
 
 .impacts-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
 .impact-card {
   padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  transition: box-shadow 0.2s, border-color 0.2s;
 }
 
 .impact-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-}
-
-.impact-ghg {
-  background: linear-gradient(135deg, #fee2e2 0%, #fca5a5 100%);
-  border-left: 4px solid #ef4444;
-}
-
-.impact-energy {
-  background: linear-gradient(135deg, #fef3c7 0%, #fcd34d 100%);
-  border-left: 4px solid #f59e0b;
-}
-
-.impact-water {
-  background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
-  border-left: 4px solid #3b82f6;
-}
-
-.impact-land {
-  background: linear-gradient(135deg, #d1fae5 0%, #6ee7b7 100%);
-  border-left: 4px solid #10b981;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #d1d5db;
 }
 
 .impact-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
   margin-bottom: 1rem;
-}
-
-.impact-icon {
-  font-size: 2rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .impact-header h3 {
   margin: 0;
-  font-size: 1.1rem;
-  color: #1f2937;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a1a1a;
 }
 
 .impact-value {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
-  color: #111827;
+  color: #1a1a1a;
   margin: 0.5rem 0;
+  font-variant-numeric: tabular-nums;
 }
 
 .impact-unit {
-  font-size: 1rem;
-  color: #4b5563;
-  font-weight: 600;
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .impact-description {
-  font-size: 0.85rem;
-  color: #6b7280;
-  font-style: italic;
+  font-size: 0.8rem;
+  color: #9ca3af;
 }
 
 .comparisons-section {
   margin: 2rem 0;
   padding: 1.5rem;
-  background: #f0fdf4;
-  border-left: 4px solid #22c55e;
-  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-left: 3px solid #4b5563;
+  border-radius: 4px;
 }
 
 .comparisons-section h3 {
   margin: 0 0 0.75rem;
-  color: #166534;
-  font-size: 1.3rem;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .comparisons-intro {
-  color: #166534;
+  color: #4b5563;
   margin: 0 0 1rem;
+  font-size: 0.9rem;
 }
 
 .comparisons-list {
@@ -143,14 +127,16 @@
   padding: 0.75rem;
   margin: 0.5rem 0;
   background: white;
-  border-radius: 8px;
-  color: #166534;
-  font-weight: 500;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  color: #374151;
+  font-size: 0.9rem;
 }
 
 .comparisons-list li:before {
   content: "→ ";
   margin-right: 0.5rem;
+  color: #9ca3af;
 }
 
 .sector-breakdown-section {
@@ -159,51 +145,59 @@
 
 .sector-breakdown-section h3 {
   margin: 0 0 1rem;
-  color: #333;
-  font-size: 1.3rem;
+  color: #1a1a1a;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .sector-breakdown-list {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .sector-detail {
-  background: #f9fafb;
-  border-radius: 8px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
   overflow: hidden;
 }
 
 .sector-summary {
   padding: 1rem 1.5rem;
-  background: white;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: 600;
-  color: #333;
-  border-left: 4px solid #667eea;
+  font-weight: 500;
+  color: #1a1a1a;
   transition: background 0.2s;
+  list-style: none;
+}
+
+.sector-summary::-webkit-details-marker {
+  display: none;
 }
 
 .sector-summary:hover {
-  background: #f3f4f6;
+  background: #f9fafb;
 }
 
 .sector-name {
   flex: 1;
+  font-size: 0.95rem;
 }
 
 .sector-spending {
-  color: #667eea;
-  font-size: 1.1rem;
+  color: #4b5563;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .sector-impacts {
   padding: 1rem 1.5rem;
-  background: #f9fafb;
+  background: #fafafa;
+  border-top: 1px solid #e5e7eb;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -214,35 +208,45 @@
   justify-content: space-between;
   padding: 0.5rem;
   background: white;
+  border: 1px solid #f3f4f6;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .impact-label {
   color: #6b7280;
+  font-weight: 500;
 }
 
 .impact-value-small {
   font-weight: 600;
-  color: #333;
+  color: #1a1a1a;
+  font-variant-numeric: tabular-nums;
 }
 
 .methodology-note {
   margin-top: 2rem;
   padding: 1.5rem;
-  background: #eff6ff;
-  border-left: 4px solid #3b82f6;
-  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-left: 3px solid #4b5563;
+  border-radius: 4px;
 }
 
 .methodology-note h4 {
   margin: 0 0 0.75rem;
-  color: #1e40af;
-  font-size: 1.1rem;
+  color: #1a1a1a;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .methodology-note p {
   margin: 0.5rem 0;
-  color: #1e3a8a;
+  color: #4b5563;
   line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.methodology-note p:last-child {
+  margin-bottom: 0;
 }

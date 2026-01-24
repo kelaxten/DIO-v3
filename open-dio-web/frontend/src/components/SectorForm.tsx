@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import type { Sector, SectorInput } from '../types';
 import './SectorForm.css';
 
@@ -21,6 +21,60 @@ export function SectorForm({
 }: Props) {
   const [selectedSector, setSelectedSector] = useState<string>('');
   const [amount, setAmount] = useState<string>('');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Sort sectors alphabetically
+  const sortedSectors = useMemo(() => {
+    return [...sectors].sort((a, b) => a.name.localeCompare(b.name));
+  }, [sectors]);
+
+  // Fuzzy search filter
+  const filteredSectors = useMemo(() => {
+    if (!searchQuery.trim()) return sortedSectors;
+
+    const query = searchQuery.toLowerCase();
+    return sortedSectors.filter(sector => {
+      const name = sector.name.toLowerCase();
+      const code = sector.code.toLowerCase();
+
+      // Simple fuzzy matching: check if all characters appear in order
+      let nameIndex = 0;
+      for (const char of query) {
+        nameIndex = name.indexOf(char, nameIndex);
+        if (nameIndex === -1) break;
+        nameIndex++;
+      }
+
+      // Match by name (fuzzy) or code (exact)
+      return nameIndex !== -1 || code.includes(query);
+    });
+  }, [sortedSectors, searchQuery]);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleSelectSector = (code: string, name: string) => {
+    setSelectedSector(code);
+    setSearchQuery(name);
+    setIsDropdownOpen(false);
+  };
+
+  const handleSearchChange = (value: string) => {
+    setSearchQuery(value);
+    setSelectedSector('');
+    setIsDropdownOpen(true);
+  };
 
   const handleAddSector = () => {
     if (!selectedSector || !amount || parseFloat(amount) <= 0) {
@@ -39,6 +93,7 @@ export function SectorForm({
 
     onInputsChange([...inputs, newInput]);
     setSelectedSector('');
+    setSearchQuery('');
     setAmount('');
   };
 
@@ -50,32 +105,48 @@ export function SectorForm({
 
   return (
     <div className="sector-form">
-      <h2>📊 Input Defense Spending</h2>
+      <h2>Input Defense Spending</h2>
       <p className="form-description">
         Select defense sectors and enter spending amounts to calculate environmental impacts.
       </p>
 
       <div className="input-section">
         <div className="form-row">
-          <div className="form-group">
-            <label htmlFor="sector-select">Defense Sector</label>
-            <select
-              id="sector-select"
-              value={selectedSector}
-              onChange={(e) => setSelectedSector(e.target.value)}
-              className="sector-select"
-            >
-              <option value="">-- Select a sector --</option>
-              {sectors.map((sector) => (
-                <option key={sector.code} value={sector.code}>
-                  {sector.name} ({sector.category})
-                </option>
-              ))}
-            </select>
-            {selectedSector && (
-              <p className="sector-description">
-                {sectors.find((s) => s.code === selectedSector)?.description}
-              </p>
+          <div className="form-group" ref={dropdownRef}>
+            <label htmlFor="sector-search">Defense Sector</label>
+            <input
+              id="sector-search"
+              type="text"
+              value={searchQuery}
+              onChange={(e) => handleSearchChange(e.target.value)}
+              onFocus={() => setIsDropdownOpen(true)}
+              placeholder="Search sectors..."
+              className="sector-search-input"
+              autoComplete="off"
+            />
+            {isDropdownOpen && filteredSectors.length > 0 && (
+              <div className="sector-dropdown">
+                {filteredSectors.slice(0, 100).map((sector) => (
+                  <div
+                    key={sector.code}
+                    className={`sector-option ${selectedSector === sector.code ? 'selected' : ''}`}
+                    onClick={() => handleSelectSector(sector.code, sector.name)}
+                  >
+                    <div className="sector-option-name">{sector.name}</div>
+                    <div className="sector-option-code">{sector.code}</div>
+                  </div>
+                ))}
+                {filteredSectors.length > 100 && (
+                  <div className="sector-option-info">
+                    Showing first 100 of {filteredSectors.length} matches. Refine your search.
+                  </div>
+                )}
+              </div>
+            )}
+            {isDropdownOpen && filteredSectors.length === 0 && searchQuery && (
+              <div className="sector-dropdown">
+                <div className="sector-option-info">No sectors found matching "{searchQuery}"</div>
+              </div>
             )}
           </div>
 
@@ -98,7 +169,7 @@ export function SectorForm({
             className="btn btn-add"
             disabled={!selectedSector || !amount}
           >
-            + Add Sector
+            Add Sector
           </button>
         </div>
 
@@ -119,7 +190,7 @@ export function SectorForm({
                     className="btn-remove"
                     title="Remove"
                   >
-                    ✕
+                    ×
                   </button>
                 </div>
               ))}
@@ -137,7 +208,7 @@ export function SectorForm({
             disabled={inputs.length === 0 || calculating}
             className="btn btn-primary btn-lg"
           >
-            {calculating ? '⚙️ Calculating...' : '🔍 Calculate Impacts'}
+            {calculating ? 'Calculating...' : 'Calculate Impacts'}
           </button>
 
           {inputs.length > 0 && (
@@ -149,13 +220,13 @@ export function SectorForm({
       </div>
 
       <div className="example-box">
-        <h4>💡 Example Scenarios</h4>
+        <h4>Example Scenarios</h4>
         <p>Try these example spending amounts:</p>
         <ul>
-          <li>F-35 Fighter Jet Program: $80,000,000,000 (Aircraft Manufacturing)</li>
-          <li>Aircraft Carrier: $13,000,000,000 (Ship Building)</li>
-          <li>Cybersecurity Contract: $500,000,000 (Computer Systems Design)</li>
-          <li>Base Construction: $1,000,000,000 (Heavy Construction)</li>
+          <li>F-35 Fighter Jet Program: $80,000,000,000</li>
+          <li>Aircraft Carrier: $13,000,000,000</li>
+          <li>Cybersecurity Contract: $500,000,000</li>
+          <li>Base Construction: $1,000,000,000</li>
         </ul>
       </div>
     </div>
