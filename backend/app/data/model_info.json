@@ -1,0 +1,15 @@
+{
+  "model": "DIO v2.0",
+  "source": "USEPA Defense Input-Output Model",
+  "total_sectors": 246,
+  "defense_sectors": 1,
+  "sectors_with_multipliers": 0,
+  "top_defense_sectors": [
+    "33299A"
+  ],
+  "data_files": {
+    "sectors_full": "sectors_full.json",
+    "sectors_defense": "sectors_defense.json",
+    "multipliers_full": "multipliers_full.json"
+  }
+}
