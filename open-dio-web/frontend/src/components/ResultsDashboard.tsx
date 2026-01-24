@@ -12,8 +12,6 @@ interface ImpactDisplay {
   value: number;
   unit: string;
   description: string;
-  icon: string;
-  color: string;
 }
 
 export function ResultsDashboard({ results }: Props) {
@@ -28,42 +26,34 @@ export function ResultsDashboard({ results }: Props) {
       category: 'Greenhouse Gas Emissions',
       value: results.impacts.GHG || 0,
       unit: 'kg CO2 eq',
-      description: 'Total CO2 equivalent emissions',
-      icon: '🌡️',
-      color: 'impact-ghg'
+      description: 'Total CO2 equivalent emissions'
     },
     {
       key: 'Energy',
       category: 'Energy Use',
       value: results.impacts.Energy || 0,
       unit: 'MJ',
-      description: 'Total energy consumption',
-      icon: '⚡',
-      color: 'impact-energy'
+      description: 'Total energy consumption'
     },
     {
       key: 'Water',
       category: 'Water Consumption',
       value: results.impacts.Water || 0,
       unit: 'gallons',
-      description: 'Total freshwater use',
-      icon: '💧',
-      color: 'impact-water'
+      description: 'Total freshwater use'
     },
     {
       key: 'Land',
       category: 'Land Use',
       value: results.impacts.Land || 0,
       unit: 'm2-year',
-      description: 'Total land occupation',
-      icon: '🌍',
-      color: 'impact-land'
+      description: 'Total land occupation'
     }
   ];
 
   return (
     <div className="results-dashboard">
-      <h2>📈 Environmental Impact Results</h2>
+      <h2>Environmental Impact Results</h2>
 
       <div className="results-summary">
         <div className="summary-card">
@@ -82,9 +72,8 @@ export function ResultsDashboard({ results }: Props) {
 
       <div className="impacts-grid">
         {impactsDisplay.map((impact) => (
-          <div key={impact.key} className={`impact-card ${impact.color}`}>
+          <div key={impact.key} className="impact-card">
             <div className="impact-header">
-              <span className="impact-icon">{impact.icon}</span>
               <h3>{impact.category}</h3>
             </div>
             <div className="impact-value">
@@ -98,7 +87,7 @@ export function ResultsDashboard({ results }: Props) {
 
       {comparisons.length > 0 && (
         <div className="comparisons-section">
-          <h3>🔍 Putting It In Context</h3>
+          <h3>Context</h3>
           <p className="comparisons-intro">
             To help understand the scale of these emissions:
           </p>
@@ -111,7 +100,7 @@ export function ResultsDashboard({ results }: Props) {
       )}
 
       <div className="sector-breakdown-section">
-        <h3>🏭 Breakdown by Sector</h3>
+        <h3>Breakdown by Sector</h3>
         <div className="sector-breakdown-list">
           {Object.entries(results.sectorBreakdown).map(([code, data]) => (
             <details key={code} className="sector-detail">
@@ -161,7 +150,7 @@ export function ResultsDashboard({ results }: Props) {
       </div>
 
       <div className="methodology-note">
-        <h4>📚 Methodology</h4>
+        <h4>Methodology</h4>
         <p>
           These results are calculated using the <strong>Defense Input-Output (DIO) Model v2.0</strong>
           from the U.S. EPA. The model uses Environmentally-Extended Input-Output (EEIO) analysis
