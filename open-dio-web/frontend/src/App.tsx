@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import { calculator } from './utils/calculator';
+import { apiClient } from './services/api';
 import type { SectorInput, CalculationResult, Sector } from './types';
 import { SectorForm } from './components/SectorForm';
 import { ResultsDashboard } from './components/ResultsDashboard';
@@ -16,17 +16,17 @@ function App() {
   useEffect(() => {
     async function loadData() {
       try {
-        // Load sectors
-        const sectorsResponse = await fetch('/data/sectors.json');
-        const sectorsData = await sectorsResponse.json();
+        // Fetch sectors from API
+        const sectorsData = await apiClient.getSectors();
         setSectors(sectorsData);
 
-        // Load multipliers
-        await calculator.loadMultipliers();
+        // Check API health
+        await apiClient.healthCheck();
 
         setLoading(false);
       } catch (error) {
         console.error('Failed to load data:', error);
+        alert('Failed to connect to API. Make sure the backend server is running.');
         setLoading(false);
       }
     }
@@ -34,7 +34,7 @@ function App() {
     loadData();
   }, []);
 
-  const handleCalculate = () => {
+  const handleCalculate = async () => {
     if (inputs.length === 0) {
       alert('Please add at least one sector with spending amount');
       return;
@@ -43,11 +43,11 @@ function App() {
     setCalculating(true);
 
     try {
-      const result = calculator.calculate(inputs);
+      const result = await apiClient.calculate(inputs);
       setResults(result);
     } catch (error) {
       console.error('Calculation failed:', error);
-      alert('Calculation failed. Please check your inputs.');
+      alert('Calculation failed. Please check your inputs and ensure the API is running.');
     } finally {
       setCalculating(false);
     }
@@ -95,7 +95,6 @@ function App() {
           {results && (
             <ResultsDashboard
               results={results}
-              calculator={calculator}
             />
           )}
 

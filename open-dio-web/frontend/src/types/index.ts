@@ -3,9 +3,10 @@
 export interface Sector {
   code: string;
   name: string;
-  description: string;
-  category: string;
-  naics: string;
+  isDefenseRelevant?: boolean;
+  description?: string;
+  category?: string;
+  naics?: string;
 }
 
 export interface ImpactMultipliers {
@@ -52,12 +53,22 @@ export interface ImpactResult {
 
 export interface CalculationResult {
   totalSpending: number;
-  impacts: ImpactResult[];
+  impacts: {
+    GHG?: number;
+    Energy?: number;
+    Water?: number;
+    Land?: number;
+  };
   sectorBreakdown: {
     [sectorCode: string]: {
       name: string;
       spending: number;
-      impacts: ImpactResult[];
+      impacts: {
+        GHG?: number;
+        Energy?: number;
+        Water?: number;
+        Land?: number;
+      };
     };
   };
 }
