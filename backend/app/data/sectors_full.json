@@ -1,0 +1,1232 @@
+[
+  {
+    "code": "111200",
+    "name": "Vegetable and melon farming",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "111400",
+    "name": "Greenhouse, nursery, and floriculture production",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "113000",
+    "name": "Forestry and logging",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "211000",
+    "name": "Oil and gas extraction",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "212100",
+    "name": "Coal mining",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "212310",
+    "name": "Stone mining and quarrying",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "2123A0",
+    "name": "Other nonmetallic mineral mining and quarrying",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "221100",
+    "name": "Electric power generation, transmission, and distribution",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "221200",
+    "name": "Natural gas distribution",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "221300",
+    "name": "Water, sewage and other systems",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233210",
+    "name": "Health care structures",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233262",
+    "name": "Educational and vocational structures",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "2332C0",
+    "name": "Highways and streets",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311210",
+    "name": "Flour milling and malt manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311221",
+    "name": "Wet corn milling",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311410",
+    "name": "Frozen food manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311420",
+    "name": "Fruit and vegetable canning, pickling, and drying",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311513",
+    "name": "Cheese manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311520",
+    "name": "Ice cream and frozen dessert manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311615",
+    "name": "Poultry processing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311810",
+    "name": "Bread and bakery product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3118A0",
+    "name": "Cookie, cracker, pasta, and tortilla manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311940",
+    "name": "Seasoning and dressing manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311990",
+    "name": "All other food manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312110",
+    "name": "Soft drink and ice manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "313200",
+    "name": "Fabric mills",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "314900",
+    "name": "Other textile product mills",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "315000",
+    "name": "Apparel manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "316000",
+    "name": "Leather and allied product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321100",
+    "name": "Sawmills and wood preservation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321200",
+    "name": "Veneer, plywood, and engineered wood product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321910",
+    "name": "Millwork",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3219A0",
+    "name": "All other wood product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322110",
+    "name": "Pulp mills",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322120",
+    "name": "Paper mills",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322130",
+    "name": "Paperboard mills",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322210",
+    "name": "Paperboard container manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322220",
+    "name": "Paper bag and coated and treated paper manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322230",
+    "name": "Stationery product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322299",
+    "name": "All other converted paper product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "323110",
+    "name": "Printing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "324110",
+    "name": "Petroleum refineries",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "324121",
+    "name": "Asphalt paving mixture and block manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "324122",
+    "name": "Asphalt shingle and coating materials manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "324190",
+    "name": "Other petroleum and coal products manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325110",
+    "name": "Petrochemical manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325120",
+    "name": "Industrial gas manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325130",
+    "name": "Synthetic dye and pigment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325180",
+    "name": "Other basic inorganic chemical manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325190",
+    "name": "Other basic organic chemical manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325211",
+    "name": "Plastics material and resin manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3252A0",
+    "name": "Synthetic rubber and artificial and synthetic fibers and filaments manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325320",
+    "name": "Pesticide and other agricultural chemical manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325411",
+    "name": "Medicinal and botanical manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325510",
+    "name": "Paint and coating manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325520",
+    "name": "Adhesive manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325610",
+    "name": "Soap and cleaning compound manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3259A0",
+    "name": "All other chemical product and preparation manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326110",
+    "name": "Plastics packaging materials and unlaminated film and sheet manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326120",
+    "name": "Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326130",
+    "name": "Laminated plastics plate, sheet",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326140",
+    "name": "Polystyrene foam product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326150",
+    "name": "Urethane and other foam product",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326160",
+    "name": "Plastics bottle manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326190",
+    "name": "Other plastics product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326210",
+    "name": "Tire manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326220",
+    "name": "Rubber and plastics hoses and belting manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326290",
+    "name": "Other rubber product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327100",
+    "name": "Clay product and refractory manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327200",
+    "name": "Glass and glass product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327310",
+    "name": "Cement manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327320",
+    "name": "Ready-mix concrete manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327330",
+    "name": "Concrete pipe, brick, and block manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327390",
+    "name": "Other concrete product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327400",
+    "name": "Lime and gypsum product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327910",
+    "name": "Abrasive product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327991",
+    "name": "Cut stone and stone product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327993",
+    "name": "Mineral wool manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327999",
+    "name": "Miscellaneous nonmetallic mineral products",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331110",
+    "name": "Iron and steel mills and ferroalloy manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331200",
+    "name": "Steel product manufacturing from purchased steel",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331313",
+    "name": "Alumina refining and primary aluminum production",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33131B",
+    "name": "Aluminum product manufacturing from purchased aluminum",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331410",
+    "name": "Primary smelting and refining of nonferrous metal",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331420",
+    "name": "Copper rolling, drawing, extruding and alloying",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331490",
+    "name": "Nonferrous metal",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "331520",
+    "name": "Nonferrous metal foundries",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332114",
+    "name": "Custom roll forming",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332119",
+    "name": "Crown and closure manufacturing and metal stamping",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332200",
+    "name": "Cutlery and handtool manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332310",
+    "name": "Plate work and fabricated structural product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332320",
+    "name": "Ornamental and architectural metal products manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332410",
+    "name": "Power boiler and heat exchanger manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332420",
+    "name": "Metal tank",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332500",
+    "name": "Hardware manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332600",
+    "name": "Spring and wire product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332710",
+    "name": "Machine shops",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332720",
+    "name": "Turned product and screw, nut, and bolt manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332800",
+    "name": "Coating, engraving, heat treating and allied activities",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332913",
+    "name": "Plumbing fixture fitting and trim manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33291A",
+    "name": "Valve and fittings other than plumbing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332991",
+    "name": "Ball and roller bearing manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332999",
+    "name": "Other fabricated metal manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33299A",
+    "name": "Ammunition, arms, ordnance, and accessories manufacturing",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "333111",
+    "name": "Farm machinery and equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333112",
+    "name": "Lawn and garden equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333120",
+    "name": "Construction machinery manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333242",
+    "name": "Semiconductor machinery manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333413",
+    "name": "Air purification and ventilation equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333414",
+    "name": "Heating equipment",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333415",
+    "name": "Air conditioning, refrigeration, and warm air heating equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333511",
+    "name": "Industrial mold manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333514",
+    "name": "Special tool, die, jig, and fixture manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333611",
+    "name": "Turbine and turbine generator set units manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333612",
+    "name": "Speed changer, industrial high-speed drive, and gear manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333613",
+    "name": "Mechanical power transmission equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333618",
+    "name": "Other engine equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333912",
+    "name": "Air and gas compressor manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33391A",
+    "name": "Pump and pumping equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333920",
+    "name": "Material handling equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333991",
+    "name": "Power-driven handtool manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333993",
+    "name": "Packaging machinery manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33399B",
+    "name": "Fluid power process machinery",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334118",
+    "name": "Computer terminals and other computer peripheral equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334210",
+    "name": "Telephone apparatus manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334220",
+    "name": "Broadcast and wireless communications equipment",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334290",
+    "name": "Other communications equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334300",
+    "name": "Audio and video equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334418",
+    "name": "Printed circuit assembly",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33441A",
+    "name": "Other electronic component manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334510",
+    "name": "Electromedical and electrotherapeutic apparatus manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334513",
+    "name": "Industrial process variable instruments manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334514",
+    "name": "Totalizing fluid meter and counting device manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334515",
+    "name": "Electricity and signal testing instruments manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334517",
+    "name": "Irradiation apparatus manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334610",
+    "name": "Manufacturing and reproducing magnetic and optical media",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335110",
+    "name": "Electric lamp bulb and part manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335120",
+    "name": "Lighting fixture manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335224",
+    "name": "Household laundry equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335311",
+    "name": "Power, distribution, and specialty transformer manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335312",
+    "name": "Motor and generator manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335313",
+    "name": "Switchgear and switchboard apparatus manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335314",
+    "name": "Relay and industrial control manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335911",
+    "name": "Storage battery manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335912",
+    "name": "Primary battery manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335920",
+    "name": "Communication and energy wire and cable manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335930",
+    "name": "Wiring device manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335991",
+    "name": "Carbon and graphite product manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335999",
+    "name": "All other miscellaneous electrical equipment and component manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336211",
+    "name": "Motor vehicle body manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336214",
+    "name": "Travel trailer and camper manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336310",
+    "name": "Motor vehicle gasoline engine and engine parts manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336612",
+    "name": "Boat building",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336999",
+    "name": "All other transportation equipment manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337110",
+    "name": "Wood kitchen cabinet and countertop manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33721A",
+    "name": "Office furniture and custom architectural woodwork and millwork manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339113",
+    "name": "Surgical appliance and supplies manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339910",
+    "name": "Jewelry and silverware manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339920",
+    "name": "Sporting and athletic goods manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339940",
+    "name": "Office supplies",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339990",
+    "name": "All other miscellaneous manufacturing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "423100",
+    "name": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "441000",
+    "name": "Motor vehicle and parts dealers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "481000",
+    "name": "Air transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "482000",
+    "name": "Rail transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "483000",
+    "name": "Water transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "484000",
+    "name": "Truck transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "485000",
+    "name": "Transit and ground passenger transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "486000",
+    "name": "Pipeline transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "48A000",
+    "name": "Scenic and sightseeing transportation and support activities for transportation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "491000",
+    "name": "Postal service",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "492000",
+    "name": "Couriers and messengers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "493000",
+    "name": "Warehousing and storage",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511110",
+    "name": "Newspaper publishers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511120",
+    "name": "Periodical Publishers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511130",
+    "name": "Book publishers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5111A0",
+    "name": "Directory, mailing list, and other publishers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "515200",
+    "name": "Cable and other subscription programming",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "517110",
+    "name": "Wired telecommunications carriers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "518200",
+    "name": "Data processing, hosting, and related services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "519130",
+    "name": "Internet publishing and broadcasting and Web search portals",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5191A0",
+    "name": "News syndicates, libraries, archives and all other information services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "522A00",
+    "name": "Nondepository credit intermediation and related activities",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "523900",
+    "name": "Other financial investment activities",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5241XX",
+    "name": "Insurance carriers, except direct life",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "525000",
+    "name": "Funds, trusts, and other financial vehicles",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "52A000",
+    "name": "Monetary authorities and depository credit intermediation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "531ORE",
+    "name": "Other real estate",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "532100",
+    "name": "Automotive equipment rental and leasing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "532400",
+    "name": "Commercial and industrial machinery and equipment rental and leasing",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "532A00",
+    "name": "Consumer goods and general rental centers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "533000",
+    "name": "Lessors of nonfinancial intangible assets",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541100",
+    "name": "Legal services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541200",
+    "name": "Accounting, tax preparation, bookkeeping, and payroll services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541300",
+    "name": "Architectural, engineering, and related services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541400",
+    "name": "Specialized design services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541512",
+    "name": "Computer systems design services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "54151A",
+    "name": "Other computer related services, including facilities management",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541610",
+    "name": "Management consulting services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5416A0",
+    "name": "Environmental and other technical consulting services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541700",
+    "name": "Scientific research and development services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541800",
+    "name": "Advertising, public relations, and related services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541920",
+    "name": "Photographic services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "550000",
+    "name": "Management of companies and enterprises",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561100",
+    "name": "Office administrative services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561200",
+    "name": "Facilities support services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561300",
+    "name": "Employment services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561400",
+    "name": "Business support services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561500",
+    "name": "Travel arrangement and reservation services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561600",
+    "name": "Investigation and security services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561700",
+    "name": "Services to buildings and dwellings",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561900",
+    "name": "Other support services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562OTH",
+    "name": "Other waste collection and treatment services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "611A00",
+    "name": "Junior colleges, colleges, universities, and professional schools",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "611B00",
+    "name": "Other educational services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711100",
+    "name": "Performing arts companies",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711200",
+    "name": "Spectator sports",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711500",
+    "name": "Independent artists, writers, and performers",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711A00",
+    "name": "Promoters of performing arts and sports and agents for public figures",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "713100",
+    "name": "Amusement parks and arcades",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "713900",
+    "name": "Other amusement and recreation industries",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "721000",
+    "name": "Accommodation",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "722110",
+    "name": "Full-service restaurants",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811100",
+    "name": "Automotive repair and maintenance",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811200",
+    "name": "Electronic and precision equipment repair and maintenance",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811300",
+    "name": "Commercial and industrial machinery and equipment repair and maintenance",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811400",
+    "name": "Personal and household goods repair and maintenance",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812300",
+    "name": "Dry-cleaning and laundry services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812900",
+    "name": "Other personal services",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "813B00",
+    "name": "Civic, social, professional, and similar organizations",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "S00203",
+    "name": "Other state and local government enterprises",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "S00300",
+    "name": "Noncomparable imports",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "S00401",
+    "name": "Scrap",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "S00402",
+    "name": "Used and secondhand goods",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0764",
+    "name": "Truck transport, class 6, medium heavy-duty",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0781",
+    "name": "Transport, single unit truck, gasoline powered, long-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0782",
+    "name": "Transport, single unit truck, gasoline powered, short-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0783",
+    "name": "Truck operation, combination truck, long-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0784",
+    "name": "Truck operation, combination truck, short-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0785",
+    "name": "Truck operation, single unit truck, long-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0786",
+    "name": "Truck operation, single unit truck, short-haul",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0787",
+    "name": "Transport, train, diesel powered",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0788",
+    "name": "Transport, barge, average fuel mix",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0789",
+    "name": "Transport, ocean freighter, average fuel mix",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0790",
+    "name": "Transport, barge, diesel powered",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "TF0791",
+    "name": "Transport, barge, residual fuel oil powered",
+    "is_defense_relevant": false
+  }
+]

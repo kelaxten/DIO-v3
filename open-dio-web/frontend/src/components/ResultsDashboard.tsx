@@ -1,32 +1,65 @@
 import type { CalculationResult } from '../types';
-import type { DIOCalculator } from '../utils/calculator';
+import { getGHGComparisons, formatNumber } from '../utils/comparisons';
 import './ResultsDashboard.css';
 
 interface Props {
   results: CalculationResult;
-  calculator: DIOCalculator;
 }
 
-export function ResultsDashboard({ results, calculator }: Props) {
+interface ImpactDisplay {
+  key: string;
+  category: string;
+  value: number;
+  unit: string;
+  description: string;
+  icon: string;
+  color: string;
+}
+
+export function ResultsDashboard({ results }: Props) {
   // Get GHG value for comparisons
-  const ghgImpact = results.impacts.find((i) => i.category === 'Greenhouse Gas Emissions');
-  const comparisons = ghgImpact ? calculator.getComparisons(ghgImpact.value) : [];
+  const ghgValue = results.impacts.GHG || 0;
+  const comparisons = getGHGComparisons(ghgValue);
 
-  const getImpactIcon = (category: string): string => {
-    if (category.includes('Greenhouse')) return '🌡️';
-    if (category.includes('Energy')) return '⚡';
-    if (category.includes('Water')) return '💧';
-    if (category.includes('Land')) return '🌍';
-    return '📊';
-  };
-
-  const getImpactColor = (category: string): string => {
-    if (category.includes('Greenhouse')) return 'impact-ghg';
-    if (category.includes('Energy')) return 'impact-energy';
-    if (category.includes('Water')) return 'impact-water';
-    if (category.includes('Land')) return 'impact-land';
-    return 'impact-default';
-  };
+  // Transform impacts object into array for rendering
+  const impactsDisplay: ImpactDisplay[] = [
+    {
+      key: 'GHG',
+      category: 'Greenhouse Gas Emissions',
+      value: results.impacts.GHG || 0,
+      unit: 'kg CO2 eq',
+      description: 'Total CO2 equivalent emissions',
+      icon: '🌡️',
+      color: 'impact-ghg'
+    },
+    {
+      key: 'Energy',
+      category: 'Energy Use',
+      value: results.impacts.Energy || 0,
+      unit: 'MJ',
+      description: 'Total energy consumption',
+      icon: '⚡',
+      color: 'impact-energy'
+    },
+    {
+      key: 'Water',
+      category: 'Water Consumption',
+      value: results.impacts.Water || 0,
+      unit: 'gallons',
+      description: 'Total freshwater use',
+      icon: '💧',
+      color: 'impact-water'
+    },
+    {
+      key: 'Land',
+      category: 'Land Use',
+      value: results.impacts.Land || 0,
+      unit: 'm2-year',
+      description: 'Total land occupation',
+      icon: '🌍',
+      color: 'impact-land'
+    }
+  ];
 
   return (
     <div className="results-dashboard">
@@ -48,14 +81,14 @@ export function ResultsDashboard({ results, calculator }: Props) {
       </div>
 
       <div className="impacts-grid">
-        {results.impacts.map((impact, index) => (
-          <div key={index} className={`impact-card ${getImpactColor(impact.category)}`}>
+        {impactsDisplay.map((impact) => (
+          <div key={impact.key} className={`impact-card ${impact.color}`}>
             <div className="impact-header">
-              <span className="impact-icon">{getImpactIcon(impact.category)}</span>
+              <span className="impact-icon">{impact.icon}</span>
               <h3>{impact.category}</h3>
             </div>
             <div className="impact-value">
-              {calculator.formatNumber(impact.value)}
+              {formatNumber(impact.value)}
             </div>
             <div className="impact-unit">{impact.unit}</div>
             <div className="impact-description">{impact.description}</div>
@@ -89,14 +122,38 @@ export function ResultsDashboard({ results, calculator }: Props) {
                 </span>
               </summary>
               <div className="sector-impacts">
-                {data.impacts.map((impact, idx) => (
-                  <div key={idx} className="sector-impact-row">
-                    <span className="impact-label">{impact.category}:</span>
+                {data.impacts.GHG !== undefined && (
+                  <div className="sector-impact-row">
+                    <span className="impact-label">GHG Emissions:</span>
                     <span className="impact-value-small">
-                      {calculator.formatNumber(impact.value)} {impact.unit}
+                      {formatNumber(data.impacts.GHG)} kg CO2 eq
                     </span>
                   </div>
-                ))}
+                )}
+                {data.impacts.Energy !== undefined && (
+                  <div className="sector-impact-row">
+                    <span className="impact-label">Energy Use:</span>
+                    <span className="impact-value-small">
+                      {formatNumber(data.impacts.Energy)} MJ
+                    </span>
+                  </div>
+                )}
+                {data.impacts.Water !== undefined && (
+                  <div className="sector-impact-row">
+                    <span className="impact-label">Water Use:</span>
+                    <span className="impact-value-small">
+                      {formatNumber(data.impacts.Water)} gallons
+                    </span>
+                  </div>
+                )}
+                {data.impacts.Land !== undefined && (
+                  <div className="sector-impact-row">
+                    <span className="impact-label">Land Use:</span>
+                    <span className="impact-value-small">
+                      {formatNumber(data.impacts.Land)} m2-year
+                    </span>
+                  </div>
+                )}
               </div>
             </details>
           ))}
