@@ -55,6 +55,16 @@ export function ResultsDashboard({ results }: Props) {
     <div className="results-dashboard">
       <h2>Environmental Impact Results</h2>
 
+      <div className="data-quality-notice">
+        <div className="notice-icon">⚠️</div>
+        <div className="notice-content">
+          <strong>Data Quality Notice:</strong> These estimates are based on sector-averaged environmental
+          multipliers with uncertainty ranges of ±25-50% depending on impact category.
+          Results are suitable for order-of-magnitude estimates and comparative analysis.
+          See <strong>Methodology</strong> tab for details.
+        </div>
+      </div>
+
       <div className="results-summary">
         <div className="summary-card">
           <div className="summary-label">Total Spending Analyzed</div>

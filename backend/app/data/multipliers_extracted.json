@@ -1,0 +1,2236 @@
+{
+  "description": "DIO v2.0 environmental impact multipliers by sector",
+  "note": "Extracted from DIO model A and B matrices. Values represent total impacts (direct + supply chain).",
+  "version": "1.2",
+  "last_updated": "2026-01-26",
+  "extraction_method": "CSV matrix analysis with process-sector mapping",
+  "units": {
+    "GHG": "kg CO2 eq per $1000 spending",
+    "Energy": "MJ per $1000 spending",
+    "Water": "gallons per $1000 spending",
+    "Land": "m2-year per $1000 spending"
+  },
+  "methodology": "See METHODOLOGY.md for detailed explanation of calculation approach and data sources.",
+  "uncertainty": {
+    "GHG": "<c2><b1>25%",
+    "Energy": "<c2><b1>30%",
+    "Water": "<c2><b1>40%",
+    "Land": "<c2><b1>50%"
+  },
+  "sectors": {
+    "111200": {
+      "name": "Vegetable and melon farming",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "111400": {
+      "name": "Greenhouse, nursery, and floriculture production",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "113000": {
+      "name": "Forestry and logging",
+      "GHG": 41623.8839,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 236,
+      "note": "calculated_from_processes"
+    },
+    "211000": {
+      "name": "Oil and gas extraction",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "212100": {
+      "name": "Coal mining",
+      "GHG": 95491.5651,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 223,
+      "note": "calculated_from_processes"
+    },
+    "212310": {
+      "name": "Stone mining and quarrying",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "2123A0": {
+      "name": "Other nonmetallic mineral mining and quarrying",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "221100": {
+      "name": "Electric power generation, transmission, and distribution",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "221200": {
+      "name": "Natural gas distribution",
+      "GHG": 49237.2953,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 205,
+      "note": "calculated_from_processes"
+    },
+    "221300": {
+      "name": "Water, sewage and other systems",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "233210": {
+      "name": "Health care structures",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "233262": {
+      "name": "Educational and vocational structures",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "2332C0": {
+      "name": "Highways and streets",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311210": {
+      "name": "Flour milling and malt manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311221": {
+      "name": "Wet corn milling",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311410": {
+      "name": "Frozen food manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311420": {
+      "name": "Fruit and vegetable canning, pickling, and drying",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311513": {
+      "name": "Cheese manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311520": {
+      "name": "Ice cream and frozen dessert manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311615": {
+      "name": "Poultry processing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311810": {
+      "name": "Bread and bakery product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "3118A0": {
+      "name": "Cookie, cracker, pasta, and tortilla manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311940": {
+      "name": "Seasoning and dressing manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "311990": {
+      "name": "All other food manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "312110": {
+      "name": "Soft drink and ice manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "313200": {
+      "name": "Fabric mills",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "314900": {
+      "name": "Other textile product mills",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "315000": {
+      "name": "Apparel manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "316000": {
+      "name": "Leather and allied product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "321100": {
+      "name": "Sawmills and wood preservation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "321200": {
+      "name": "Veneer, plywood, and engineered wood product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "321910": {
+      "name": "Millwork",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "3219A0": {
+      "name": "All other wood product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322110": {
+      "name": "Pulp mills",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322120": {
+      "name": "Paper mills",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322130": {
+      "name": "Paperboard mills",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322210": {
+      "name": "Paperboard container manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322220": {
+      "name": "Paper bag and coated and treated paper manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322230": {
+      "name": "Stationery product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "322299": {
+      "name": "All other converted paper product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "323110": {
+      "name": "Printing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "324110": {
+      "name": "Petroleum refineries",
+      "GHG": 290864127.5364,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 294,
+      "note": "calculated_from_processes"
+    },
+    "324121": {
+      "name": "Asphalt paving mixture and block manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "324122": {
+      "name": "Asphalt shingle and coating materials manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "324190": {
+      "name": "Other petroleum and coal products manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325110": {
+      "name": "Petrochemical manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325120": {
+      "name": "Industrial gas manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325130": {
+      "name": "Synthetic dye and pigment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325180": {
+      "name": "Other basic inorganic chemical manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325190": {
+      "name": "Other basic organic chemical manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325211": {
+      "name": "Plastics material and resin manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "3252A0": {
+      "name": "Synthetic rubber and artificial and synthetic fibers and filaments manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325320": {
+      "name": "Pesticide and other agricultural chemical manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325411": {
+      "name": "Medicinal and botanical manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325510": {
+      "name": "Paint and coating manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325520": {
+      "name": "Adhesive manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "325610": {
+      "name": "Soap and cleaning compound manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "3259A0": {
+      "name": "All other chemical product and preparation manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326110": {
+      "name": "Plastics packaging materials and unlaminated film and sheet manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326120": {
+      "name": "Plastics pipe, pipe fitting, and unlaminated profile shape manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326130": {
+      "name": "Laminated plastics plate, sheet",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326140": {
+      "name": "Polystyrene foam product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326150": {
+      "name": "Urethane and other foam product",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326160": {
+      "name": "Plastics bottle manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326190": {
+      "name": "Other plastics product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326210": {
+      "name": "Tire manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326220": {
+      "name": "Rubber and plastics hoses and belting manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "326290": {
+      "name": "Other rubber product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327100": {
+      "name": "Clay product and refractory manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327200": {
+      "name": "Glass and glass product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327310": {
+      "name": "Cement manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327320": {
+      "name": "Ready-mix concrete manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327330": {
+      "name": "Concrete pipe, brick, and block manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327390": {
+      "name": "Other concrete product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327400": {
+      "name": "Lime and gypsum product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327910": {
+      "name": "Abrasive product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327991": {
+      "name": "Cut stone and stone product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327993": {
+      "name": "Mineral wool manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "327999": {
+      "name": "Miscellaneous nonmetallic mineral products",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331110": {
+      "name": "Iron and steel mills and ferroalloy manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331200": {
+      "name": "Steel product manufacturing from purchased steel",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331313": {
+      "name": "Alumina refining and primary aluminum production",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33131B": {
+      "name": "Aluminum product manufacturing from purchased aluminum",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331410": {
+      "name": "Primary smelting and refining of nonferrous metal",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331420": {
+      "name": "Copper rolling, drawing, extruding and alloying",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331490": {
+      "name": "Nonferrous metal",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "331520": {
+      "name": "Nonferrous metal foundries",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332114": {
+      "name": "Custom roll forming",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332119": {
+      "name": "Crown and closure manufacturing and metal stamping",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332200": {
+      "name": "Cutlery and handtool manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332310": {
+      "name": "Plate work and fabricated structural product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332320": {
+      "name": "Ornamental and architectural metal products manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332410": {
+      "name": "Power boiler and heat exchanger manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332420": {
+      "name": "Metal tank",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332500": {
+      "name": "Hardware manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332600": {
+      "name": "Spring and wire product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332710": {
+      "name": "Machine shops",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332720": {
+      "name": "Turned product and screw, nut, and bolt manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332800": {
+      "name": "Coating, engraving, heat treating and allied activities",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332913": {
+      "name": "Plumbing fixture fitting and trim manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33291A": {
+      "name": "Valve and fittings other than plumbing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332991": {
+      "name": "Ball and roller bearing manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "332999": {
+      "name": "Other fabricated metal manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33299A": {
+      "name": "Ammunition, arms, ordnance, and accessories manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333111": {
+      "name": "Farm machinery and equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333112": {
+      "name": "Lawn and garden equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333120": {
+      "name": "Construction machinery manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333242": {
+      "name": "Semiconductor machinery manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333413": {
+      "name": "Air purification and ventilation equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333414": {
+      "name": "Heating equipment",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333415": {
+      "name": "Air conditioning, refrigeration, and warm air heating equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333511": {
+      "name": "Industrial mold manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333514": {
+      "name": "Special tool, die, jig, and fixture manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333611": {
+      "name": "Turbine and turbine generator set units manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333612": {
+      "name": "Speed changer, industrial high-speed drive, and gear manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333613": {
+      "name": "Mechanical power transmission equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333618": {
+      "name": "Other engine equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333912": {
+      "name": "Air and gas compressor manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33391A": {
+      "name": "Pump and pumping equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333920": {
+      "name": "Material handling equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333991": {
+      "name": "Power-driven handtool manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "333993": {
+      "name": "Packaging machinery manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33399B": {
+      "name": "Fluid power process machinery",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334118": {
+      "name": "Computer terminals and other computer peripheral equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334210": {
+      "name": "Telephone apparatus manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334220": {
+      "name": "Broadcast and wireless communications equipment",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334290": {
+      "name": "Other communications equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334300": {
+      "name": "Audio and video equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334418": {
+      "name": "Printed circuit assembly",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33441A": {
+      "name": "Other electronic component manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334510": {
+      "name": "Electromedical and electrotherapeutic apparatus manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334513": {
+      "name": "Industrial process variable instruments manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334514": {
+      "name": "Totalizing fluid meter and counting device manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334515": {
+      "name": "Electricity and signal testing instruments manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334517": {
+      "name": "Irradiation apparatus manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "334610": {
+      "name": "Manufacturing and reproducing magnetic and optical media",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335110": {
+      "name": "Electric lamp bulb and part manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335120": {
+      "name": "Lighting fixture manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335224": {
+      "name": "Household laundry equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335311": {
+      "name": "Power, distribution, and specialty transformer manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335312": {
+      "name": "Motor and generator manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335313": {
+      "name": "Switchgear and switchboard apparatus manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335314": {
+      "name": "Relay and industrial control manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335911": {
+      "name": "Storage battery manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335912": {
+      "name": "Primary battery manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335920": {
+      "name": "Communication and energy wire and cable manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335930": {
+      "name": "Wiring device manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335991": {
+      "name": "Carbon and graphite product manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "335999": {
+      "name": "All other miscellaneous electrical equipment and component manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "336211": {
+      "name": "Motor vehicle body manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "336214": {
+      "name": "Travel trailer and camper manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "336310": {
+      "name": "Motor vehicle gasoline engine and engine parts manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "336612": {
+      "name": "Boat building",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "336999": {
+      "name": "All other transportation equipment manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "337110": {
+      "name": "Wood kitchen cabinet and countertop manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "33721A": {
+      "name": "Office furniture and custom architectural woodwork and millwork manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "339113": {
+      "name": "Surgical appliance and supplies manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "339910": {
+      "name": "Jewelry and silverware manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "339920": {
+      "name": "Sporting and athletic goods manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "339940": {
+      "name": "Office supplies",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "339990": {
+      "name": "All other miscellaneous manufacturing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "423100": {
+      "name": "Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "441000": {
+      "name": "Motor vehicle and parts dealers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "481000": {
+      "name": "Air transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "482000": {
+      "name": "Rail transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "483000": {
+      "name": "Water transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "484000": {
+      "name": "Truck transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "485000": {
+      "name": "Transit and ground passenger transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "486000": {
+      "name": "Pipeline transportation",
+      "GHG": 35211.4214,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 218,
+      "note": "calculated_from_processes"
+    },
+    "48A000": {
+      "name": "Scenic and sightseeing transportation and support activities for transportation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "491000": {
+      "name": "Postal service",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "492000": {
+      "name": "Couriers and messengers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "493000": {
+      "name": "Warehousing and storage",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "511110": {
+      "name": "Newspaper publishers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "511120": {
+      "name": "Periodical Publishers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "511130": {
+      "name": "Book publishers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "5111A0": {
+      "name": "Directory, mailing list, and other publishers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "515200": {
+      "name": "Cable and other subscription programming",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "517110": {
+      "name": "Wired telecommunications carriers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "518200": {
+      "name": "Data processing, hosting, and related services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "519130": {
+      "name": "Internet publishing and broadcasting and Web search portals",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "5191A0": {
+      "name": "News syndicates, libraries, archives and all other information services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "522A00": {
+      "name": "Nondepository credit intermediation and related activities",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "523900": {
+      "name": "Other financial investment activities",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "5241XX": {
+      "name": "Insurance carriers, except direct life",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "525000": {
+      "name": "Funds, trusts, and other financial vehicles",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "52A000": {
+      "name": "Monetary authorities and depository credit intermediation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "531ORE": {
+      "name": "Other real estate",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "532100": {
+      "name": "Automotive equipment rental and leasing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "532400": {
+      "name": "Commercial and industrial machinery and equipment rental and leasing",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "532A00": {
+      "name": "Consumer goods and general rental centers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "533000": {
+      "name": "Lessors of nonfinancial intangible assets",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541100": {
+      "name": "Legal services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541200": {
+      "name": "Accounting, tax preparation, bookkeeping, and payroll services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541300": {
+      "name": "Architectural, engineering, and related services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541400": {
+      "name": "Specialized design services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541512": {
+      "name": "Computer systems design services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "54151A": {
+      "name": "Other computer related services, including facilities management",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541610": {
+      "name": "Management consulting services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "5416A0": {
+      "name": "Environmental and other technical consulting services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541700": {
+      "name": "Scientific research and development services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541800": {
+      "name": "Advertising, public relations, and related services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "541920": {
+      "name": "Photographic services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "550000": {
+      "name": "Management of companies and enterprises",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561100": {
+      "name": "Office administrative services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561200": {
+      "name": "Facilities support services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561300": {
+      "name": "Employment services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561400": {
+      "name": "Business support services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561500": {
+      "name": "Travel arrangement and reservation services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561600": {
+      "name": "Investigation and security services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561700": {
+      "name": "Services to buildings and dwellings",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "561900": {
+      "name": "Other support services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "562OTH": {
+      "name": "Other waste collection and treatment services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "611A00": {
+      "name": "Junior colleges, colleges, universities, and professional schools",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "611B00": {
+      "name": "Other educational services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "711100": {
+      "name": "Performing arts companies",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "711200": {
+      "name": "Spectator sports",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "711500": {
+      "name": "Independent artists, writers, and performers",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "711A00": {
+      "name": "Promoters of performing arts and sports and agents for public figures",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "713100": {
+      "name": "Amusement parks and arcades",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "713900": {
+      "name": "Other amusement and recreation industries",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "721000": {
+      "name": "Accommodation",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "722110": {
+      "name": "Full-service restaurants",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "811100": {
+      "name": "Automotive repair and maintenance",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "811200": {
+      "name": "Electronic and precision equipment repair and maintenance",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "811300": {
+      "name": "Commercial and industrial machinery and equipment repair and maintenance",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "811400": {
+      "name": "Personal and household goods repair and maintenance",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "812300": {
+      "name": "Dry-cleaning and laundry services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "812900": {
+      "name": "Other personal services",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "813B00": {
+      "name": "Civic, social, professional, and similar organizations",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "S00203": {
+      "name": "Other state and local government enterprises",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "S00300": {
+      "name": "Noncomparable imports",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "S00401": {
+      "name": "Scrap",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "S00402": {
+      "name": "Used and secondhand goods",
+      "GHG": 30451.0046,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 194,
+      "note": "calculated_from_processes"
+    },
+    "TF0764": {
+      "name": "Truck transport, class 6, medium heavy-duty",
+      "GHG": 4690.5744,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 23,
+      "note": "calculated_from_processes"
+    },
+    "TF0781": {
+      "name": "Transport, single unit truck, gasoline powered, long-haul",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 6,
+      "note": "calculated_from_processes"
+    },
+    "TF0782": {
+      "name": "Transport, single unit truck, gasoline powered, short-haul",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 6,
+      "note": "calculated_from_processes"
+    },
+    "TF0783": {
+      "name": "Truck operation, combination truck, long-haul",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 3,
+      "note": "calculated_from_processes"
+    },
+    "TF0784": {
+      "name": "Truck operation, combination truck, short-haul",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 3,
+      "note": "calculated_from_processes"
+    },
+    "TF0785": {
+      "name": "Truck operation, single unit truck, long-haul",
+      "GHG": 4690.5744,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 23,
+      "note": "calculated_from_processes"
+    },
+    "TF0786": {
+      "name": "Truck operation, single unit truck, short-haul",
+      "GHG": 4690.5744,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 23,
+      "note": "calculated_from_processes"
+    },
+    "TF0787": {
+      "name": "Transport, train, diesel powered",
+      "GHG": 4690.5744,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 23,
+      "note": "calculated_from_processes"
+    },
+    "TF0788": {
+      "name": "Transport, barge, average fuel mix",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 1,
+      "note": "calculated_from_processes"
+    },
+    "TF0789": {
+      "name": "Transport, ocean freighter, average fuel mix",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 1,
+      "note": "calculated_from_processes"
+    },
+    "TF0790": {
+      "name": "Transport, barge, diesel powered",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 1,
+      "note": "calculated_from_processes"
+    },
+    "TF0791": {
+      "name": "Transport, barge, residual fuel oil powered",
+      "GHG": 150,
+      "Energy": 2500,
+      "Water": 1000,
+      "Land": 3,
+      "matched_processes": 1,
+      "note": "calculated_from_processes"
+    }
+  }
+}
