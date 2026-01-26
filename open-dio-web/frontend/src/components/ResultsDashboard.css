@@ -8,10 +8,36 @@
 }
 
 .results-dashboard h2 {
-  margin: 0 0 2rem;
+  margin: 0 0 1.5rem;
   color: #1a1a1a;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.data-quality-notice {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: #fffbeb;
+  border: 1px solid #fbbf24;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.notice-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.notice-content {
+  font-size: 0.9rem;
+  color: #78350f;
+  line-height: 1.6;
+}
+
+.notice-content strong {
+  color: #1a1a1a;
 }
 
 .results-summary {
