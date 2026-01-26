@@ -1,72 +1,2774 @@
 [
   {
+    "code": "336412",
+    "name": "Aircraft Engine and Engine Parts Manufacturing",
+    "category": "Aircraft & Aerospace",
+    "description": "Military aircraft, helicopters, missiles, space vehicles",
+    "is_defense_relevant": true
+  },
+  {
     "code": "336411",
     "name": "Aircraft Manufacturing",
-    "description": "Manufacturing of military and civilian aircraft",
-    "category": "Defense Manufacturing",
-    "naics": "336411"
+    "category": "Aircraft & Aerospace",
+    "description": "Military aircraft, helicopters, missiles, space vehicles",
+    "is_defense_relevant": true
   },
   {
     "code": "336414",
     "name": "Guided Missile and Space Vehicle Manufacturing",
-    "description": "Manufacturing of missiles, rockets, and space vehicles",
-    "category": "Defense Manufacturing",
-    "naics": "336414"
+    "category": "Aircraft & Aerospace",
+    "description": "Military aircraft, helicopters, missiles, space vehicles",
+    "is_defense_relevant": true
   },
   {
-    "code": "336611",
-    "name": "Ship Building and Repairing",
-    "description": "Construction and repair of ships, submarines, and naval vessels",
-    "category": "Defense Manufacturing",
-    "naics": "336611"
+    "code": "33641A",
+    "name": "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing",
+    "category": "Aircraft & Aerospace",
+    "description": "Military aircraft, helicopters, missiles, space vehicles",
+    "is_defense_relevant": true
   },
   {
-    "code": "336992",
-    "name": "Military Armored Vehicle Manufacturing",
-    "description": "Manufacturing of tanks, armored vehicles, and military trucks",
-    "category": "Defense Manufacturing",
-    "naics": "336992"
+    "code": "336413",
+    "name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+    "category": "Aircraft & Aerospace",
+    "description": "Military aircraft, helicopters, missiles, space vehicles",
+    "is_defense_relevant": true
   },
   {
-    "code": "541330",
-    "name": "Engineering Services",
-    "description": "Engineering and technical services for defense systems",
-    "category": "Professional Services",
-    "naics": "541330"
+    "code": "325120",
+    "name": "Industrial Gas Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
   },
   {
-    "code": "541512",
-    "name": "Computer Systems Design Services",
-    "description": "IT systems design and cybersecurity for defense",
-    "category": "Professional Services",
-    "naics": "541512"
+    "code": "325180",
+    "name": "Other Basic Inorganic Chemical Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
   },
   {
-    "code": "541715",
-    "name": "R&D in Physical, Engineering, and Life Sciences",
-    "description": "Defense research and weapons development",
-    "category": "Research",
-    "naics": "541715"
+    "code": "325320",
+    "name": "Pesticide and Other Agricultural Chemical Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "325110",
+    "name": "Petrochemical Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "325211",
+    "name": "Plastics Material and Resin Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "325130",
+    "name": "Synthetic Dye and Pigment Manufacturing",
+    "category": "Chemicals",
+    "description": "Industrial chemicals, propellants",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "230301, 233210, 233262, 2332A0",
+    "name": "Commercial and Institutional Building Construction",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "333120",
+    "name": "Construction Machinery Manufacturing",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "2332C0",
+    "name": "Highway, Street, and Bridge Construction",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "230301, 233230",
+    "name": "Industrial Building Construction",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
   },
   {
     "code": "237990",
     "name": "Other Heavy and Civil Engineering Construction",
-    "description": "Military base construction and infrastructure",
     "category": "Construction",
-    "naics": "237990"
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
   },
   {
-    "code": "324110",
-    "name": "Petroleum Refineries",
-    "description": "Fuel production for military operations",
-    "category": "Energy",
-    "naics": "324110"
+    "code": "2332D0",
+    "name": "Other Heavy and Civil Engineering Construction",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "233240",
+    "name": "Water and Sewer Line and Related Structures Construction",
+    "category": "Construction",
+    "description": "Military construction, infrastructure",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335999",
+    "name": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334516",
+    "name": "Analytical Laboratory Instrument Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334512",
+    "name": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334112",
+    "name": "Computer Storage Device Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334118",
+    "name": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335110",
+    "name": "Electric Lamp Bulb and Part Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "423600",
+    "name": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334510",
+    "name": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334111",
+    "name": "Electronic Computer Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334515",
+    "name": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334513",
+    "name": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334517",
+    "name": "Irradiation Apparatus Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334290",
+    "name": "Other Communications Equipment Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335311",
+    "name": "Power, Distribution, and Specialty Transformer Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334418",
+    "name": "Printed Circuit Assembly (Electronic Assembly) Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334220",
+    "name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335120",
+    "name": "Residential Electric Lighting Fixture Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334511",
+    "name": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334413",
+    "name": "Semiconductor and Related Device Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335210",
+    "name": "Small Electrical Appliance Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "339112",
+    "name": "Surgical and Medical Instrument Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334210",
+    "name": "Telephone Apparatus Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "334514",
+    "name": "Totalizing Fluid Meter and Counting Device Manufacturing",
+    "category": "Electronics & Sensors",
+    "description": "Radar, navigation, electronic warfare, sensors",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "324121",
+    "name": "Asphalt Paving Mixture and Block Manufacturing",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "324122",
+    "name": "Asphalt Shingle and Coating Materials Manufacturing",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "211000",
+    "name": "Crude Petroleum Extraction",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
   },
   {
     "code": "221100",
     "name": "Electric Power Generation",
-    "description": "Electricity for military operations and bases",
-    "category": "Utilities",
-    "naics": "221100"
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "324190",
+    "name": "Petroleum Lubricating Oil and Grease Manufacturing",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "324110",
+    "name": "Petroleum Refineries",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "486000",
+    "name": "Pipeline Transportation of Crude Oil",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "335911",
+    "name": "Storage Battery Manufacturing",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "221300",
+    "name": "Water Supply and Irrigation Systems",
+    "category": "Energy & Fuel",
+    "description": "Petroleum, power generation, fuel",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541610",
+    "name": "Administrative Management and General Management Consulting Services",
+    "category": "Engineering & R&D",
+    "description": "Engineering, research and development",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541330",
+    "name": "Engineering Services",
+    "category": "Engineering & R&D",
+    "description": "Engineering, research and development",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "5416A0",
+    "name": "Environmental Consulting Services",
+    "category": "Engineering & R&D",
+    "description": "Engineering, research and development",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541715",
+    "name": "R&D in Physical, Engineering, and Life Sciences",
+    "category": "Engineering & R&D",
+    "description": "Engineering, research and development",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541700",
+    "name": "Research and Development in Nanotechnology",
+    "category": "Engineering & R&D",
+    "description": "Engineering, research and development",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "722A00",
+    "name": "Food Service Contractors",
+    "category": "Food Services",
+    "description": "Food service, provisions",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "311119",
+    "name": "Other Animal Food Manufacturing",
+    "category": "Food Services",
+    "description": "Food service, provisions",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "311700",
+    "name": "Seafood Product Preparation and Packaging",
+    "category": "Food Services",
+    "description": "Food service, provisions",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336120",
+    "name": "Heavy Duty Truck Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336112",
+    "name": "Light Truck and Utility Vehicle Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336992",
+    "name": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336211",
+    "name": "Motor Vehicle Body Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336320",
+    "name": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336310",
+    "name": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336370",
+    "name": "Motor Vehicle Metal Stamping",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336360",
+    "name": "Motor Vehicle Seating and Interior Trim Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336350",
+    "name": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336390",
+    "name": "Other Motor Vehicle Parts Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336212",
+    "name": "Truck Trailer Manufacturing",
+    "category": "Ground Vehicles & Armor",
+    "description": "Tanks, armored vehicles, military trucks",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "54151A",
+    "name": "Computer Facilities Management Services",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541512",
+    "name": "Computer Systems Design Services",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "541511",
+    "name": "Custom Computer Programming Services",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "518200",
+    "name": "Data Processing, Hosting, and Related Services",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "517A00",
+    "name": "Satellite Telecommunications",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "511200",
+    "name": "Software Publishers",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "517110",
+    "name": "Wired Telecommunications Carriers",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "517210",
+    "name": "Wireless Telecommunications Carriers (except Satellite)",
+    "category": "IT & Software",
+    "description": "Computer systems, software, cybersecurity",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332999",
+    "name": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331313",
+    "name": "Alumina Refining and Primary Aluminum Production",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "33131B",
+    "name": "Aluminum Sheet, Plate, and Foil Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331420",
+    "name": "Copper Rolling, Drawing, Extruding, and Alloying",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332114",
+    "name": "Custom Roll Forming",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331510",
+    "name": "Iron Foundries",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "33211A",
+    "name": "Iron and Steel Forging",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331110",
+    "name": "Iron and Steel Mills and Ferroalloy Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331200",
+    "name": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332430",
+    "name": "Metal Can Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332119",
+    "name": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332800",
+    "name": "Metal Heat Treating",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332420",
+    "name": "Metal Tank (Heavy Gauge) Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332320",
+    "name": "Metal Window and Door Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331410",
+    "name": "Nonferrous Metal (except Aluminum) Smelting and Refining",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331490",
+    "name": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "331520",
+    "name": "Nonferrous Metal Die-Casting Foundries",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332410",
+    "name": "Power Boiler and Heat Exchanger Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "332310",
+    "name": "Prefabricated Metal Building and Component Manufacturing",
+    "category": "Metals & Fabrication",
+    "description": "Steel, aluminum, metal products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336612",
+    "name": "Boat Building",
+    "category": "Ships & Marine",
+    "description": "Naval vessels, submarines, boats",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "336611",
+    "name": "Ship Building and Repairing",
+    "category": "Ships & Marine",
+    "description": "Naval vessels, submarines, boats",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "561400",
+    "name": "Document Preparation Services",
+    "category": "Support Services",
+    "description": "Facilities, administrative support",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "315000",
+    "name": "Hosiery and Sock Mills",
+    "category": "Textiles & Equipment",
+    "description": "Uniforms, protective gear, textile products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "314900",
+    "name": "Textile Bag and Canvas Mills",
+    "category": "Textiles & Equipment",
+    "description": "Uniforms, protective gear, textile products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "313300",
+    "name": "Textile and Fabric Finishing Mills",
+    "category": "Textiles & Equipment",
+    "description": "Uniforms, protective gear, textile products",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "532400",
+    "name": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
+    "category": "Transportation & Logistics",
+    "description": "Freight, shipping, logistics",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "483000",
+    "name": "Deep Sea Freight Transportation",
+    "category": "Transportation & Logistics",
+    "description": "Freight, shipping, logistics",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "484000",
+    "name": "General Freight Trucking, Local",
+    "category": "Transportation & Logistics",
+    "description": "Freight, shipping, logistics",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "493000",
+    "name": "General Warehousing and Storage",
+    "category": "Transportation & Logistics",
+    "description": "Freight, shipping, logistics",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "481000",
+    "name": "Scheduled Passenger Air Transportation",
+    "category": "Transportation & Logistics",
+    "description": "Freight, shipping, logistics",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "3259A0",
+    "name": "Explosives Manufacturing",
+    "category": "Weapons & Ammunition",
+    "description": "Arms, ammunition, explosives, ordnance",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "33299A",
+    "name": "Small Arms Ammunition Manufacturing",
+    "category": "Weapons & Ammunition",
+    "description": "Arms, ammunition, explosives, ordnance",
+    "is_defense_relevant": true
+  },
+  {
+    "code": "327910",
+    "name": "Abrasive Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325520",
+    "name": "Adhesive Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541800",
+    "name": "Advertising Agencies",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333912",
+    "name": "Air and Gas Compressor Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333415",
+    "name": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322299",
+    "name": "All Other Converted Paper Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327999",
+    "name": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336999",
+    "name": "All Other Transportation Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621900",
+    "name": "Ambulance Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "713100",
+    "name": "Amusement and Theme Parks",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "31161A",
+    "name": "Animal (except Poultry) Slaughtering",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541300",
+    "name": "Architectural Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334300",
+    "name": "Audio and Video Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336111",
+    "name": "Automobile Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "423100",
+    "name": "Automobile and Other Motor Vehicle Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332991",
+    "name": "Ball and Roller Bearing Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812100",
+    "name": "Barber Shops",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33441A",
+    "name": "Bare Printed Circuit Board Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "1121A0",
+    "name": "Beef Cattle Ranching and Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311300",
+    "name": "Beet Sugar Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325414",
+    "name": "Biological Product (except Diagnostic) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "212100",
+    "name": "Bituminous Coal and Lignite Surface Mining",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "334610",
+    "name": "Blank Magnetic and Optical Recording Media Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511130",
+    "name": "Book Publishers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311230",
+    "name": "Breakfast Cereal Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312120",
+    "name": "Breweries",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "313200",
+    "name": "Broadwoven Fabric Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "611B00",
+    "name": "Business and Secretarial Schools",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "425000",
+    "name": "Business to Business Electronic Markets",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "515200",
+    "name": "Cable and Other Subscription Programming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335991",
+    "name": "Carbon and Graphite Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "314110",
+    "name": "Carpet and Rug Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "713200",
+    "name": "Casinos (except Casino Hotels)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327310",
+    "name": "Cement Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311513",
+    "name": "Cheese Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "112300",
+    "name": "Chicken Egg Production",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "624400",
+    "name": "Child Day Care Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "624100",
+    "name": "Child and Youth Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "813B00",
+    "name": "Civic and Social Organizations",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311920",
+    "name": "Coffee and Tea Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812300",
+    "name": "Coin-Operated Laundries and Drycleaners",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "323110",
+    "name": "Commercial Printing (except Screen and Books)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811300",
+    "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "624A00",
+    "name": "Community Food Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327330",
+    "name": "Concrete Block and Brick Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "2123A0",
+    "name": "Construction Sand and Gravel Mining",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "423800",
+    "name": "Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811200",
+    "name": "Consumer Electronics Repair and Maintenance",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "532A00",
+    "name": "Consumer Electronics and Appliances Rental",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3118A0",
+    "name": "Cookie and Cracker Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "212230",
+    "name": "Copper, Nickel, Lead, and Zinc Mining",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322210",
+    "name": "Corrugated and Solid Fiber Box Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "115000",
+    "name": "Cotton Ginning",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "492000",
+    "name": "Couriers and Express Delivery Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "522A00",
+    "name": "Credit Card Issuing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335930",
+    "name": "Current-Carrying Wiring Device Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "314120",
+    "name": "Curtain and Linen Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327991",
+    "name": "Cut Stone and Stone Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33351B",
+    "name": "Cutting Tool and Machine Tool Accessory Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "112120",
+    "name": "Dairy Cattle and Milk Production",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339114",
+    "name": "Dental Equipment and Supplies Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339116",
+    "name": "Dental Laboratories",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "452000",
+    "name": "Department Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "212310",
+    "name": "Dimension Stone Mining and Quarrying",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5241XX",
+    "name": "Direct Health and Medical Insurance Carriers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "524113",
+    "name": "Direct Life Insurance Carriers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5111A0",
+    "name": "Directory and Mailing List Publishers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312140",
+    "name": "Distilleries",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311111",
+    "name": "Dog and Cat Food Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339930",
+    "name": "Doll, Toy, and Game Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "213111",
+    "name": "Drilling Oil and Gas Wells",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "424200",
+    "name": "Drugs and Druggists' Sundries Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "1111B0",
+    "name": "Dry Pea and Bean Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311514",
+    "name": "Dry, Condensed, and Evaporated Dairy Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "454000",
+    "name": "Electronic Shopping and Mail-Order Houses",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "611100",
+    "name": "Elementary and Secondary Schools",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333920",
+    "name": "Elevator and Moving Stairway Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561300",
+    "name": "Employment Placement Agencies",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325190",
+    "name": "Ethyl Alcohol Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561700",
+    "name": "Exterminating and Pest Control Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332996",
+    "name": "Fabricated Pipe and Pipe Fitting Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561200",
+    "name": "Facilities Support Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621400",
+    "name": "Family Planning Centers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333111",
+    "name": "Farm Machinery and Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311225",
+    "name": "Fats and Oils Refining and Blending",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335920",
+    "name": "Fiber Optic Cable Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "313100",
+    "name": "Fiber, Yarn, and Thread Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "114000",
+    "name": "Finfish Fishing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327200",
+    "name": "Flat Glass Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311930",
+    "name": "Flavoring Syrup and Concentrate Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311210",
+    "name": "Flour Milling",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "31151A",
+    "name": "Fluid Milk Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33399B",
+    "name": "Fluid Power Cylinder and Actuator Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33329A",
+    "name": "Food Product Machinery Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311410",
+    "name": "Frozen Fruit, Juice, and Vegetable Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311420",
+    "name": "Fruit and Vegetable Canning",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "722110",
+    "name": "Full-Service Restaurants",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812200",
+    "name": "Funeral Homes and Funeral Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "423A00",
+    "name": "Furniture Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "4B0000",
+    "name": "Furniture Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339990",
+    "name": "Gasket, Packing, and Sealing Device Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "447000",
+    "name": "Gasoline Stations with Convenience Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811100",
+    "name": "General Automotive Repair",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "424400",
+    "name": "General Line Grocery Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "622000",
+    "name": "General Medical and Surgical Hospitals",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "713900",
+    "name": "Golf Courses and Country Clubs",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "813A00",
+    "name": "Grantmaking Foundations",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327992",
+    "name": "Ground or Treated Mineral and Earth Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332500",
+    "name": "Hardware Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321200",
+    "name": "Hardwood Veneer and Plywood Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562HAZ",
+    "name": "Hazardous Waste Collection",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333414",
+    "name": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "112A00",
+    "name": "Hog and Pig Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "444000",
+    "name": "Home Centers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621600",
+    "name": "Home Health Care Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "811400",
+    "name": "Home and Garden Equipment Repair and Maintenance",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "721000",
+    "name": "Hotels (except Casino Hotels) and Motels",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311520",
+    "name": "Ice Cream and Frozen Dessert Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325413",
+    "name": "In-Vitro Diagnostic Substance Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711500",
+    "name": "Independent Artists, Writers, and Performers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333511",
+    "name": "Industrial Mold Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333994",
+    "name": "Industrial Process Furnace and Oven Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33291A",
+    "name": "Industrial Valve Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333413",
+    "name": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337127",
+    "name": "Institutional Furniture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "524200",
+    "name": "Insurance Agencies and Brokerages",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541400",
+    "name": "Interior Design Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "519130",
+    "name": "Internet Publishing and Broadcasting and Web Search Portals",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561600",
+    "name": "Investigation Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "523A00",
+    "name": "Investment Banking and Securities Dealing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "2122A0",
+    "name": "Iron Ore Mining",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339910",
+    "name": "Jewelry and Silverware Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "611A00",
+    "name": "Junior Colleges",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326130",
+    "name": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233210, 233230, 233240, 233262, 2332A0, 2332C0, 2332D0, 233411, 233412, 2334A0",
+    "name": "Land Subdivision",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333112",
+    "name": "Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "316000",
+    "name": "Leather and Hide Tanning and Finishing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "533000",
+    "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "531ORE",
+    "name": "Lessors of Nonresidential Buildings (excpet Miniwarehouses)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "531HSO, 531HST",
+    "name": "Lessors of Residential Buildings and Dwellings",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327400",
+    "name": "Lime Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "722211",
+    "name": "Limited-Service Restaurants",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "482000",
+    "name": "Line-Haul Railroads",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332710",
+    "name": "Machine Shops",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333517",
+    "name": "Machine Tool Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335220",
+    "name": "Major Household Appliance Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5419A0",
+    "name": "Marketing Research and Public Opinion Polling",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562920",
+    "name": "Materials Recovery Facilities",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337900",
+    "name": "Mattress Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311940",
+    "name": "Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333914",
+    "name": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333613",
+    "name": "Mechanical Power Transmission Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621500",
+    "name": "Medical Laboratories",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325411",
+    "name": "Medicinal and Botanical Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "448000",
+    "name": "Men's Clothing Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33712N",
+    "name": "Metal Household Furniture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332200",
+    "name": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327993",
+    "name": "Mineral Wool Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333130",
+    "name": "Mining Machinery and Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "523900",
+    "name": "Miscellaneous Intermediation",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "485000",
+    "name": "Mixed Mode Transit Systems",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "52A000",
+    "name": "Monetary Authorities-Central Bank",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "512100",
+    "name": "Motion Picture and Video Production",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336213",
+    "name": "Motor Home Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3363A0",
+    "name": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335312",
+    "name": "Motor and Generator Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336991",
+    "name": "Motorcycle, Bicycle, and Parts Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "712000",
+    "name": "Museums",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "111400",
+    "name": "Mushroom Production",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "512200",
+    "name": "Music Publishers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "221200",
+    "name": "Natural Gas Distribution",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "441000",
+    "name": "New Car Dealers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233411, 233412, 2334A0",
+    "name": "New Housing For-Sale Builders",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233412",
+    "name": "New Multifamily Housing Construction (except For-Sale Builders)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "233411",
+    "name": "New Single-Family Housing Construction (except For-Sale Builders)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "5191A0",
+    "name": "News Syndicates",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511110",
+    "name": "Newspaper Publishers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325310",
+    "name": "Nitrogenous Fertilizer Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337122",
+    "name": "Nonupholstered Wood Household Furniture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "623A00",
+    "name": "Nursing Care Facilities (Skilled Nursing Facilities)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561100",
+    "name": "Office Administrative Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339940",
+    "name": "Office Supplies (except Paper) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "550000",
+    "name": "Offices of Bank Holding Companies",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541200",
+    "name": "Offices of Certified Public Accountants",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621300",
+    "name": "Offices of Chiropractors",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621200",
+    "name": "Offices of Dentists",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541100",
+    "name": "Offices of Lawyers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "621100",
+    "name": "Offices of Physicians (except Mental Health Specialists)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339115",
+    "name": "Ophthalmic Goods Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333314",
+    "name": "Optical Instrument and Lens Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "111300",
+    "name": "Orange Groves",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333318",
+    "name": "Other Commercial and Service Industry Machinery Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327390",
+    "name": "Other Concrete Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333618",
+    "name": "Other Engine Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33451A",
+    "name": "Other Measuring and Controlling Device Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562OTH",
+    "name": "Other Waste Collection",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333993",
+    "name": "Packaging Machinery Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561900",
+    "name": "Packaging and Labeling Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325510",
+    "name": "Paint and Coating Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322120",
+    "name": "Paper (except Newsprint) Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322220",
+    "name": "Paper Bag and Coated and Treated Paper Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322130",
+    "name": "Paperboard Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "532100",
+    "name": "Passenger Car Rental",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "525000",
+    "name": "Pension Funds",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "511120",
+    "name": "Periodical Publishers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311990",
+    "name": "Perishable Prepared Food Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "812900",
+    "name": "Pet Care (except Veterinary) Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "424700",
+    "name": "Petroleum Bulk Stations and Terminals",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325412",
+    "name": "Pharmaceutical Preparation Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "446000",
+    "name": "Pharmacies and Drug Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "423400",
+    "name": "Photographic Equipment and Supplies Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333316",
+    "name": "Photographic and Photocopying Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541920",
+    "name": "Photography Studios, Portrait",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326110",
+    "name": "Plastics Bag and Pouch Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326160",
+    "name": "Plastics Bottle Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326190",
+    "name": "Plastics Plumbing Fixture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332913",
+    "name": "Plumbing Fixture Fitting and Trim Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326140",
+    "name": "Polystyrene Foam Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "491000",
+    "name": "Postal Service",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "111200",
+    "name": "Potato Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327100",
+    "name": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311615",
+    "name": "Poultry Processing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "230301, 230302, 233210, 233230, 233240, 233262, 2332A0, 2332D0, 233411, 233412, 2334A0",
+    "name": "Poured Concrete Foundation and Structure Contractors",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333991",
+    "name": "Power-Driven Handtool Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332720",
+    "name": "Precision Turned Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335912",
+    "name": "Primary Battery Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325910",
+    "name": "Printing Ink Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "424A00",
+    "name": "Printing and Writing Paper Merchant Wholesalers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711A00",
+    "name": "Promoters of Performing Arts, Sports, and Similar Events with Facilities",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322110",
+    "name": "Pulp Mills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "515100",
+    "name": "Radio Networks",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336500",
+    "name": "Railroad Rolling Stock Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "327320",
+    "name": "Ready-Mix Concrete Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335314",
+    "name": "Relay and Industrial Control Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "813100",
+    "name": "Religious Organizations",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562910",
+    "name": "Remediation Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "623B00",
+    "name": "Residential Intellectual and Developmental Disability Facilities",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "230302",
+    "name": "Residential Remodelers",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311810",
+    "name": "Retail Bakeries",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311910",
+    "name": "Roasted Nuts and Peanut Butter Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326290",
+    "name": "Rubber Product Manufacturing for Mechanical Use",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326220",
+    "name": "Rubber and Plastics Hoses and Belting Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322291",
+    "name": "Sanitary Paper Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321100",
+    "name": "Sawmills",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "48A000",
+    "name": "Scenic and Sightseeing Transportation, Land",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333242",
+    "name": "Semiconductor Machinery Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337215",
+    "name": "Showcase, Partition, Shelving, and Locker Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339950",
+    "name": "Sign Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325610",
+    "name": "Soap and Other Detergent Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312110",
+    "name": "Soft Drink Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562111",
+    "name": "Solid Waste Collection",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562213",
+    "name": "Solid Waste Combustors and Incinerators",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "562212",
+    "name": "Solid Waste Landfill",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "1111A0",
+    "name": "Soybean Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311224",
+    "name": "Soybean and Other Oilseed Processing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333514",
+    "name": "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333612",
+    "name": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339920",
+    "name": "Sporting and Athletic Goods Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711200",
+    "name": "Sports Teams and Clubs",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "332600",
+    "name": "Spring Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "322230",
+    "name": "Stationery Product Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "445000",
+    "name": "Supermarkets and Other Grocery (except Convenience) Stores",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "323120",
+    "name": "Support Activites for Printing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "21311A",
+    "name": "Support Activities for Oil and Gas Operations",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "339113",
+    "name": "Surgical Appliance and Supplies Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "335313",
+    "name": "Switchgear and Switchboard Apparatus Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3252A0",
+    "name": "Synthetic Rubber Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "711100",
+    "name": "Theater Companies and Dinner Theaters",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "113000",
+    "name": "Timber Tract Operations",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326210",
+    "name": "Tire Manufacturing (except Retreading)",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "111900",
+    "name": "Tobacco Farming",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312200",
+    "name": "Tobacco Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "325620",
+    "name": "Toilet Preparation Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "561500",
+    "name": "Travel Agencies",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "336214",
+    "name": "Travel Trailer and Camper Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "333611",
+    "name": "Turbine and Turbine Generator Set Units Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326120",
+    "name": "Unlaminated Plastics Profile Shape Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337121",
+    "name": "Upholstered Household Furniture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "326150",
+    "name": "Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "541940",
+    "name": "Veterinary Services",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33399A",
+    "name": "Welding and Soldering Equipment Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "311221",
+    "name": "Wet Corn Milling",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "312130",
+    "name": "Wineries",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "3219A0",
+    "name": "Wood Container and Pallet Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "337110",
+    "name": "Wood Kitchen Cabinet and Countertop Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "33721A",
+    "name": "Wood Office Furniture Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
+  },
+  {
+    "code": "321910",
+    "name": "Wood Window and Door Manufacturing",
+    "category": "General Economy",
+    "description": "General economic sector",
+    "is_defense_relevant": false
   }
 ]

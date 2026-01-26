@@ -14,9 +14,10 @@ Open DIO calculates the total environmental impacts of U.S. defense spending usi
 
 - **Model Type**: Environmentally-Extended Input-Output (EEIO) analysis
 - **Scope**: U.S. defense spending environmental impacts
-- **Sectors**: 246 BEA economic sectors (28 defense-relevant)
+- **Sectors**: 396 BEA economic sectors (109 defense-relevant)
 - **Impacts**: Greenhouse Gas Emissions, Energy Use, Water Use, Land Use
 - **Supply Chain**: Captures both direct and indirect (supply chain) impacts
+- **Data Source**: Cornerstone Supply Chain GHG Emission Factors v1.4.0 (2024 USD, AR6 GWP-100)
 
 ---
 
@@ -73,26 +74,31 @@ This is the **fundamental equation** of Open DIO.
 
 ### 2.1 Sector Classification
 
-Open DIO uses the 2012 BEA (Bureau of Economic Analysis) classification:
+Open DIO uses the 2017 BEA (Bureau of Economic Analysis) NAICS classification via Cornerstone/USEEIO:
 
-- **246 sectors** at Summary level
+- **396 sectors** at Detail level
 - Based on NAICS (North American Industry Classification System)
 - Covers entire U.S. economy
 
-**Defense-Relevant Sectors** (28 identified):
+**Defense-Relevant Sectors** (109 identified across 15 categories):
 
 | Category | Count | Examples |
 |----------|-------|----------|
-| Aircraft/Aerospace | 3 | Aircraft manufacturing, guided missiles |
-| Ships/Marine | 2 | Ship building, boat manufacturing |
-| Weapons/Ammunition | 2 | Ammunition, arms, ordnance |
-| Electronics | 7 | Communications equipment, navigation systems |
-| Engineering/R&D | 2 | Engineering services, scientific R&D |
-| IT/Computing | 2 | Computer systems design |
-| Management/Support | 3 | Consulting, facilities support |
-| Construction | 1 | Power/communication construction |
-| Transportation | 4 | Air, rail, water, truck transportation |
-| Energy/Fuel | 2 | Electric power, petroleum refineries |
+| Aircraft & Aerospace | 5 | Aircraft manufacturing, guided missiles, space vehicles |
+| Ships & Marine | 2 | Ship building, boat manufacturing |
+| Ground Vehicles & Armor | 11 | Military armored vehicles, trucks, components |
+| Weapons & Ammunition | 2 | Small arms ammunition, explosives |
+| Electronics & Sensors | 23 | Navigation systems, radar, semiconductors |
+| IT & Software | 8 | Computer systems, software, cybersecurity |
+| Engineering & R&D | 5 | Engineering services, R&D |
+| Construction | 7 | Military construction, infrastructure |
+| Energy & Fuel | 9 | Electric power, petroleum, pipelines |
+| Metals & Fabrication | 19 | Steel, aluminum, metal products |
+| Transportation & Logistics | 5 | Air, sea, ground transport, warehousing |
+| Chemicals | 6 | Industrial chemicals, propellants |
+| Textiles & Equipment | 3 | Uniforms, protective gear |
+| Food Services | 3 | Military food service, provisions |
+| Support Services | 1 | Facilities management |
 
 ### 2.2 Environmental Impact Categories
 
@@ -199,7 +205,7 @@ Open DIO performs a **five-step calculation**:
 
 #### Step 1: User Input
 
-User selects from 246 sectors and enters spending in USD.
+User selects from 396 sectors and enters spending in USD.
 
 **Example**:
 - Sector: "Aircraft Manufacturing" (NAICS 336411)
@@ -323,7 +329,7 @@ Open DIO currently uses **sector-averaged multipliers** derived from:
    - **Impact**: Excludes international supply chain impacts
    - **Mitigation**: Future CEDA MRIO integration
 
-4. **Aggregation Level**: 246 sectors
+4. **Aggregation Level**: 396 sectors (Cornerstone/USEEIO detail level)
    - **Impact**: Some defense products aggregated with civilian products
    - **Mitigation**: Defense-specific hybridization in DIO model
 
