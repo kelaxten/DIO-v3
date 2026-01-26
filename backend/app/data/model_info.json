@@ -1,15 +1,11 @@
 {
   "model": "DIO v2.0",
-  "source": "USEPA Defense Input-Output Model",
-  "total_sectors": 246,
-  "defense_sectors": 1,
-  "sectors_with_multipliers": 0,
-  "top_defense_sectors": [
-    "33299A"
-  ],
-  "data_files": {
-    "sectors_full": "sectors_full.json",
-    "sectors_defense": "sectors_defense.json",
-    "multipliers_full": "multipliers_full.json"
-  }
+  "data_source": "Cornerstone Supply Chain GHG Emission Factors v1.4.0",
+  "data_doi": "10.5281/zenodo.17202747",
+  "price_year": 2024,
+  "gwp_version": "AR6 GWP-100",
+  "calculation_date": "2026-01-25",
+  "total_sectors": 392,
+  "defense_sectors": 10,
+  "includes_supply_chain": true
 }
