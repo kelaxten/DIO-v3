@@ -37,7 +37,7 @@
   {
     "code": "221100",
     "name": "Electric power generation, transmission, and distribution",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "221200",
@@ -207,7 +207,7 @@
   {
     "code": "324110",
     "name": "Petroleum refineries",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "324121",
@@ -467,7 +467,7 @@
   {
     "code": "332420",
     "name": "Metal tank",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "332500",
@@ -507,12 +507,12 @@
   {
     "code": "332991",
     "name": "Ball and roller bearing manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "332999",
     "name": "Other fabricated metal manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "33299A",
@@ -627,12 +627,12 @@
   {
     "code": "334220",
     "name": "Broadcast and wireless communications equipment",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334290",
     "name": "Other communications equipment manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334300",
@@ -642,37 +642,37 @@
   {
     "code": "334418",
     "name": "Printed circuit assembly",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "33441A",
     "name": "Other electronic component manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334510",
     "name": "Electromedical and electrotherapeutic apparatus manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334513",
     "name": "Industrial process variable instruments manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334514",
     "name": "Totalizing fluid meter and counting device manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334515",
     "name": "Electricity and signal testing instruments manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334517",
     "name": "Irradiation apparatus manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "334610",
@@ -762,12 +762,12 @@
   {
     "code": "336612",
     "name": "Boat building",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "336999",
     "name": "All other transportation equipment manufacturing",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "337110",
@@ -817,22 +817,22 @@
   {
     "code": "481000",
     "name": "Air transportation",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "482000",
     "name": "Rail transportation",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "483000",
     "name": "Water transportation",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "484000",
     "name": "Truck transportation",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "485000",
@@ -972,7 +972,7 @@
   {
     "code": "541300",
     "name": "Architectural, engineering, and related services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "541400",
@@ -982,27 +982,27 @@
   {
     "code": "541512",
     "name": "Computer systems design services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "54151A",
     "name": "Other computer related services, including facilities management",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "541610",
     "name": "Management consulting services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "5416A0",
     "name": "Environmental and other technical consulting services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "541700",
     "name": "Scientific research and development services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "541800",
@@ -1027,7 +1027,7 @@
   {
     "code": "561200",
     "name": "Facilities support services",
-    "is_defense_relevant": false
+    "is_defense_relevant": true
   },
   {
     "code": "561300",
