@@ -167,8 +167,10 @@ export function ResultsDashboard({ results }: Props) {
           to trace the direct and indirect environmental impacts throughout the supply chain.
         </p>
         <p>
-          <strong>Data Sources:</strong> BEA Input-Output Tables (2012), EPA GHG Inventory,
-          USGS Water Use Data
+          <strong>Data Sources:</strong> BEA Input-Output Tables (2017),
+          Cornerstone Supply Chain Factors v1.4.0 (GHG),
+          EIA Manufacturing Energy Consumption Survey 2018 (Energy),
+          EPA USEEIO v2.0 (Water, Land)
         </p>
       </div>
     </div>

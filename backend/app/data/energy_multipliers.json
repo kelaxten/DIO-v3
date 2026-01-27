@@ -1,0 +1,2399 @@
+{
+  "description": "Energy consumption multipliers by sector",
+  "methodology": "Based on EIA published energy intensity data with supply chain multipliers",
+  "data_sources": {
+    "manufacturing": "EIA Manufacturing Energy Consumption Survey (MECS) 2018",
+    "commercial": "EIA Commercial Buildings Energy Consumption Survey (CBECS) 2018",
+    "economy_wide": "EIA Annual Energy Outlook (AEO) 2023",
+    "economic_output": "BEA Input-Output Accounts"
+  },
+  "calculation_date": "2026-01-26",
+  "units": "MJ per $1000 spending (2024 USD)",
+  "uncertainty": "\u00b130-40% depending on sector data availability",
+  "notes": [
+    "Direct intensities from EIA government data",
+    "Supply chain effects included via simplified multipliers (1.3x-1.7x)",
+    "Future enhancement: Apply full Leontief inverse for exact supply chain",
+    "Manufacturing sectors based on MECS (highest confidence)",
+    "Commercial/services based on CBECS (moderate confidence)",
+    "Some sectors estimated from similar sectors (documented in source field)"
+  ],
+  "sectors": {
+    "336412": {
+      "name": "Aircraft Engine and Engine Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336411": {
+      "name": "Aircraft Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336414": {
+      "name": "Guided Missile and Space Vehicle Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "33641A": {
+      "name": "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336413": {
+      "name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "325120": {
+      "name": "Industrial Gas Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325180": {
+      "name": "Other Basic Inorganic Chemical Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325320": {
+      "name": "Pesticide and Other Agricultural Chemical Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325110": {
+      "name": "Petrochemical Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325211": {
+      "name": "Plastics Material and Resin Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325130": {
+      "name": "Synthetic Dye and Pigment Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "230301, 233210, 233262, 2332A0": {
+      "name": "Commercial and Institutional Building Construction",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "333120": {
+      "name": "Construction Machinery Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "2332C0": {
+      "name": "Highway, Street, and Bridge Construction",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "230301, 233230": {
+      "name": "Industrial Building Construction",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "237990": {
+      "name": "Other Heavy and Civil Engineering Construction",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "2332D0": {
+      "name": "Other Heavy and Civil Engineering Construction",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "233240": {
+      "name": "Water and Sewer Line and Related Structures Construction",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "335999": {
+      "name": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334516": {
+      "name": "Analytical Laboratory Instrument Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334512": {
+      "name": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334112": {
+      "name": "Computer Storage Device Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334118": {
+      "name": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335110": {
+      "name": "Electric Lamp Bulb and Part Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "423600": {
+      "name": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "334510": {
+      "name": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334111": {
+      "name": "Electronic Computer Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334515": {
+      "name": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334513": {
+      "name": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334517": {
+      "name": "Irradiation Apparatus Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334290": {
+      "name": "Other Communications Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335311": {
+      "name": "Power, Distribution, and Specialty Transformer Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334418": {
+      "name": "Printed Circuit Assembly (Electronic Assembly) Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334220": {
+      "name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335120": {
+      "name": "Residential Electric Lighting Fixture Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334511": {
+      "name": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334413": {
+      "name": "Semiconductor and Related Device Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335210": {
+      "name": "Small Electrical Appliance Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "339112": {
+      "name": "Surgical and Medical Instrument Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334210": {
+      "name": "Telephone Apparatus Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "334514": {
+      "name": "Totalizing Fluid Meter and Counting Device Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "324121": {
+      "name": "Asphalt Paving Mixture and Block Manufacturing",
+      "energy_direct_mj_per_1000": 18000,
+      "energy_total_mj_per_1000": 23400.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "324122": {
+      "name": "Asphalt Shingle and Coating Materials Manufacturing",
+      "energy_direct_mj_per_1000": 18000,
+      "energy_total_mj_per_1000": 23400.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "211000": {
+      "name": "Crude Petroleum Extraction",
+      "energy_direct_mj_per_1000": 9000,
+      "energy_total_mj_per_1000": 13500.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "221100": {
+      "name": "Electric Power Generation",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA AEO 2023 - Utilities"
+    },
+    "324190": {
+      "name": "Petroleum Lubricating Oil and Grease Manufacturing",
+      "energy_direct_mj_per_1000": 18000,
+      "energy_total_mj_per_1000": 23400.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "324110": {
+      "name": "Petroleum Refineries",
+      "energy_direct_mj_per_1000": 18000,
+      "energy_total_mj_per_1000": 23400.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "486000": {
+      "name": "Pipeline Transportation of Crude Oil",
+      "energy_direct_mj_per_1000": 2000,
+      "energy_total_mj_per_1000": 3400.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "335911": {
+      "name": "Storage Battery Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "221300": {
+      "name": "Water Supply and Irrigation Systems",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA AEO 2023 - Utilities"
+    },
+    "541610": {
+      "name": "Administrative Management and General Management Consulting Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "541330": {
+      "name": "Engineering Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "5416A0": {
+      "name": "Environmental Consulting Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "541715": {
+      "name": "R&D in Physical, Engineering, and Life Sciences",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "541700": {
+      "name": "Research and Development in Nanotechnology",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "722A00": {
+      "name": "Food Service Contractors",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "311119": {
+      "name": "Other Animal Food Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "311700": {
+      "name": "Seafood Product Preparation and Packaging",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "336120": {
+      "name": "Heavy Duty Truck Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336112": {
+      "name": "Light Truck and Utility Vehicle Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336992": {
+      "name": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336211": {
+      "name": "Motor Vehicle Body Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336320": {
+      "name": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336310": {
+      "name": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336370": {
+      "name": "Motor Vehicle Metal Stamping",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336360": {
+      "name": "Motor Vehicle Seating and Interior Trim Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336350": {
+      "name": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336390": {
+      "name": "Other Motor Vehicle Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336212": {
+      "name": "Truck Trailer Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "54151A": {
+      "name": "Computer Facilities Management Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "541512": {
+      "name": "Computer Systems Design Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "541511": {
+      "name": "Custom Computer Programming Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "518200": {
+      "name": "Data Processing, Hosting, and Related Services",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "517A00": {
+      "name": "Satellite Telecommunications",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "511200": {
+      "name": "Software Publishers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "517110": {
+      "name": "Wired Telecommunications Carriers",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "517210": {
+      "name": "Wireless Telecommunications Carriers (except Satellite)",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "332999": {
+      "name": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "331313": {
+      "name": "Alumina Refining and Primary Aluminum Production",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "33131B": {
+      "name": "Aluminum Sheet, Plate, and Foil Manufacturing",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "331420": {
+      "name": "Copper Rolling, Drawing, Extruding, and Alloying",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "332114": {
+      "name": "Custom Roll Forming",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "331510": {
+      "name": "Iron Foundries",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "33211A": {
+      "name": "Iron and Steel Forging",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "331110": {
+      "name": "Iron and Steel Mills and Ferroalloy Manufacturing",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "331200": {
+      "name": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "332430": {
+      "name": "Metal Can Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332119": {
+      "name": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332800": {
+      "name": "Metal Heat Treating",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332420": {
+      "name": "Metal Tank (Heavy Gauge) Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332320": {
+      "name": "Metal Window and Door Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "331410": {
+      "name": "Nonferrous Metal (except Aluminum) Smelting and Refining",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "331490": {
+      "name": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "331520": {
+      "name": "Nonferrous Metal Die-Casting Foundries",
+      "energy_direct_mj_per_1000": 15000,
+      "energy_total_mj_per_1000": 19500.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "332410": {
+      "name": "Power Boiler and Heat Exchanger Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332310": {
+      "name": "Prefabricated Metal Building and Component Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336612": {
+      "name": "Boat Building",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336611": {
+      "name": "Ship Building and Repairing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "561400": {
+      "name": "Document Preparation Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "315000": {
+      "name": "Hosiery and Sock Mills",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "314900": {
+      "name": "Textile Bag and Canvas Mills",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "313300": {
+      "name": "Textile and Fabric Finishing Mills",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "532400": {
+      "name": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "483000": {
+      "name": "Deep Sea Freight Transportation",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "484000": {
+      "name": "General Freight Trucking, Local",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "493000": {
+      "name": "General Warehousing and Storage",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "481000": {
+      "name": "Scheduled Passenger Air Transportation",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "3259A0": {
+      "name": "Explosives Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "33299A": {
+      "name": "Small Arms Ammunition Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "327910": {
+      "name": "Abrasive Product Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "325520": {
+      "name": "Adhesive Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "541800": {
+      "name": "Advertising Agencies",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "333912": {
+      "name": "Air and Gas Compressor Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333415": {
+      "name": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "322299": {
+      "name": "All Other Converted Paper Product Manufacturing",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "327999": {
+      "name": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "336999": {
+      "name": "All Other Transportation Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "621900": {
+      "name": "Ambulance Services",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "713100": {
+      "name": "Amusement and Theme Parks",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "31161A": {
+      "name": "Animal (except Poultry) Slaughtering",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "541300": {
+      "name": "Architectural Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "334300": {
+      "name": "Audio and Video Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336111": {
+      "name": "Automobile Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "423100": {
+      "name": "Automobile and Other Motor Vehicle Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "332991": {
+      "name": "Ball and Roller Bearing Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "812100": {
+      "name": "Barber Shops",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "33441A": {
+      "name": "Bare Printed Circuit Board Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "1121A0": {
+      "name": "Beef Cattle Ranching and Farming",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "311300": {
+      "name": "Beet Sugar Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "325414": {
+      "name": "Biological Product (except Diagnostic) Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "212100": {
+      "name": "Bituminous Coal and Lignite Surface Mining",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "334610": {
+      "name": "Blank Magnetic and Optical Recording Media Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "511130": {
+      "name": "Book Publishers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "311230": {
+      "name": "Breakfast Cereal Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "312120": {
+      "name": "Breweries",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "313200": {
+      "name": "Broadwoven Fabric Mills",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "611B00": {
+      "name": "Business and Secretarial Schools",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "425000": {
+      "name": "Business to Business Electronic Markets",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "515200": {
+      "name": "Cable and Other Subscription Programming",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "335991": {
+      "name": "Carbon and Graphite Product Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "314110": {
+      "name": "Carpet and Rug Mills",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "713200": {
+      "name": "Casinos (except Casino Hotels)",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "327310": {
+      "name": "Cement Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "311513": {
+      "name": "Cheese Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "112300": {
+      "name": "Chicken Egg Production",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "624400": {
+      "name": "Child Day Care Services",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "624100": {
+      "name": "Child and Youth Services",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "813B00": {
+      "name": "Civic and Social Organizations",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "311920": {
+      "name": "Coffee and Tea Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "812300": {
+      "name": "Coin-Operated Laundries and Drycleaners",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "323110": {
+      "name": "Commercial Printing (except Screen and Books)",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "811300": {
+      "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "624A00": {
+      "name": "Community Food Services",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "327330": {
+      "name": "Concrete Block and Brick Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "2123A0": {
+      "name": "Construction Sand and Gravel Mining",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "423800": {
+      "name": "Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "811200": {
+      "name": "Consumer Electronics Repair and Maintenance",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "532A00": {
+      "name": "Consumer Electronics and Appliances Rental",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "3118A0": {
+      "name": "Cookie and Cracker Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "212230": {
+      "name": "Copper, Nickel, Lead, and Zinc Mining",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "322210": {
+      "name": "Corrugated and Solid Fiber Box Manufacturing",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "115000": {
+      "name": "Cotton Ginning",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "492000": {
+      "name": "Couriers and Express Delivery Services",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "522A00": {
+      "name": "Credit Card Issuing",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "335930": {
+      "name": "Current-Carrying Wiring Device Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "314120": {
+      "name": "Curtain and Linen Mills",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "327991": {
+      "name": "Cut Stone and Stone Product Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "33351B": {
+      "name": "Cutting Tool and Machine Tool Accessory Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "112120": {
+      "name": "Dairy Cattle and Milk Production",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "339114": {
+      "name": "Dental Equipment and Supplies Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "339116": {
+      "name": "Dental Laboratories",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "452000": {
+      "name": "Department Stores",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "212310": {
+      "name": "Dimension Stone Mining and Quarrying",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "5241XX": {
+      "name": "Direct Health and Medical Insurance Carriers",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "524113": {
+      "name": "Direct Life Insurance Carriers",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "5111A0": {
+      "name": "Directory and Mailing List Publishers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "312140": {
+      "name": "Distilleries",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "311111": {
+      "name": "Dog and Cat Food Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "339930": {
+      "name": "Doll, Toy, and Game Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "213111": {
+      "name": "Drilling Oil and Gas Wells",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "424200": {
+      "name": "Drugs and Druggists' Sundries Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "1111B0": {
+      "name": "Dry Pea and Bean Farming",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "311514": {
+      "name": "Dry, Condensed, and Evaporated Dairy Product Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "454000": {
+      "name": "Electronic Shopping and Mail-Order Houses",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "611100": {
+      "name": "Elementary and Secondary Schools",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "333920": {
+      "name": "Elevator and Moving Stairway Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "561300": {
+      "name": "Employment Placement Agencies",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "325190": {
+      "name": "Ethyl Alcohol Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "561700": {
+      "name": "Exterminating and Pest Control Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "332996": {
+      "name": "Fabricated Pipe and Pipe Fitting Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "561200": {
+      "name": "Facilities Support Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "621400": {
+      "name": "Family Planning Centers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "333111": {
+      "name": "Farm Machinery and Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "311225": {
+      "name": "Fats and Oils Refining and Blending",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "335920": {
+      "name": "Fiber Optic Cable Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "313100": {
+      "name": "Fiber, Yarn, and Thread Mills",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "114000": {
+      "name": "Finfish Fishing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "327200": {
+      "name": "Flat Glass Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "311930": {
+      "name": "Flavoring Syrup and Concentrate Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "311210": {
+      "name": "Flour Milling",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "31151A": {
+      "name": "Fluid Milk Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "33399B": {
+      "name": "Fluid Power Cylinder and Actuator Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "33329A": {
+      "name": "Food Product Machinery Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "311410": {
+      "name": "Frozen Fruit, Juice, and Vegetable Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "311420": {
+      "name": "Fruit and Vegetable Canning",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "722110": {
+      "name": "Full-Service Restaurants",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "812200": {
+      "name": "Funeral Homes and Funeral Services",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "423A00": {
+      "name": "Furniture Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "4B0000": {
+      "name": "Furniture Stores",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "339990": {
+      "name": "Gasket, Packing, and Sealing Device Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "447000": {
+      "name": "Gasoline Stations with Convenience Stores",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "811100": {
+      "name": "General Automotive Repair",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "424400": {
+      "name": "General Line Grocery Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "622000": {
+      "name": "General Medical and Surgical Hospitals",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "713900": {
+      "name": "Golf Courses and Country Clubs",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "813A00": {
+      "name": "Grantmaking Foundations",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "327992": {
+      "name": "Ground or Treated Mineral and Earth Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "332500": {
+      "name": "Hardware Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "321200": {
+      "name": "Hardwood Veneer and Plywood Manufacturing",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "562HAZ": {
+      "name": "Hazardous Waste Collection",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "333414": {
+      "name": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "112A00": {
+      "name": "Hog and Pig Farming",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "444000": {
+      "name": "Home Centers",
+      "energy_direct_mj_per_1000": 1300,
+      "energy_total_mj_per_1000": 2210.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "621600": {
+      "name": "Home Health Care Services",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "811400": {
+      "name": "Home and Garden Equipment Repair and Maintenance",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "721000": {
+      "name": "Hotels (except Casino Hotels) and Motels",
+      "energy_direct_mj_per_1000": 2200,
+      "energy_total_mj_per_1000": 3740.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "311520": {
+      "name": "Ice Cream and Frozen Dessert Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "325413": {
+      "name": "In-Vitro Diagnostic Substance Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "711500": {
+      "name": "Independent Artists, Writers, and Performers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "333511": {
+      "name": "Industrial Mold Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333994": {
+      "name": "Industrial Process Furnace and Oven Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "33291A": {
+      "name": "Industrial Valve Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333413": {
+      "name": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "337127": {
+      "name": "Institutional Furniture Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "524200": {
+      "name": "Insurance Agencies and Brokerages",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "541400": {
+      "name": "Interior Design Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "519130": {
+      "name": "Internet Publishing and Broadcasting and Web Search Portals",
+      "energy_direct_mj_per_1000": 2000,
+      "energy_total_mj_per_1000": 3400.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "561600": {
+      "name": "Investigation Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "523A00": {
+      "name": "Investment Banking and Securities Dealing",
+      "energy_direct_mj_per_1000": 750,
+      "energy_total_mj_per_1000": 1275.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "2122A0": {
+      "name": "Iron Ore Mining",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "339910": {
+      "name": "Jewelry and Silverware Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "611A00": {
+      "name": "Junior Colleges",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "326130": {
+      "name": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "233210, 233230, 233240, 233262, 2332A0, 2332C0, 2332D0, 233411, 233412, 2334A0": {
+      "name": "Land Subdivision",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "333112": {
+      "name": "Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "316000": {
+      "name": "Leather and Hide Tanning and Finishing",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "533000": {
+      "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "531ORE": {
+      "name": "Lessors of Nonresidential Buildings (excpet Miniwarehouses)",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "531HSO, 531HST": {
+      "name": "Lessors of Residential Buildings and Dwellings",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "327400": {
+      "name": "Lime Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "722211": {
+      "name": "Limited-Service Restaurants",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "482000": {
+      "name": "Line-Haul Railroads",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "332710": {
+      "name": "Machine Shops",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333517": {
+      "name": "Machine Tool Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335220": {
+      "name": "Major Household Appliance Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "5419A0": {
+      "name": "Marketing Research and Public Opinion Polling",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "562920": {
+      "name": "Materials Recovery Facilities",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "337900": {
+      "name": "Mattress Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "311940": {
+      "name": "Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "333914": {
+      "name": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333613": {
+      "name": "Mechanical Power Transmission Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "621500": {
+      "name": "Medical Laboratories",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "325411": {
+      "name": "Medicinal and Botanical Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "448000": {
+      "name": "Men's Clothing Stores",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "33712N": {
+      "name": "Metal Household Furniture Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332200": {
+      "name": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "327993": {
+      "name": "Mineral Wool Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "333130": {
+      "name": "Mining Machinery and Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "523900": {
+      "name": "Miscellaneous Intermediation",
+      "energy_direct_mj_per_1000": 750,
+      "energy_total_mj_per_1000": 1275.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "485000": {
+      "name": "Mixed Mode Transit Systems",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA AEO 2023 - Transportation"
+    },
+    "52A000": {
+      "name": "Monetary Authorities-Central Bank",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "512100": {
+      "name": "Motion Picture and Video Production",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "336213": {
+      "name": "Motor Home Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "3363A0": {
+      "name": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335312": {
+      "name": "Motor and Generator Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "336991": {
+      "name": "Motorcycle, Bicycle, and Parts Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "712000": {
+      "name": "Museums",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "111400": {
+      "name": "Mushroom Production",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "512200": {
+      "name": "Music Publishers",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "221200": {
+      "name": "Natural Gas Distribution",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA AEO 2023 - Utilities"
+    },
+    "441000": {
+      "name": "New Car Dealers",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "233411, 233412, 2334A0": {
+      "name": "New Housing For-Sale Builders",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "233412": {
+      "name": "New Multifamily Housing Construction (except For-Sale Builders)",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "233411": {
+      "name": "New Single-Family Housing Construction (except For-Sale Builders)",
+      "energy_direct_mj_per_1000": 3800,
+      "energy_total_mj_per_1000": 5700.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "5191A0": {
+      "name": "News Syndicates",
+      "energy_direct_mj_per_1000": 2000,
+      "energy_total_mj_per_1000": 3400.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "511110": {
+      "name": "Newspaper Publishers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "325310": {
+      "name": "Nitrogenous Fertilizer Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "337122": {
+      "name": "Nonupholstered Wood Household Furniture Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "623A00": {
+      "name": "Nursing Care Facilities (Skilled Nursing Facilities)",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "561100": {
+      "name": "Office Administrative Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "339940": {
+      "name": "Office Supplies (except Paper) Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "550000": {
+      "name": "Offices of Bank Holding Companies",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "541200": {
+      "name": "Offices of Certified Public Accountants",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "621300": {
+      "name": "Offices of Chiropractors",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "621200": {
+      "name": "Offices of Dentists",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "541100": {
+      "name": "Offices of Lawyers",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "621100": {
+      "name": "Offices of Physicians (except Mental Health Specialists)",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "339115": {
+      "name": "Ophthalmic Goods Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333314": {
+      "name": "Optical Instrument and Lens Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "111300": {
+      "name": "Orange Groves",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "333318": {
+      "name": "Other Commercial and Service Industry Machinery Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "327390": {
+      "name": "Other Concrete Product Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "333618": {
+      "name": "Other Engine Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "33451A": {
+      "name": "Other Measuring and Controlling Device Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "562OTH": {
+      "name": "Other Waste Collection",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "333993": {
+      "name": "Packaging Machinery Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "561900": {
+      "name": "Packaging and Labeling Services",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "325510": {
+      "name": "Paint and Coating Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "322120": {
+      "name": "Paper (except Newsprint) Mills",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "322220": {
+      "name": "Paper Bag and Coated and Treated Paper Manufacturing",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "322130": {
+      "name": "Paperboard Mills",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "532100": {
+      "name": "Passenger Car Rental",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "525000": {
+      "name": "Pension Funds",
+      "energy_direct_mj_per_1000": 750,
+      "energy_total_mj_per_1000": 1275.0,
+      "source": "EIA CBECS 2018 - Finance, insurance, real estate"
+    },
+    "511120": {
+      "name": "Periodical Publishers",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Information & IT"
+    },
+    "311990": {
+      "name": "Perishable Prepared Food Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "812900": {
+      "name": "Pet Care (except Veterinary) Services",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "424700": {
+      "name": "Petroleum Bulk Stations and Terminals",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "325412": {
+      "name": "Pharmaceutical Preparation Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "446000": {
+      "name": "Pharmacies and Drug Stores",
+      "energy_direct_mj_per_1000": 1000,
+      "energy_total_mj_per_1000": 1700.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "423400": {
+      "name": "Photographic Equipment and Supplies Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "333316": {
+      "name": "Photographic and Photocopying Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "541920": {
+      "name": "Photography Studios, Portrait",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "326110": {
+      "name": "Plastics Bag and Pouch Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326160": {
+      "name": "Plastics Bottle Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326190": {
+      "name": "Plastics Plumbing Fixture Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332913": {
+      "name": "Plumbing Fixture Fitting and Trim Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326140": {
+      "name": "Polystyrene Foam Product Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "491000": {
+      "name": "Postal Service",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "111200": {
+      "name": "Potato Farming",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "327100": {
+      "name": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "311615": {
+      "name": "Poultry Processing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "230301, 230302, 233210, 233230, 233240, 233262, 2332A0, 2332D0, 233411, 233412, 2334A0": {
+      "name": "Poured Concrete Foundation and Structure Contractors",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "333991": {
+      "name": "Power-Driven Handtool Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "332720": {
+      "name": "Precision Turned Product Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335912": {
+      "name": "Primary Battery Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "325910": {
+      "name": "Printing Ink Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "424A00": {
+      "name": "Printing and Writing Paper Merchant Wholesalers",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "711A00": {
+      "name": "Promoters of Performing Arts, Sports, and Similar Events with Facilities",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "322110": {
+      "name": "Pulp Mills",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "515100": {
+      "name": "Radio Networks",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "336500": {
+      "name": "Railroad Rolling Stock Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "327320": {
+      "name": "Ready-Mix Concrete Manufacturing",
+      "energy_direct_mj_per_1000": 12000,
+      "energy_total_mj_per_1000": 15600.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "335314": {
+      "name": "Relay and Industrial Control Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "813100": {
+      "name": "Religious Organizations",
+      "energy_direct_mj_per_1000": 800,
+      "energy_total_mj_per_1000": 1360.0,
+      "source": "EIA CBECS 2018 - Other services"
+    },
+    "562910": {
+      "name": "Remediation Services",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "623B00": {
+      "name": "Residential Intellectual and Developmental Disability Facilities",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Education & health"
+    },
+    "230302": {
+      "name": "Residential Remodelers",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA CBECS 2018 - Construction"
+    },
+    "311810": {
+      "name": "Retail Bakeries",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "311910": {
+      "name": "Roasted Nuts and Peanut Butter Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "326290": {
+      "name": "Rubber Product Manufacturing for Mechanical Use",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326220": {
+      "name": "Rubber and Plastics Hoses and Belting Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "322291": {
+      "name": "Sanitary Paper Product Manufacturing",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "321100": {
+      "name": "Sawmills",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "48A000": {
+      "name": "Scenic and Sightseeing Transportation, Land",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "Estimated - Trade/services average"
+    },
+    "333242": {
+      "name": "Semiconductor Machinery Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "337215": {
+      "name": "Showcase, Partition, Shelving, and Locker Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "339950": {
+      "name": "Sign Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "325610": {
+      "name": "Soap and Other Detergent Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "312110": {
+      "name": "Soft Drink Manufacturing",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "562111": {
+      "name": "Solid Waste Collection",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "562213": {
+      "name": "Solid Waste Combustors and Incinerators",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "562212": {
+      "name": "Solid Waste Landfill",
+      "energy_direct_mj_per_1000": 2500,
+      "energy_total_mj_per_1000": 4250.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "1111A0": {
+      "name": "Soybean Farming",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "311224": {
+      "name": "Soybean and Other Oilseed Processing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "333514": {
+      "name": "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333612": {
+      "name": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "339920": {
+      "name": "Sporting and Athletic Goods Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "711200": {
+      "name": "Sports Teams and Clubs",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "332600": {
+      "name": "Spring Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "322230": {
+      "name": "Stationery Product Manufacturing",
+      "energy_direct_mj_per_1000": 10000,
+      "energy_total_mj_per_1000": 15000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "445000": {
+      "name": "Supermarkets and Other Grocery (except Convenience) Stores",
+      "energy_direct_mj_per_1000": 1800,
+      "energy_total_mj_per_1000": 3060.0,
+      "source": "EIA CBECS 2018 - Wholesale & retail"
+    },
+    "323120": {
+      "name": "Support Activites for Printing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "21311A": {
+      "name": "Support Activities for Oil and Gas Operations",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA AEO 2023 - Mining & extraction"
+    },
+    "339113": {
+      "name": "Surgical Appliance and Supplies Manufacturing",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "335313": {
+      "name": "Switchgear and Switchboard Apparatus Manufacturing",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "3252A0": {
+      "name": "Synthetic Rubber Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "711100": {
+      "name": "Theater Companies and Dinner Theaters",
+      "energy_direct_mj_per_1000": 1500,
+      "energy_total_mj_per_1000": 2550.0,
+      "source": "EIA CBECS 2018 - Arts & hospitality"
+    },
+    "113000": {
+      "name": "Timber Tract Operations",
+      "energy_direct_mj_per_1000": 4500,
+      "energy_total_mj_per_1000": 6750.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "326210": {
+      "name": "Tire Manufacturing (except Retreading)",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "111900": {
+      "name": "Tobacco Farming",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA AEO 2023 - Agriculture"
+    },
+    "312200": {
+      "name": "Tobacco Manufacturing",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "325620": {
+      "name": "Toilet Preparation Manufacturing",
+      "energy_direct_mj_per_1000": 8000,
+      "energy_total_mj_per_1000": 12000.0,
+      "source": "EIA MECS 2018 - Energy-intensive manufacturing"
+    },
+    "561500": {
+      "name": "Travel Agencies",
+      "energy_direct_mj_per_1000": 1200,
+      "energy_total_mj_per_1000": 2040.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "336214": {
+      "name": "Travel Trailer and Camper Manufacturing",
+      "energy_direct_mj_per_1000": 5500,
+      "energy_total_mj_per_1000": 8250.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "333611": {
+      "name": "Turbine and Turbine Generator Set Units Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326120": {
+      "name": "Unlaminated Plastics Profile Shape Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "337121": {
+      "name": "Upholstered Household Furniture Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "326150": {
+      "name": "Urethane and Other Foam Product (except Polystyrene) Manufacturing",
+      "energy_direct_mj_per_1000": 6000,
+      "energy_total_mj_per_1000": 9000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "541940": {
+      "name": "Veterinary Services",
+      "energy_direct_mj_per_1000": 900,
+      "energy_total_mj_per_1000": 1530.0,
+      "source": "EIA CBECS 2018 - Professional services"
+    },
+    "33399A": {
+      "name": "Welding and Soldering Equipment Manufacturing",
+      "energy_direct_mj_per_1000": 5000,
+      "energy_total_mj_per_1000": 7500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "311221": {
+      "name": "Wet Corn Milling",
+      "energy_direct_mj_per_1000": 3500,
+      "energy_total_mj_per_1000": 5250.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "312130": {
+      "name": "Wineries",
+      "energy_direct_mj_per_1000": 3000,
+      "energy_total_mj_per_1000": 5100.0,
+      "source": "EIA MECS 2018 - Light manufacturing"
+    },
+    "3219A0": {
+      "name": "Wood Container and Pallet Manufacturing",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "337110": {
+      "name": "Wood Kitchen Cabinet and Countertop Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "33721A": {
+      "name": "Wood Office Furniture Manufacturing",
+      "energy_direct_mj_per_1000": 4000,
+      "energy_total_mj_per_1000": 6000.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    },
+    "321910": {
+      "name": "Wood Window and Door Manufacturing",
+      "energy_direct_mj_per_1000": 7000,
+      "energy_total_mj_per_1000": 10500.0,
+      "source": "EIA MECS 2018 - Standard manufacturing"
+    }
+  }
+}
