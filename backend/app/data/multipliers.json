@@ -3,10 +3,10 @@
   "note": "Total multipliers including direct and indirect (supply chain) effects. Uses AR6 GWP-100 values.",
   "methodology": "Environmentally-Extended Input-Output Analysis based on USEEIO v2.6 methodology.",
   "data_sources": {
-    "GHG": "Cornerstone Supply Chain GHG Emission Factors v1.4.0 (2024 USD, AR6 GWP-100)",
-    "Water": "Estimated based on sector intensity",
-    "Land": "Estimated based on sector intensity",
-    "Energy": "Not available in current dataset"
+    "GHG": "Cornerstone Supply Chain Factors v1.4.0",
+    "Energy": "EIA MECS 2018, CBECS 2018, AEO 2023",
+    "Water": "EPA USEEIO v2.0",
+    "Land": "EPA USEEIO v2.0"
   },
   "calculation_date": "2026-01-25",
   "model_version": "DIO v2.0 (Cornerstone v1.4.0)",
@@ -22,2774 +22,2789 @@
     "111200": {
       "name": "Potato Farming",
       "GHG": 471.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 1413.0,
       "Land": 4.71
     },
     "111300": {
       "name": "Orange Groves",
       "GHG": 474.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 1422.0,
       "Land": 4.74
     },
     "111400": {
       "name": "Mushroom Production",
       "GHG": 405.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 1215.0,
       "Land": 4.05
     },
     "111900": {
       "name": "Tobacco Farming",
       "GHG": 1050.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 5250.0,
       "Land": 21.0
     },
     "112120": {
       "name": "Dairy Cattle and Milk Production",
       "GHG": 1951.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 9755.0,
       "Land": 39.02
     },
     "112300": {
       "name": "Chicken Egg Production",
       "GHG": 457.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 1371.0,
       "Land": 4.57
     },
     "113000": {
       "name": "Timber Tract Operations",
       "GHG": 249.0,
-      "Energy": 0,
+      "Energy": 7200.0,
       "Water": 747.0,
       "Land": 2.49
     },
     "114000": {
       "name": "Finfish Fishing",
       "GHG": 178.0,
-      "Energy": 0,
+      "Energy": 8000.0,
       "Water": 356.0,
       "Land": 0.89
     },
     "115000": {
       "name": "Cotton Ginning",
       "GHG": 319.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 957.0,
       "Land": 3.19
     },
     "211000": {
       "name": "Crude Petroleum Extraction",
       "GHG": 637.0,
-      "Energy": 0,
+      "Energy": 13050.0,
       "Water": 3185.0,
       "Land": 12.74
     },
     "212100": {
       "name": "Bituminous Coal and Lignite Surface Mining",
       "GHG": 863.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 4315.0,
       "Land": 17.26
     },
     "212230": {
       "name": "Copper, Nickel, Lead, and Zinc Mining",
       "GHG": 332.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 996.0,
       "Land": 3.32
     },
     "212310": {
       "name": "Dimension Stone Mining and Quarrying",
       "GHG": 213.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 639.0,
       "Land": 2.13
     },
     "213111": {
       "name": "Drilling Oil and Gas Wells",
       "GHG": 357.0,
-      "Energy": 0,
+      "Energy": 9800.0,
       "Water": 1071.0,
       "Land": 3.57
     },
     "221200": {
       "name": "Natural Gas Distribution",
       "GHG": 532.0,
-      "Energy": 0,
+      "Energy": 3250.0,
       "Water": 2660.0,
       "Land": 10.64
     },
     "221300": {
       "name": "Water Supply and Irrigation Systems",
       "GHG": 479.0,
-      "Energy": 0,
+      "Energy": 3250.0,
       "Water": 1437.0,
       "Land": 4.79
     },
     "230302": {
       "name": "Residential Remodelers",
       "GHG": 201.0,
-      "Energy": 0,
+      "Energy": 7350.0,
       "Water": 603.0,
       "Land": 2.01
     },
     "233240": {
       "name": "Water and Sewer Line and Related Structures Construction",
       "GHG": 259.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 777.0,
       "Land": 2.59
     },
     "233411": {
       "name": "New Single-Family Housing Construction (except For-Sale Builders)",
       "GHG": 177.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 354.0,
       "Land": 0.89
     },
     "233412": {
       "name": "New Multifamily Housing Construction (except For-Sale Builders)",
       "GHG": 195.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 390.0,
       "Land": 0.97
     },
     "311111": {
       "name": "Dog and Cat Food Manufacturing",
       "GHG": 268.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 804.0,
       "Land": 2.68
     },
     "311119": {
       "name": "Other Animal Food Manufacturing",
       "GHG": 521.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 2605.0,
       "Land": 10.42
     },
     "311210": {
       "name": "Flour Milling",
       "GHG": 785.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 3925.0,
       "Land": 15.7
     },
     "311221": {
       "name": "Wet Corn Milling",
       "GHG": 938.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 4690.0,
       "Land": 18.76
     },
     "311224": {
       "name": "Soybean and Other Oilseed Processing",
       "GHG": 592.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 2960.0,
       "Land": 11.84
     },
     "311225": {
       "name": "Fats and Oils Refining and Blending",
       "GHG": 448.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1344.0,
       "Land": 4.48
     },
     "311230": {
       "name": "Breakfast Cereal Manufacturing",
       "GHG": 399.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1197.0,
       "Land": 3.99
     },
     "311300": {
       "name": "Beet Sugar Manufacturing",
       "GHG": 363.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1089.0,
       "Land": 3.63
     },
     "311410": {
       "name": "Frozen Fruit, Juice, and Vegetable Manufacturing",
       "GHG": 377.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1131.0,
       "Land": 3.77
     },
     "311420": {
       "name": "Fruit and Vegetable Canning",
       "GHG": 329.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 987.0,
       "Land": 3.29
     },
     "311513": {
       "name": "Cheese Manufacturing",
       "GHG": 1005.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 5025.0,
       "Land": 20.1
     },
     "311514": {
       "name": "Dry, Condensed, and Evaporated Dairy Product Manufacturing",
       "GHG": 662.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 3310.0,
       "Land": 13.24
     },
     "311520": {
       "name": "Ice Cream and Frozen Dessert Manufacturing",
       "GHG": 530.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 2650.0,
       "Land": 10.6
     },
     "311615": {
       "name": "Poultry Processing",
       "GHG": 479.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1437.0,
       "Land": 4.79
     },
     "311700": {
       "name": "Seafood Product Preparation and Packaging",
       "GHG": 268.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 804.0,
       "Land": 2.68
     },
     "311810": {
       "name": "Retail Bakeries",
       "GHG": 207.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 621.0,
       "Land": 2.07
     },
     "311910": {
       "name": "Roasted Nuts and Peanut Butter Manufacturing",
       "GHG": 298.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 894.0,
       "Land": 2.98
     },
     "311920": {
       "name": "Coffee and Tea Manufacturing",
       "GHG": 269.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 807.0,
       "Land": 2.69
     },
     "311930": {
       "name": "Flavoring Syrup and Concentrate Manufacturing",
       "GHG": 190.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 380.0,
       "Land": 0.95
     },
     "311940": {
       "name": "Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing",
       "GHG": 295.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 885.0,
       "Land": 2.95
     },
     "311990": {
       "name": "Perishable Prepared Food Manufacturing",
       "GHG": 373.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 1119.0,
       "Land": 3.73
     },
     "312110": {
       "name": "Soft Drink Manufacturing",
       "GHG": 172.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 344.0,
       "Land": 0.86
     },
     "312120": {
       "name": "Breweries",
       "GHG": 256.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 768.0,
       "Land": 2.56
     },
     "312130": {
       "name": "Wineries",
       "GHG": 161.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 322.0,
       "Land": 0.81
     },
     "312140": {
       "name": "Distilleries",
       "GHG": 314.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 942.0,
       "Land": 3.14
     },
     "312200": {
       "name": "Tobacco Manufacturing",
       "GHG": 79.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 158.0,
       "Land": 0.4
     },
     "313100": {
       "name": "Fiber, Yarn, and Thread Mills",
       "GHG": 657.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 3285.0,
       "Land": 13.14
     },
     "313200": {
       "name": "Broadwoven Fabric Mills",
       "GHG": 477.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 1431.0,
       "Land": 4.77
     },
     "313300": {
       "name": "Textile and Fabric Finishing Mills",
       "GHG": 388.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 1164.0,
       "Land": 3.88
     },
     "314110": {
       "name": "Carpet and Rug Mills",
       "GHG": 266.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 798.0,
       "Land": 2.66
     },
     "314120": {
       "name": "Curtain and Linen Mills",
       "GHG": 254.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 762.0,
       "Land": 2.54
     },
     "314900": {
       "name": "Textile Bag and Canvas Mills",
       "GHG": 220.0,
-      "Energy": 0,
+      "Energy": 4650.0,
       "Water": 660.0,
       "Land": 2.2
     },
     "315000": {
       "name": "Hosiery and Sock Mills",
       "GHG": 104.0,
-      "Energy": 0,
+      "Energy": 3875.0,
       "Water": 208.0,
       "Land": 0.52
     },
     "316000": {
       "name": "Leather and Hide Tanning and Finishing",
       "GHG": 251.0,
-      "Energy": 0,
+      "Energy": 3875.0,
       "Water": 753.0,
       "Land": 2.51
     },
     "321100": {
       "name": "Sawmills",
       "GHG": 306.0,
-      "Energy": 0,
+      "Energy": 11550.0,
       "Water": 918.0,
       "Land": 3.06
     },
     "321200": {
       "name": "Hardwood Veneer and Plywood Manufacturing",
       "GHG": 251.0,
-      "Energy": 0,
+      "Energy": 11550.0,
       "Water": 753.0,
       "Land": 2.51
     },
     "321910": {
       "name": "Wood Window and Door Manufacturing",
       "GHG": 153.0,
-      "Energy": 0,
+      "Energy": 11550.0,
       "Water": 306.0,
       "Land": 0.77
     },
     "322110": {
       "name": "Pulp Mills",
       "GHG": 940.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 4700.0,
       "Land": 18.8
     },
     "322120": {
       "name": "Paper (except Newsprint) Mills",
       "GHG": 658.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 3290.0,
       "Land": 13.16
     },
     "322130": {
       "name": "Paperboard Mills",
       "GHG": 781.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 3905.0,
       "Land": 15.62
     },
     "322210": {
       "name": "Corrugated and Solid Fiber Box Manufacturing",
       "GHG": 463.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 1389.0,
       "Land": 4.63
     },
     "322220": {
       "name": "Paper Bag and Coated and Treated Paper Manufacturing",
       "GHG": 325.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 975.0,
       "Land": 3.25
     },
     "322230": {
       "name": "Stationery Product Manufacturing",
       "GHG": 261.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 783.0,
       "Land": 2.61
     },
     "322291": {
       "name": "Sanitary Paper Product Manufacturing",
       "GHG": 333.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 999.0,
       "Land": 3.33
     },
     "322299": {
       "name": "All Other Converted Paper Product Manufacturing",
       "GHG": 311.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 933.0,
       "Land": 3.11
     },
     "323110": {
       "name": "Commercial Printing (except Screen and Books)",
       "GHG": 211.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 633.0,
       "Land": 2.11
     },
     "323120": {
       "name": "Support Activites for Printing",
       "GHG": 223.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 669.0,
       "Land": 2.23
     },
     "324110": {
       "name": "Petroleum Refineries",
       "GHG": 414.0,
-      "Energy": 0,
+      "Energy": 24300.0,
       "Water": 1242.0,
       "Land": 4.14
     },
     "324121": {
       "name": "Asphalt Paving Mixture and Block Manufacturing",
       "GHG": 928.0,
-      "Energy": 0,
+      "Energy": 24300.0,
       "Water": 4640.0,
       "Land": 18.56
     },
     "324122": {
       "name": "Asphalt Shingle and Coating Materials Manufacturing",
       "GHG": 550.0,
-      "Energy": 0,
+      "Energy": 24300.0,
       "Water": 2750.0,
       "Land": 11.0
     },
     "324190": {
       "name": "Petroleum Lubricating Oil and Grease Manufacturing",
       "GHG": 544.0,
-      "Energy": 0,
+      "Energy": 24300.0,
       "Water": 2720.0,
       "Land": 10.88
     },
     "325110": {
       "name": "Petrochemical Manufacturing",
       "GHG": 1102.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 5510.0,
       "Land": 22.04
     },
     "325120": {
       "name": "Industrial Gas Manufacturing",
       "GHG": 1034.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 5170.0,
       "Land": 20.68
     },
     "325130": {
       "name": "Synthetic Dye and Pigment Manufacturing",
       "GHG": 432.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 1296.0,
       "Land": 4.32
     },
     "325180": {
       "name": "Other Basic Inorganic Chemical Manufacturing",
       "GHG": 986.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 4930.0,
       "Land": 19.72
     },
     "325190": {
       "name": "Ethyl Alcohol Manufacturing",
       "GHG": 1300.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 6500.0,
       "Land": 26.0
     },
     "325211": {
       "name": "Plastics Material and Resin Manufacturing",
       "GHG": 1111.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 5555.0,
       "Land": 22.22
     },
     "325310": {
       "name": "Nitrogenous Fertilizer Manufacturing",
       "GHG": 1356.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 6780.0,
       "Land": 27.12
     },
     "325320": {
       "name": "Pesticide and Other Agricultural Chemical Manufacturing",
       "GHG": 529.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 2645.0,
       "Land": 10.58
     },
     "325411": {
       "name": "Medicinal and Botanical Manufacturing",
       "GHG": 174.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 348.0,
       "Land": 0.87
     },
     "325412": {
       "name": "Pharmaceutical Preparation Manufacturing",
       "GHG": 93.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 186.0,
       "Land": 0.47
     },
     "325413": {
       "name": "In-Vitro Diagnostic Substance Manufacturing",
       "GHG": 170.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 340.0,
       "Land": 0.85
     },
     "325414": {
       "name": "Biological Product (except Diagnostic) Manufacturing",
       "GHG": 143.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 286.0,
       "Land": 0.71
     },
     "325510": {
       "name": "Paint and Coating Manufacturing",
       "GHG": 260.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 780.0,
       "Land": 2.6
     },
     "325520": {
       "name": "Adhesive Manufacturing",
       "GHG": 474.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 1422.0,
       "Land": 4.74
     },
     "325610": {
       "name": "Soap and Other Detergent Manufacturing",
       "GHG": 298.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 894.0,
       "Land": 2.98
     },
     "325620": {
       "name": "Toilet Preparation Manufacturing",
       "GHG": 175.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 350.0,
       "Land": 0.88
     },
     "325910": {
       "name": "Printing Ink Manufacturing",
       "GHG": 341.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 1023.0,
       "Land": 3.41
     },
     "326110": {
       "name": "Plastics Bag and Pouch Manufacturing",
       "GHG": 507.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 2535.0,
       "Land": 10.14
     },
     "326120": {
       "name": "Unlaminated Plastics Profile Shape Manufacturing",
       "GHG": 348.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 1044.0,
       "Land": 3.48
     },
     "326130": {
       "name": "Laminated Plastics Plate, Sheet (except Packaging), and Shape Manufacturing",
       "GHG": 391.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 1173.0,
       "Land": 3.91
     },
     "326140": {
       "name": "Polystyrene Foam Product Manufacturing",
       "GHG": 256.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 768.0,
       "Land": 2.56
     },
     "326150": {
       "name": "Urethane and Other Foam Product (except Polystyrene) Manufacturing",
       "GHG": 346.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 1038.0,
       "Land": 3.46
     },
     "326160": {
       "name": "Plastics Bottle Manufacturing",
       "GHG": 526.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 2630.0,
       "Land": 10.52
     },
     "326190": {
       "name": "Plastics Plumbing Fixture Manufacturing",
       "GHG": 332.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 996.0,
       "Land": 3.32
     },
     "326210": {
       "name": "Tire Manufacturing (except Retreading)",
       "GHG": 231.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 693.0,
       "Land": 2.31
     },
     "326220": {
       "name": "Rubber and Plastics Hoses and Belting Manufacturing",
       "GHG": 281.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 843.0,
       "Land": 2.81
     },
     "326290": {
       "name": "Rubber Product Manufacturing for Mechanical Use",
       "GHG": 296.0,
-      "Energy": 0,
+      "Energy": 9900.0,
       "Water": 888.0,
       "Land": 2.96
     },
     "327100": {
       "name": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
       "GHG": 410.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 1230.0,
       "Land": 4.1
     },
     "327200": {
       "name": "Flat Glass Manufacturing",
       "GHG": 496.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 1488.0,
       "Land": 4.96
     },
     "327310": {
       "name": "Cement Manufacturing",
       "GHG": 2739.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 13695.0,
       "Land": 54.78
     },
     "327320": {
       "name": "Ready-Mix Concrete Manufacturing",
       "GHG": 439.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 1317.0,
       "Land": 4.39
     },
     "327330": {
       "name": "Concrete Block and Brick Manufacturing",
       "GHG": 247.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 741.0,
       "Land": 2.47
     },
     "327390": {
       "name": "Other Concrete Product Manufacturing",
       "GHG": 255.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 765.0,
       "Land": 2.55
     },
     "327400": {
       "name": "Lime Manufacturing",
       "GHG": 1185.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 5925.0,
       "Land": 23.7
     },
     "327910": {
       "name": "Abrasive Product Manufacturing",
       "GHG": 165.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 330.0,
       "Land": 0.83
     },
     "327991": {
       "name": "Cut Stone and Stone Product Manufacturing",
       "GHG": 173.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 346.0,
       "Land": 0.86
     },
     "327992": {
       "name": "Ground or Treated Mineral and Earth Manufacturing",
       "GHG": 428.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 1284.0,
       "Land": 4.28
     },
     "327993": {
       "name": "Mineral Wool Manufacturing",
       "GHG": 337.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 1011.0,
       "Land": 3.37
     },
     "327999": {
       "name": "All Other Miscellaneous Nonmetallic Mineral Product Manufacturing",
       "GHG": 627.0,
-      "Energy": 0,
+      "Energy": 17400.0,
       "Water": 3135.0,
       "Land": 12.54
     },
     "331110": {
       "name": "Iron and Steel Mills and Ferroalloy Manufacturing",
       "GHG": 1006.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 5030.0,
       "Land": 20.12
     },
     "331200": {
       "name": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
       "GHG": 394.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 1182.0,
       "Land": 3.94
     },
     "331313": {
       "name": "Alumina Refining and Primary Aluminum Production",
       "GHG": 1003.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 5015.0,
       "Land": 20.06
     },
     "331410": {
       "name": "Nonferrous Metal (except Aluminum) Smelting and Refining",
       "GHG": 456.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 1368.0,
       "Land": 4.56
     },
     "331420": {
       "name": "Copper Rolling, Drawing, Extruding, and Alloying",
       "GHG": 337.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 1011.0,
       "Land": 3.37
     },
     "331490": {
       "name": "Nonferrous Metal (except Copper and Aluminum) Rolling, Drawing, and Extruding",
       "GHG": 441.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 1323.0,
       "Land": 4.41
     },
     "331510": {
       "name": "Iron Foundries",
       "GHG": 331.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 993.0,
       "Land": 3.31
     },
     "331520": {
       "name": "Nonferrous Metal Die-Casting Foundries",
       "GHG": 464.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 1392.0,
       "Land": 4.64
     },
     "332114": {
       "name": "Custom Roll Forming",
       "GHG": 490.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 1470.0,
       "Land": 4.9
     },
     "332119": {
       "name": "Metal Crown, Closure, and Other Metal Stamping (except Automotive)",
       "GHG": 292.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 876.0,
       "Land": 2.92
     },
     "332200": {
       "name": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",
       "GHG": 192.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 384.0,
       "Land": 0.96
     },
     "332310": {
       "name": "Prefabricated Metal Building and Component Manufacturing",
       "GHG": 252.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 756.0,
       "Land": 2.52
     },
     "332320": {
       "name": "Metal Window and Door Manufacturing",
       "GHG": 203.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 609.0,
       "Land": 2.03
     },
     "332410": {
       "name": "Power Boiler and Heat Exchanger Manufacturing",
       "GHG": 165.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 330.0,
       "Land": 0.83
     },
     "332420": {
       "name": "Metal Tank (Heavy Gauge) Manufacturing",
       "GHG": 228.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 684.0,
       "Land": 2.28
     },
     "332430": {
       "name": "Metal Can Manufacturing",
       "GHG": 323.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 969.0,
       "Land": 3.23
     },
     "332500": {
       "name": "Hardware Manufacturing",
       "GHG": 180.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 360.0,
       "Land": 0.9
     },
     "332600": {
       "name": "Spring Manufacturing",
       "GHG": 211.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 633.0,
       "Land": 2.11
     },
     "332710": {
       "name": "Machine Shops",
       "GHG": 256.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 768.0,
       "Land": 2.56
     },
     "332720": {
       "name": "Precision Turned Product Manufacturing",
       "GHG": 207.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 621.0,
       "Land": 2.07
     },
     "332800": {
       "name": "Metal Heat Treating",
       "GHG": 342.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 1026.0,
       "Land": 3.42
     },
     "332913": {
       "name": "Plumbing Fixture Fitting and Trim Manufacturing",
       "GHG": 158.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 316.0,
       "Land": 0.79
     },
     "332991": {
       "name": "Ball and Roller Bearing Manufacturing",
       "GHG": 184.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 368.0,
       "Land": 0.92
     },
     "332996": {
       "name": "Fabricated Pipe and Pipe Fitting Manufacturing",
       "GHG": 213.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 639.0,
       "Land": 2.13
     },
     "332999": {
       "name": "All Other Miscellaneous Fabricated Metal Product Manufacturing",
       "GHG": 256.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 768.0,
       "Land": 2.56
     },
     "333111": {
       "name": "Farm Machinery and Equipment Manufacturing",
       "GHG": 192.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 384.0,
       "Land": 0.96
     },
     "333112": {
       "name": "Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing",
       "GHG": 106.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 212.0,
       "Land": 0.53
     },
     "333120": {
       "name": "Construction Machinery Manufacturing",
       "GHG": 187.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 374.0,
       "Land": 0.94
     },
     "333130": {
       "name": "Mining Machinery and Equipment Manufacturing",
       "GHG": 171.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 342.0,
       "Land": 0.85
     },
     "333242": {
       "name": "Semiconductor Machinery Manufacturing",
       "GHG": 134.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 268.0,
       "Land": 0.67
     },
     "333314": {
       "name": "Optical Instrument and Lens Manufacturing",
       "GHG": 158.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 316.0,
       "Land": 0.79
     },
     "333316": {
       "name": "Photographic and Photocopying Equipment Manufacturing",
       "GHG": 113.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 226.0,
       "Land": 0.57
     },
     "333318": {
       "name": "Other Commercial and Service Industry Machinery Manufacturing",
       "GHG": 187.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 374.0,
       "Land": 0.94
     },
     "333413": {
       "name": "Industrial and Commercial Fan and Blower and Air Purification Equipment Manufacturing",
       "GHG": 186.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 372.0,
       "Land": 0.93
     },
     "333414": {
       "name": "Heating Equipment (except Warm Air Furnaces) Manufacturing",
       "GHG": 143.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 286.0,
       "Land": 0.71
     },
     "333415": {
       "name": "Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing",
       "GHG": 184.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 368.0,
       "Land": 0.92
     },
     "333511": {
       "name": "Industrial Mold Manufacturing",
       "GHG": 228.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 684.0,
       "Land": 2.28
     },
     "333514": {
       "name": "Special Die and Tool, Die Set, Jig, and Fixture Manufacturing",
       "GHG": 186.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 372.0,
       "Land": 0.93
     },
     "333517": {
       "name": "Machine Tool Manufacturing",
       "GHG": 179.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 358.0,
       "Land": 0.9
     },
     "333611": {
       "name": "Turbine and Turbine Generator Set Units Manufacturing",
       "GHG": 175.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 350.0,
       "Land": 0.88
     },
     "333612": {
       "name": "Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing",
       "GHG": 152.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 304.0,
       "Land": 0.76
     },
     "333613": {
       "name": "Mechanical Power Transmission Equipment Manufacturing",
       "GHG": 171.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 342.0,
       "Land": 0.85
     },
     "333618": {
       "name": "Other Engine Equipment Manufacturing",
       "GHG": 257.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 771.0,
       "Land": 2.57
     },
     "333912": {
       "name": "Air and Gas Compressor Manufacturing",
       "GHG": 145.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 290.0,
       "Land": 0.72
     },
     "333914": {
       "name": "Measuring, Dispensing, and Other Pumping Equipment Manufacturing",
       "GHG": 166.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 332.0,
       "Land": 0.83
     },
     "333920": {
       "name": "Elevator and Moving Stairway Manufacturing",
       "GHG": 219.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 657.0,
       "Land": 2.19
     },
     "333991": {
       "name": "Power-Driven Handtool Manufacturing",
       "GHG": 113.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 226.0,
       "Land": 0.57
     },
     "333993": {
       "name": "Packaging Machinery Manufacturing",
       "GHG": 114.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 228.0,
       "Land": 0.57
     },
     "333994": {
       "name": "Industrial Process Furnace and Oven Manufacturing",
       "GHG": 162.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 324.0,
       "Land": 0.81
     },
     "334111": {
       "name": "Electronic Computer Manufacturing",
       "GHG": 56.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 112.0,
       "Land": 0.28
     },
     "334112": {
       "name": "Computer Storage Device Manufacturing",
       "GHG": 70.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 140.0,
       "Land": 0.35
     },
     "334118": {
       "name": "Computer Terminal and Other Computer Peripheral Equipment Manufacturing",
       "GHG": 132.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 264.0,
       "Land": 0.66
     },
     "334210": {
       "name": "Telephone Apparatus Manufacturing",
       "GHG": 85.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 170.0,
       "Land": 0.42
     },
     "334220": {
       "name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
       "GHG": 106.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 212.0,
       "Land": 0.53
     },
     "334290": {
       "name": "Other Communications Equipment Manufacturing",
       "GHG": 69.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 138.0,
       "Land": 0.35
     },
     "334300": {
       "name": "Audio and Video Equipment Manufacturing",
       "GHG": 74.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 148.0,
       "Land": 0.37
     },
     "334413": {
       "name": "Semiconductor and Related Device Manufacturing",
       "GHG": 212.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 636.0,
       "Land": 2.12
     },
     "334418": {
       "name": "Printed Circuit Assembly (Electronic Assembly) Manufacturing",
       "GHG": 112.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 224.0,
       "Land": 0.56
     },
     "334510": {
       "name": "Electromedical and Electrotherapeutic Apparatus Manufacturing",
       "GHG": 116.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 232.0,
       "Land": 0.58
     },
     "334511": {
       "name": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
       "GHG": 64.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 128.0,
       "Land": 0.32
     },
     "334512": {
       "name": "Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use",
       "GHG": 63.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 126.0,
       "Land": 0.32
     },
     "334513": {
       "name": "Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables",
       "GHG": 53.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 106.0,
       "Land": 0.27
     },
     "334514": {
       "name": "Totalizing Fluid Meter and Counting Device Manufacturing",
       "GHG": 73.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 146.0,
       "Land": 0.36
     },
     "334515": {
       "name": "Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals",
       "GHG": 73.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 146.0,
       "Land": 0.36
     },
     "334516": {
       "name": "Analytical Laboratory Instrument Manufacturing",
       "GHG": 91.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 182.0,
       "Land": 0.46
     },
     "334517": {
       "name": "Irradiation Apparatus Manufacturing",
       "GHG": 123.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 246.0,
       "Land": 0.61
     },
     "334610": {
       "name": "Blank Magnetic and Optical Recording Media Manufacturing",
       "GHG": 54.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 108.0,
       "Land": 0.27
     },
     "335110": {
       "name": "Electric Lamp Bulb and Part Manufacturing",
       "GHG": 146.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 292.0,
       "Land": 0.73
     },
     "335120": {
       "name": "Residential Electric Lighting Fixture Manufacturing",
       "GHG": 166.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 332.0,
       "Land": 0.83
     },
     "335210": {
       "name": "Small Electrical Appliance Manufacturing",
       "GHG": 146.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 292.0,
       "Land": 0.73
     },
     "335220": {
       "name": "Major Household Appliance Manufacturing",
       "GHG": 160.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 320.0,
       "Land": 0.8
     },
     "335311": {
       "name": "Power, Distribution, and Specialty Transformer Manufacturing",
       "GHG": 113.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 226.0,
       "Land": 0.57
     },
     "335312": {
       "name": "Motor and Generator Manufacturing",
       "GHG": 130.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 260.0,
       "Land": 0.65
     },
     "335313": {
       "name": "Switchgear and Switchboard Apparatus Manufacturing",
       "GHG": 140.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 280.0,
       "Land": 0.7
     },
     "335314": {
       "name": "Relay and Industrial Control Manufacturing",
       "GHG": 117.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 234.0,
       "Land": 0.58
     },
     "335911": {
       "name": "Storage Battery Manufacturing",
       "GHG": 269.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 807.0,
       "Land": 2.69
     },
     "335912": {
       "name": "Primary Battery Manufacturing",
       "GHG": 92.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 184.0,
       "Land": 0.46
     },
     "335920": {
       "name": "Fiber Optic Cable Manufacturing",
       "GHG": 223.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 669.0,
       "Land": 2.23
     },
     "335930": {
       "name": "Current-Carrying Wiring Device Manufacturing",
       "GHG": 111.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 222.0,
       "Land": 0.56
     },
     "335991": {
       "name": "Carbon and Graphite Product Manufacturing",
       "GHG": 285.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 855.0,
       "Land": 2.85
     },
     "335999": {
       "name": "All Other Miscellaneous Electrical Equipment and Component Manufacturing",
       "GHG": 124.0,
-      "Energy": 0,
+      "Energy": 7425.0,
       "Water": 248.0,
       "Land": 0.62
     },
     "336111": {
       "name": "Automobile Manufacturing",
       "GHG": 239.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 717.0,
       "Land": 2.39
     },
     "336112": {
       "name": "Light Truck and Utility Vehicle Manufacturing",
       "GHG": 247.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 741.0,
       "Land": 2.47
     },
     "336120": {
       "name": "Heavy Duty Truck Manufacturing",
       "GHG": 250.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 750.0,
       "Land": 2.5
     },
     "336211": {
       "name": "Motor Vehicle Body Manufacturing",
       "GHG": 217.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 651.0,
       "Land": 2.17
     },
     "336212": {
       "name": "Truck Trailer Manufacturing",
       "GHG": 193.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 386.0,
       "Land": 0.96
     },
     "336213": {
       "name": "Motor Home Manufacturing",
       "GHG": 101.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 202.0,
       "Land": 0.51
     },
     "336214": {
       "name": "Travel Trailer and Camper Manufacturing",
       "GHG": 155.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 310.0,
       "Land": 0.78
     },
     "336310": {
       "name": "Motor Vehicle Gasoline Engine and Engine Parts Manufacturing",
       "GHG": 250.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 750.0,
       "Land": 2.5
     },
     "336320": {
       "name": "Motor Vehicle Electrical and Electronic Equipment Manufacturing",
       "GHG": 200.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 400.0,
       "Land": 1.0
     },
     "336350": {
       "name": "Motor Vehicle Transmission and Power Train Parts Manufacturing",
       "GHG": 232.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 696.0,
       "Land": 2.32
     },
     "336360": {
       "name": "Motor Vehicle Seating and Interior Trim Manufacturing",
       "GHG": 311.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 933.0,
       "Land": 3.11
     },
     "336370": {
       "name": "Motor Vehicle Metal Stamping",
       "GHG": 446.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 1338.0,
       "Land": 4.46
     },
     "336390": {
       "name": "Other Motor Vehicle Parts Manufacturing",
       "GHG": 246.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 738.0,
       "Land": 2.46
     },
     "336411": {
       "name": "Aircraft Manufacturing",
       "GHG": 126.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 252.0,
       "Land": 0.63
     },
     "336412": {
       "name": "Aircraft Engine and Engine Parts Manufacturing",
       "GHG": 139.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 278.0,
       "Land": 0.7
     },
     "336413": {
       "name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
       "GHG": 152.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 304.0,
       "Land": 0.76
     },
     "336414": {
       "name": "Guided Missile and Space Vehicle Manufacturing",
       "GHG": 132.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 264.0,
       "Land": 0.66
     },
     "336500": {
       "name": "Railroad Rolling Stock Manufacturing",
       "GHG": 397.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 1191.0,
       "Land": 3.97
     },
     "336611": {
       "name": "Ship Building and Repairing",
       "GHG": 183.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 366.0,
       "Land": 0.92
     },
     "336612": {
       "name": "Boat Building",
       "GHG": 160.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 320.0,
       "Land": 0.8
     },
     "336991": {
       "name": "Motorcycle, Bicycle, and Parts Manufacturing",
       "GHG": 229.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 687.0,
       "Land": 2.29
     },
     "336992": {
       "name": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
       "GHG": 442.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 1326.0,
       "Land": 4.42
     },
     "336999": {
       "name": "All Other Transportation Equipment Manufacturing",
       "GHG": 186.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 372.0,
       "Land": 0.93
     },
     "337110": {
       "name": "Wood Kitchen Cabinet and Countertop Manufacturing",
       "GHG": 151.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 302.0,
       "Land": 0.76
     },
     "337121": {
       "name": "Upholstered Household Furniture Manufacturing",
       "GHG": 177.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 354.0,
       "Land": 0.89
     },
     "337122": {
       "name": "Nonupholstered Wood Household Furniture Manufacturing",
       "GHG": 165.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 330.0,
       "Land": 0.83
     },
     "337127": {
       "name": "Institutional Furniture Manufacturing",
       "GHG": 213.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 639.0,
       "Land": 2.13
     },
     "337215": {
       "name": "Showcase, Partition, Shelving, and Locker Manufacturing",
       "GHG": 231.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 693.0,
       "Land": 2.31
     },
     "337900": {
       "name": "Mattress Manufacturing",
       "GHG": 163.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 326.0,
       "Land": 0.82
     },
     "339112": {
       "name": "Surgical and Medical Instrument Manufacturing",
       "GHG": 136.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 272.0,
       "Land": 0.68
     },
     "339113": {
       "name": "Surgical Appliance and Supplies Manufacturing",
       "GHG": 123.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 246.0,
       "Land": 0.61
     },
     "339114": {
       "name": "Dental Equipment and Supplies Manufacturing",
       "GHG": 148.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 296.0,
       "Land": 0.74
     },
     "339115": {
       "name": "Ophthalmic Goods Manufacturing",
       "GHG": 116.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 232.0,
       "Land": 0.58
     },
     "339116": {
       "name": "Dental Laboratories",
       "GHG": 104.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 208.0,
       "Land": 0.52
     },
     "339910": {
       "name": "Jewelry and Silverware Manufacturing",
       "GHG": 94.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 188.0,
       "Land": 0.47
     },
     "339920": {
       "name": "Sporting and Athletic Goods Manufacturing",
       "GHG": 150.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 300.0,
       "Land": 0.75
     },
     "339930": {
       "name": "Doll, Toy, and Game Manufacturing",
       "GHG": 135.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 270.0,
       "Land": 0.68
     },
     "339940": {
       "name": "Office Supplies (except Paper) Manufacturing",
       "GHG": 237.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 711.0,
       "Land": 2.37
     },
     "339950": {
       "name": "Sign Manufacturing",
       "GHG": 206.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 618.0,
       "Land": 2.06
     },
     "339990": {
       "name": "Gasket, Packing, and Sealing Device Manufacturing",
       "GHG": 159.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 318.0,
       "Land": 0.8
     },
     "423100": {
       "name": "Automobile and Other Motor Vehicle Merchant Wholesalers",
       "GHG": 104.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 208.0,
       "Land": 0.52
     },
     "423400": {
       "name": "Photographic Equipment and Supplies Merchant Wholesalers",
       "GHG": 69.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 138.0,
       "Land": 0.35
     },
     "423600": {
       "name": "Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers",
       "GHG": 73.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 146.0,
       "Land": 0.36
     },
     "423800": {
       "name": "Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers",
       "GHG": 101.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 202.0,
       "Land": 0.51
     },
     "424200": {
       "name": "Drugs and Druggists' Sundries Merchant Wholesalers",
       "GHG": 89.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 178.0,
       "Land": 0.45
     },
     "424400": {
       "name": "General Line Grocery Merchant Wholesalers",
       "GHG": 130.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 260.0,
       "Land": 0.65
     },
     "424700": {
       "name": "Petroleum Bulk Stations and Terminals",
       "GHG": 96.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 192.0,
       "Land": 0.48
     },
     "425000": {
       "name": "Business to Business Electronic Markets",
       "GHG": 83.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 166.0,
       "Land": 0.42
     },
     "441000": {
       "name": "New Car Dealers",
       "GHG": 104.0,
-      "Energy": 0,
+      "Energy": 1800.0,
       "Water": 208.0,
       "Land": 0.52
     },
     "444000": {
       "name": "Home Centers",
       "GHG": 86.0,
-      "Energy": 0,
+      "Energy": 1950.0,
       "Water": 172.0,
       "Land": 0.43
     },
     "445000": {
       "name": "Supermarkets and Other Grocery (except Convenience) Stores",
       "GHG": 158.0,
-      "Energy": 0,
+      "Energy": 2700.0,
       "Water": 316.0,
       "Land": 0.79
     },
     "446000": {
       "name": "Pharmacies and Drug Stores",
       "GHG": 127.0,
-      "Energy": 0,
+      "Energy": 1500.0,
       "Water": 254.0,
       "Land": 0.64
     },
     "447000": {
       "name": "Gasoline Stations with Convenience Stores",
       "GHG": 168.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 336.0,
       "Land": 0.84
     },
     "448000": {
       "name": "Men's Clothing Stores",
       "GHG": 130.0,
-      "Energy": 0,
+      "Energy": 1500.0,
       "Water": 260.0,
       "Land": 0.65
     },
     "452000": {
       "name": "Department Stores",
       "GHG": 146.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 292.0,
       "Land": 0.73
     },
     "454000": {
       "name": "Electronic Shopping and Mail-Order Houses",
       "GHG": 89.0,
-      "Energy": 0,
+      "Energy": 1280.0,
       "Water": 178.0,
       "Land": 0.45
     },
     "481000": {
       "name": "Scheduled Passenger Air Transportation",
       "GHG": 685.0,
-      "Energy": 0,
+      "Energy": 12800.0,
       "Water": 3425.0,
       "Land": 13.7
     },
     "482000": {
       "name": "Line-Haul Railroads",
       "GHG": 446.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 1338.0,
       "Land": 4.46
     },
     "483000": {
       "name": "Deep Sea Freight Transportation",
       "GHG": 583.0,
-      "Energy": 0,
+      "Energy": 7200.0,
       "Water": 2915.0,
       "Land": 11.66
     },
     "484000": {
       "name": "General Freight Trucking, Local",
       "GHG": 766.0,
-      "Energy": 0,
+      "Energy": 11200.0,
       "Water": 3830.0,
       "Land": 15.32
     },
     "485000": {
       "name": "Mixed Mode Transit Systems",
       "GHG": 493.0,
-      "Energy": 0,
+      "Energy": 8000.0,
       "Water": 1479.0,
       "Land": 4.93
     },
     "486000": {
       "name": "Pipeline Transportation of Crude Oil",
       "GHG": 1547.0,
-      "Energy": 0,
+      "Energy": 3200.0,
       "Water": 7735.0,
       "Land": 30.94
     },
     "491000": {
       "name": "Postal Service",
       "GHG": 63.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 126.0,
       "Land": 0.32
     },
     "492000": {
       "name": "Couriers and Express Delivery Services",
       "GHG": 316.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 948.0,
       "Land": 3.16
     },
     "493000": {
       "name": "General Warehousing and Storage",
       "GHG": 221.0,
-      "Energy": 0,
+      "Energy": 4000.0,
       "Water": 663.0,
       "Land": 2.21
     },
     "511110": {
       "name": "Newspaper Publishers",
       "GHG": 78.0,
-      "Energy": 0,
+      "Energy": 3060.0,
       "Water": 156.0,
       "Land": 0.39
     },
     "511120": {
       "name": "Periodical Publishers",
       "GHG": 103.0,
-      "Energy": 0,
+      "Energy": 3060.0,
       "Water": 206.0,
       "Land": 0.52
     },
     "511130": {
       "name": "Book Publishers",
       "GHG": 94.0,
-      "Energy": 0,
+      "Energy": 3060.0,
       "Water": 188.0,
       "Land": 0.47
     },
     "511200": {
       "name": "Software Publishers",
       "GHG": 75.0,
-      "Energy": 0,
+      "Energy": 3060.0,
       "Water": 150.0,
       "Land": 0.38
     },
     "512100": {
       "name": "Motion Picture and Video Production",
       "GHG": 49.0,
-      "Energy": 0,
+      "Energy": 2040.0,
       "Water": 98.0,
       "Land": 0.25
     },
     "512200": {
       "name": "Music Publishers",
       "GHG": 40.0,
-      "Energy": 0,
+      "Energy": 2040.0,
       "Water": 80.0,
       "Land": 0.2
     },
     "515100": {
       "name": "Radio Networks",
       "GHG": 85.0,
-      "Energy": 0,
+      "Energy": 2040.0,
       "Water": 170.0,
       "Land": 0.42
     },
     "515200": {
       "name": "Cable and Other Subscription Programming",
       "GHG": 102.0,
-      "Energy": 0,
+      "Energy": 2040.0,
       "Water": 204.0,
       "Land": 0.51
     },
     "517110": {
       "name": "Wired Telecommunications Carriers",
       "GHG": 68.0,
-      "Energy": 0,
+      "Energy": 4250.0,
       "Water": 136.0,
       "Land": 0.34
     },
     "517210": {
       "name": "Wireless Telecommunications Carriers (except Satellite)",
       "GHG": 91.0,
-      "Energy": 0,
+      "Energy": 4250.0,
       "Water": 182.0,
       "Land": 0.46
     },
     "518200": {
       "name": "Data Processing, Hosting, and Related Services",
       "GHG": 89.0,
-      "Energy": 0,
+      "Energy": 5950.0,
       "Water": 178.0,
       "Land": 0.45
     },
     "519130": {
       "name": "Internet Publishing and Broadcasting and Web Search Portals",
       "GHG": 68.0,
-      "Energy": 0,
+      "Energy": 3400.0,
       "Water": 136.0,
       "Land": 0.34
     },
     "523900": {
       "name": "Miscellaneous Intermediation",
       "GHG": 60.0,
-      "Energy": 0,
+      "Energy": 1200.0,
       "Water": 120.0,
       "Land": 0.3
     },
     "524113": {
       "name": "Direct Life Insurance Carriers",
       "GHG": 53.0,
-      "Energy": 0,
+      "Energy": 1280.0,
       "Water": 106.0,
       "Land": 0.27
     },
     "524200": {
       "name": "Insurance Agencies and Brokerages",
       "GHG": 26.0,
-      "Energy": 0,
+      "Energy": 1280.0,
       "Water": 52.0,
       "Land": 0.13
     },
     "525000": {
       "name": "Pension Funds",
       "GHG": 148.0,
-      "Energy": 0,
+      "Energy": 1200.0,
       "Water": 296.0,
       "Land": 0.74
     },
     "532100": {
       "name": "Passenger Car Rental",
       "GHG": 99.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 198.0,
       "Land": 0.5
     },
     "532400": {
       "name": "Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",
       "GHG": 100.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 200.0,
       "Land": 0.5
     },
     "533000": {
       "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
       "GHG": 49.0,
-      "Energy": 0,
+      "Energy": 1440.0,
       "Water": 98.0,
       "Land": 0.24
     },
     "541100": {
       "name": "Offices of Lawyers",
       "GHG": 36.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 72.0,
       "Land": 0.18
     },
     "541200": {
       "name": "Offices of Certified Public Accountants",
       "GHG": 49.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 98.0,
       "Land": 0.24
     },
     "541300": {
       "name": "Architectural Services",
       "GHG": 94.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 188.0,
       "Land": 0.47
     },
     "541400": {
       "name": "Interior Design Services",
       "GHG": 88.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 176.0,
       "Land": 0.44
     },
     "541511": {
       "name": "Custom Computer Programming Services",
       "GHG": 82.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 164.0,
       "Land": 0.41
     },
     "541512": {
       "name": "Computer Systems Design Services",
       "GHG": 90.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 180.0,
       "Land": 0.45
     },
     "541610": {
       "name": "Administrative Management and General Management Consulting Services",
       "GHG": 74.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 148.0,
       "Land": 0.37
     },
     "541700": {
       "name": "Research and Development in Nanotechnology",
       "GHG": 145.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 290.0,
       "Land": 0.72
     },
     "541800": {
       "name": "Advertising Agencies",
       "GHG": 84.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 168.0,
       "Land": 0.42
     },
     "541920": {
       "name": "Photography Studios, Portrait",
       "GHG": 112.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 224.0,
       "Land": 0.56
     },
     "541940": {
       "name": "Veterinary Services",
       "GHG": 108.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 216.0,
       "Land": 0.54
     },
     "550000": {
       "name": "Offices of Bank Holding Companies",
       "GHG": 76.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 152.0,
       "Land": 0.38
     },
     "561100": {
       "name": "Office Administrative Services",
       "GHG": 91.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 182.0,
       "Land": 0.46
     },
     "561200": {
       "name": "Facilities Support Services",
       "GHG": 171.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 342.0,
       "Land": 0.85
     },
     "561300": {
       "name": "Employment Placement Agencies",
       "GHG": 50.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 100.0,
       "Land": 0.25
     },
     "561400": {
       "name": "Document Preparation Services",
       "GHG": 101.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 202.0,
       "Land": 0.51
     },
     "561500": {
       "name": "Travel Agencies",
       "GHG": 82.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 164.0,
       "Land": 0.41
     },
     "561600": {
       "name": "Investigation Services",
       "GHG": 61.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 122.0,
       "Land": 0.3
     },
     "561700": {
       "name": "Exterminating and Pest Control Services",
       "GHG": 186.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 372.0,
       "Land": 0.93
     },
     "561900": {
       "name": "Packaging and Labeling Services",
       "GHG": 111.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 222.0,
       "Land": 0.56
     },
     "562111": {
       "name": "Solid Waste Collection",
       "GHG": 186.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 372.0,
       "Land": 0.93
     },
     "562212": {
       "name": "Solid Waste Landfill",
       "GHG": 7417.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 37085.0,
       "Land": 148.34
     },
     "562213": {
       "name": "Solid Waste Combustors and Incinerators",
       "GHG": 5005.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 25025.0,
       "Land": 100.1
     },
     "562910": {
       "name": "Remediation Services",
       "GHG": 133.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 266.0,
       "Land": 0.67
     },
     "562920": {
       "name": "Materials Recovery Facilities",
       "GHG": 158.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 316.0,
       "Land": 0.79
     },
     "611100": {
       "name": "Elementary and Secondary Schools",
       "GHG": 163.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 326.0,
       "Land": 0.82
     },
     "621100": {
       "name": "Offices of Physicians (except Mental Health Specialists)",
       "GHG": 79.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 158.0,
       "Land": 0.4
     },
     "621200": {
       "name": "Offices of Dentists",
       "GHG": 50.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 100.0,
       "Land": 0.25
     },
     "621300": {
       "name": "Offices of Chiropractors",
       "GHG": 97.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 194.0,
       "Land": 0.49
     },
     "621400": {
       "name": "Family Planning Centers",
       "GHG": 89.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 178.0,
       "Land": 0.45
     },
     "621500": {
       "name": "Medical Laboratories",
       "GHG": 89.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 178.0,
       "Land": 0.45
     },
     "621600": {
       "name": "Home Health Care Services",
       "GHG": 92.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 184.0,
       "Land": 0.46
     },
     "621900": {
       "name": "Ambulance Services",
       "GHG": 166.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 332.0,
       "Land": 0.83
     },
     "622000": {
       "name": "General Medical and Surgical Hospitals",
       "GHG": 130.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 260.0,
       "Land": 0.65
     },
     "624100": {
       "name": "Child and Youth Services",
       "GHG": 106.0,
-      "Energy": 0,
+      "Energy": 1750.0,
       "Water": 212.0,
       "Land": 0.53
     },
     "624400": {
       "name": "Child Day Care Services",
       "GHG": 187.0,
-      "Energy": 0,
+      "Energy": 1750.0,
       "Water": 374.0,
       "Land": 0.94
     },
     "711100": {
       "name": "Theater Companies and Dinner Theaters",
       "GHG": 74.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 148.0,
       "Land": 0.37
     },
     "711200": {
       "name": "Sports Teams and Clubs",
       "GHG": 55.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 110.0,
       "Land": 0.28
     },
     "711500": {
       "name": "Independent Artists, Writers, and Performers",
       "GHG": 29.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 58.0,
       "Land": 0.14
     },
     "712000": {
       "name": "Museums",
       "GHG": 117.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 234.0,
       "Land": 0.58
     },
     "713100": {
       "name": "Amusement and Theme Parks",
       "GHG": 146.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 292.0,
       "Land": 0.73
     },
     "713200": {
       "name": "Casinos (except Casino Hotels)",
       "GHG": 144.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 288.0,
       "Land": 0.72
     },
     "713900": {
       "name": "Golf Courses and Country Clubs",
       "GHG": 203.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 609.0,
       "Land": 2.03
     },
     "721000": {
       "name": "Hotels (except Casino Hotels) and Motels",
       "GHG": 130.0,
-      "Energy": 0,
+      "Energy": 3850.0,
       "Water": 260.0,
       "Land": 0.65
     },
     "722110": {
       "name": "Full-Service Restaurants",
       "GHG": 168.0,
-      "Energy": 0,
+      "Energy": 5250.0,
       "Water": 336.0,
       "Land": 0.84
     },
     "722211": {
       "name": "Limited-Service Restaurants",
       "GHG": 220.0,
-      "Energy": 0,
+      "Energy": 5250.0,
       "Water": 660.0,
       "Land": 2.2
     },
     "811100": {
       "name": "General Automotive Repair",
       "GHG": 100.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 200.0,
       "Land": 0.5
     },
     "811200": {
       "name": "Consumer Electronics Repair and Maintenance",
       "GHG": 66.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 132.0,
       "Land": 0.33
     },
     "811300": {
       "name": "Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance",
       "GHG": 121.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 242.0,
       "Land": 0.6
     },
     "811400": {
       "name": "Home and Garden Equipment Repair and Maintenance",
       "GHG": 99.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 198.0,
       "Land": 0.49
     },
     "812100": {
       "name": "Barber Shops",
       "GHG": 109.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 218.0,
       "Land": 0.55
     },
     "812200": {
       "name": "Funeral Homes and Funeral Services",
       "GHG": 42.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 84.0,
       "Land": 0.21
     },
     "812300": {
       "name": "Coin-Operated Laundries and Drycleaners",
       "GHG": 135.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 270.0,
       "Land": 0.68
     },
     "812900": {
       "name": "Pet Care (except Veterinary) Services",
       "GHG": 92.0,
-      "Energy": 0,
+      "Energy": 3150.0,
       "Water": 184.0,
       "Land": 0.46
     },
     "813100": {
       "name": "Religious Organizations",
       "GHG": 67.0,
-      "Energy": 0,
+      "Energy": 1400.0,
       "Water": 134.0,
       "Land": 0.34
     },
     "1111A0": {
       "name": "Soybean Farming",
       "GHG": 820.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 4100.0,
       "Land": 16.4
     },
     "1111B0": {
       "name": "Dry Pea and Bean Farming",
       "GHG": 1486.0,
-      "Energy": 0,
+      "Energy": 6400.0,
       "Water": 7430.0,
       "Land": 29.72
     },
     "1121A0": {
       "name": "Beef Cattle Ranching and Farming",
       "GHG": 2280.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 11400.0,
       "Land": 45.6
     },
     "112A00": {
       "name": "Hog and Pig Farming",
       "GHG": 917.0,
-      "Energy": 0,
+      "Energy": 5600.0,
       "Water": 4585.0,
       "Land": 18.34
     },
     "2122A0": {
       "name": "Iron Ore Mining",
       "GHG": 535.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 2675.0,
       "Land": 10.7
     },
     "2123A0": {
       "name": "Construction Sand and Gravel Mining",
       "GHG": 277.0,
-      "Energy": 0,
+      "Energy": 14500.0,
       "Water": 831.0,
       "Land": 2.77
     },
     "21311A": {
       "name": "Support Activities for Oil and Gas Operations",
       "GHG": 375.0,
-      "Energy": 0,
+      "Energy": 9800.0,
       "Water": 1125.0,
       "Land": 3.75
     },
     "230301, 230302, 233210, 233230, 233240, 233262, 2332A0, 2332D0, 233411, 233412, 2334A0": {
       "name": "Poured Concrete Foundation and Structure Contractors",
       "GHG": 201.0,
-      "Energy": 0,
+      "Energy": 7350.0,
       "Water": 603.0,
       "Land": 2.01
     },
     "230301, 233210, 233262, 2332A0": {
       "name": "Commercial and Institutional Building Construction",
       "GHG": 199.0,
-      "Energy": 0,
+      "Energy": 7350.0,
       "Water": 398.0,
       "Land": 0.99
     },
     "230301, 233230": {
       "name": "Industrial Building Construction",
       "GHG": 210.0,
-      "Energy": 0,
+      "Energy": 7350.0,
       "Water": 630.0,
       "Land": 2.1
     },
     "233210, 233230, 233240, 233262, 2332A0, 2332C0, 2332D0, 233411, 233412, 2334A0": {
       "name": "Land Subdivision",
       "GHG": 201.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 603.0,
       "Land": 2.01
     },
     "2332C0": {
       "name": "Highway, Street, and Bridge Construction",
       "GHG": 231.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 693.0,
       "Land": 2.31
     },
     "2332D0": {
       "name": "Other Heavy and Civil Engineering Construction",
       "GHG": 175.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 350.0,
       "Land": 0.88
     },
     "233411, 233412, 2334A0": {
       "name": "New Housing For-Sale Builders",
       "GHG": 198.0,
-      "Energy": 0,
+      "Energy": 7980.0,
       "Water": 396.0,
       "Land": 0.99
     },
     "31151A": {
       "name": "Fluid Milk Manufacturing",
       "GHG": 761.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 3805.0,
       "Land": 15.22
     },
     "31161A": {
       "name": "Animal (except Poultry) Slaughtering",
       "GHG": 936.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 4680.0,
       "Land": 18.72
     },
     "3118A0": {
       "name": "Cookie and Cracker Manufacturing",
       "GHG": 299.0,
-      "Energy": 0,
+      "Energy": 5775.0,
       "Water": 897.0,
       "Land": 2.99
     },
     "3219A0": {
       "name": "Wood Container and Pallet Manufacturing",
       "GHG": 177.0,
-      "Energy": 0,
+      "Energy": 11550.0,
       "Water": 354.0,
       "Land": 0.89
     },
     "3252A0": {
       "name": "Synthetic Rubber Manufacturing",
       "GHG": 856.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 4280.0,
       "Land": 17.12
     },
     "3259A0": {
       "name": "Explosives Manufacturing",
       "GHG": 444.0,
-      "Energy": 0,
+      "Energy": 13200.0,
       "Water": 1332.0,
       "Land": 4.44
     },
     "33131B": {
       "name": "Aluminum Sheet, Plate, and Foil Manufacturing",
       "GHG": 795.0,
-      "Energy": 0,
+      "Energy": 20250.0,
       "Water": 3975.0,
       "Land": 15.9
     },
     "33211A": {
       "name": "Iron and Steel Forging",
       "GHG": 470.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 1410.0,
       "Land": 4.7
     },
     "33291A": {
       "name": "Industrial Valve Manufacturing",
       "GHG": 140.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 280.0,
       "Land": 0.7
     },
     "33299A": {
       "name": "Small Arms Ammunition Manufacturing",
       "GHG": 148.0,
-      "Energy": 0,
+      "Energy": 9075.0,
       "Water": 296.0,
       "Land": 0.74
     },
     "33329A": {
       "name": "Food Product Machinery Manufacturing",
       "GHG": 166.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 332.0,
       "Land": 0.83
     },
     "33351B": {
       "name": "Cutting Tool and Machine Tool Accessory Manufacturing",
       "GHG": 181.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 362.0,
       "Land": 0.91
     },
     "33399A": {
       "name": "Welding and Soldering Equipment Manufacturing",
       "GHG": 217.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 651.0,
       "Land": 2.17
     },
     "33399B": {
       "name": "Fluid Power Cylinder and Actuator Manufacturing",
       "GHG": 173.0,
-      "Energy": 0,
+      "Energy": 8250.0,
       "Water": 346.0,
       "Land": 0.86
     },
     "33441A": {
       "name": "Bare Printed Circuit Board Manufacturing",
       "GHG": 86.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 172.0,
       "Land": 0.43
     },
     "33451A": {
       "name": "Other Measuring and Controlling Device Manufacturing",
       "GHG": 72.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 144.0,
       "Land": 0.36
     },
     "3363A0": {
       "name": "Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing",
       "GHG": 265.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 795.0,
       "Land": 2.65
     },
     "33641A": {
       "name": "Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing",
       "GHG": 260.0,
-      "Energy": 0,
+      "Energy": 9625.0,
       "Water": 780.0,
       "Land": 2.6
     },
     "33712N": {
       "name": "Metal Household Furniture Manufacturing",
       "GHG": 222.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 666.0,
       "Land": 2.22
     },
     "33721A": {
       "name": "Wood Office Furniture Manufacturing",
       "GHG": 210.0,
-      "Energy": 0,
+      "Energy": 6600.0,
       "Water": 630.0,
       "Land": 2.1
     },
     "423A00": {
       "name": "Furniture Merchant Wholesalers",
       "GHG": 108.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 216.0,
       "Land": 0.54
     },
     "424A00": {
       "name": "Printing and Writing Paper Merchant Wholesalers",
       "GHG": 127.0,
-      "Energy": 0,
+      "Energy": 2250.0,
       "Water": 254.0,
       "Land": 0.64
     },
     "48A000": {
       "name": "Scenic and Sightseeing Transportation, Land",
       "GHG": 172.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 344.0,
       "Land": 0.86
     },
     "4B0000": {
       "name": "Furniture Stores",
       "GHG": 104.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 208.0,
       "Land": 0.52
     },
     "5111A0": {
       "name": "Directory and Mailing List Publishers",
       "GHG": 108.0,
-      "Energy": 0,
+      "Energy": 3060.0,
       "Water": 216.0,
       "Land": 0.54
     },
     "517A00": {
       "name": "Satellite Telecommunications",
       "GHG": 72.0,
-      "Energy": 0,
+      "Energy": 4250.0,
       "Water": 144.0,
       "Land": 0.36
     },
     "5191A0": {
       "name": "News Syndicates",
       "GHG": 56.0,
-      "Energy": 0,
+      "Energy": 3400.0,
       "Water": 112.0,
       "Land": 0.28
     },
     "522A00": {
       "name": "Credit Card Issuing",
       "GHG": 65.0,
-      "Energy": 0,
+      "Energy": 1280.0,
       "Water": 130.0,
       "Land": 0.33
     },
     "523A00": {
       "name": "Investment Banking and Securities Dealing",
       "GHG": 38.0,
-      "Energy": 0,
+      "Energy": 1200.0,
       "Water": 76.0,
       "Land": 0.19
     },
     "5241XX": {
       "name": "Direct Health and Medical Insurance Carriers",
       "GHG": 28.0,
-      "Energy": 0,
+      "Energy": 1280.0,
       "Water": 56.0,
       "Land": 0.14
     },
     "52A000": {
       "name": "Monetary Authorities-Central Bank",
       "GHG": 50.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 100.0,
       "Land": 0.25
     },
     "531HSO, 531HST": {
       "name": "Lessors of Residential Buildings and Dwellings",
       "GHG": 27.0,
-      "Energy": 0,
+      "Energy": 1600.0,
       "Water": 54.0,
       "Land": 0.14
     },
     "531ORE": {
       "name": "Lessors of Nonresidential Buildings (excpet Miniwarehouses)",
       "GHG": 227.0,
-      "Energy": 0,
+      "Energy": 1600.0,
       "Water": 681.0,
       "Land": 2.27
     },
     "532A00": {
       "name": "Consumer Electronics and Appliances Rental",
       "GHG": 94.0,
-      "Energy": 0,
+      "Energy": 1920.0,
       "Water": 188.0,
       "Land": 0.47
     },
     "54151A": {
       "name": "Computer Facilities Management Services",
       "GHG": 79.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 158.0,
       "Land": 0.4
     },
     "5416A0": {
       "name": "Environmental Consulting Services",
       "GHG": 84.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 168.0,
       "Land": 0.42
     },
     "5419A0": {
       "name": "Marketing Research and Public Opinion Polling",
       "GHG": 70.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 140.0,
       "Land": 0.35
     },
     "562HAZ": {
       "name": "Hazardous Waste Collection",
       "GHG": 1356.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 6780.0,
       "Land": 27.12
     },
     "562OTH": {
       "name": "Other Waste Collection",
       "GHG": 477.0,
-      "Energy": 0,
+      "Energy": 4375.0,
       "Water": 1431.0,
       "Land": 4.77
     },
     "611A00": {
       "name": "Junior Colleges",
       "GHG": 127.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 254.0,
       "Land": 0.64
     },
     "611B00": {
       "name": "Business and Secretarial Schools",
       "GHG": 98.0,
-      "Energy": 0,
+      "Energy": 2100.0,
       "Water": 196.0,
       "Land": 0.49
     },
     "623A00": {
       "name": "Nursing Care Facilities (Skilled Nursing Facilities)",
       "GHG": 140.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 280.0,
       "Land": 0.7
     },
     "623B00": {
       "name": "Residential Intellectual and Developmental Disability Facilities",
       "GHG": 117.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 234.0,
       "Land": 0.58
     },
     "624A00": {
       "name": "Community Food Services",
       "GHG": 196.0,
-      "Energy": 0,
+      "Energy": 1750.0,
       "Water": 392.0,
       "Land": 0.98
     },
     "711A00": {
       "name": "Promoters of Performing Arts, Sports, and Similar Events with Facilities",
       "GHG": 77.0,
-      "Energy": 0,
+      "Energy": 2625.0,
       "Water": 154.0,
       "Land": 0.39
     },
     "722A00": {
       "name": "Food Service Contractors",
       "GHG": 117.0,
-      "Energy": 0,
+      "Energy": 5250.0,
       "Water": 234.0,
       "Land": 0.58
     },
     "813A00": {
       "name": "Grantmaking Foundations",
       "GHG": 53.0,
-      "Energy": 0,
+      "Energy": 1400.0,
       "Water": 106.0,
       "Land": 0.27
     },
     "813B00": {
       "name": "Civic and Social Organizations",
       "GHG": 108.0,
-      "Energy": 0,
+      "Energy": 1400.0,
       "Water": 216.0,
       "Land": 0.54
     },
     "541330": {
       "name": "Engineering Services",
       "GHG": 137.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 411.0,
       "Land": 1.37
     },
     "541715": {
       "name": "R&D in Physical, Engineering, and Life Sciences",
       "GHG": 201.0,
-      "Energy": 0,
+      "Energy": 1620.0,
       "Water": 603.0,
       "Land": 2.0100000000000002
     },
     "237990": {
       "name": "Other Heavy and Civil Engineering Construction",
       "GHG": 450.0,
-      "Energy": 0,
+      "Energy": 8400.0,
       "Water": 1350.0,
       "Land": 4.5
     },
     "221100": {
       "name": "Electric Power Generation",
       "GHG": 1100.0,
-      "Energy": 0,
+      "Energy": 3250.0,
       "Water": 3300.0,
       "Land": 11.0
     }
-  }
+  },
+  "last_updated": "2026-01-29",
+  "notes": [
+    {
+      "category": "Energy",
+      "description": "Energy multipliers calculated from EIA government data with supply chain effects",
+      "methodology": "See ENERGY_METHODOLOGY.md for detailed calculation approach",
+      "uncertainty": "\u00b130-40% depending on sector data availability"
+    },
+    {
+      "category": "Energy",
+      "description": "Energy multipliers calculated from EIA government data with supply chain effects",
+      "methodology": "See ENERGY_METHODOLOGY.md for detailed calculation approach",
+      "uncertainty": "\u00b130-40% depending on sector data availability"
+    }
+  ]
 }
