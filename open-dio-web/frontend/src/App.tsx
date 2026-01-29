@@ -5,8 +5,9 @@ import type { SectorInput, CalculationResult, Sector } from './types';
 import { SectorForm } from './components/SectorForm';
 import { ResultsDashboard } from './components/ResultsDashboard';
 import Methodology from './components/Methodology';
+import Glossary from './components/Glossary';
 
-type View = 'calculator' | 'methodology';
+type View = 'calculator' | 'methodology' | 'glossary';
 
 function App() {
   const [view, setView] = useState<View>('calculator');
@@ -97,6 +98,12 @@ function App() {
           >
             Methodology
           </button>
+          <button
+            className={view === 'glossary' ? 'nav-tab active' : 'nav-tab'}
+            onClick={() => setView('glossary')}
+          >
+            Glossary
+          </button>
         </nav>
       </header>
 
@@ -136,8 +143,10 @@ function App() {
                 </p>
               </footer>
             </>
-          ) : (
+          ) : view === 'methodology' ? (
             <Methodology />
+          ) : (
+            <Glossary />
           )}
         </div>
       </main>
