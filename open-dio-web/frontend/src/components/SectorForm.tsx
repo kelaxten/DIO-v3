@@ -101,6 +101,106 @@ export function SectorForm({
     onInputsChange(inputs.filter((_, i) => i !== index));
   };
 
+  const handleCSVUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const text = e.target?.result as string;
+        const lines = text.split('\n').filter(line => line.trim());
+
+        if (lines.length < 2) {
+          alert('CSV file must have at least a header row and one data row');
+          return;
+        }
+
+        // Parse header
+        const header = lines[0].toLowerCase().split(',').map(h => h.trim());
+        const codeIndex = header.findIndex(h => h.includes('code') || h.includes('sector'));
+        const amountIndex = header.findIndex(h => h.includes('amount') || h.includes('spending') || h.includes('dollar'));
+
+        if (codeIndex === -1 || amountIndex === -1) {
+          alert('CSV must have columns for sector code and amount\nExpected: code, amount\nOr: sector_code, spending_amount');
+          return;
+        }
+
+        // Parse data rows
+        const newInputs: SectorInput[] = [];
+        const errors: string[] = [];
+
+        for (let i = 1; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (!line) continue;
+
+          const values = line.split(',').map(v => v.trim().replace(/"/g, ''));
+          const code = values[codeIndex];
+          const amountStr = values[amountIndex];
+
+          if (!code || !amountStr) continue;
+
+          // Find sector
+          const sector = sectors.find(s => s.code === code);
+          if (!sector) {
+            errors.push(`Line ${i + 1}: Unknown sector code "${code}"`);
+            continue;
+          }
+
+          // Parse amount
+          const amount = parseFloat(amountStr.replace(/[,$]/g, ''));
+          if (isNaN(amount) || amount <= 0) {
+            errors.push(`Line ${i + 1}: Invalid amount "${amountStr}"`);
+            continue;
+          }
+
+          newInputs.push({
+            sectorCode: sector.code,
+            sectorName: sector.name,
+            amount: amount
+          });
+        }
+
+        if (newInputs.length === 0) {
+          alert('No valid data found in CSV file\n\n' + errors.join('\n'));
+          return;
+        }
+
+        // Add to existing inputs
+        onInputsChange([...inputs, ...newInputs]);
+
+        // Show summary
+        let message = `Successfully imported ${newInputs.length} sector(s)`;
+        if (errors.length > 0) {
+          message += `\n\n${errors.length} error(s):\n${errors.slice(0, 5).join('\n')}`;
+          if (errors.length > 5) {
+            message += `\n... and ${errors.length - 5} more`;
+          }
+        }
+        alert(message);
+
+        // Reset file input
+        event.target.value = '';
+      } catch (error) {
+        console.error('CSV parsing error:', error);
+        alert('Error parsing CSV file. Please check the format.');
+      }
+    };
+
+    reader.readAsText(file);
+  };
+
+  const downloadCSVTemplate = () => {
+    const template = 'sector_code,amount,description\n336411,80000000000,F-35 Program\n336414,12000000000,Guided Missiles\n541330,500000000,Engineering Services';
+    const blob = new Blob([template], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'dio_template.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   const totalSpending = inputs.reduce((sum, input) => sum + input.amount, 0);
 
   return (
@@ -111,6 +211,10 @@ export function SectorForm({
       </p>
 
       <div className="input-section">
+        <div className="input-method-tabs">
+          <h3>Add Sectors</h3>
+        </div>
+
         <div className="form-row">
           <div className="form-group" ref={dropdownRef}>
             <label htmlFor="sector-search">Defense Sector</label>
@@ -171,6 +275,29 @@ export function SectorForm({
           >
             Add Sector
           </button>
+        </div>
+
+        <div className="csv-upload-section">
+          <div className="divider">
+            <span>or</span>
+          </div>
+          <div className="csv-upload-box">
+            <label htmlFor="csv-upload" className="csv-upload-label">
+              <span className="csv-icon">📄</span>
+              <span className="csv-text">Upload CSV File</span>
+              <span className="csv-hint">Bulk import sectors and amounts</span>
+            </label>
+            <input
+              id="csv-upload"
+              type="file"
+              accept=".csv"
+              onChange={handleCSVUpload}
+              style={{ display: 'none' }}
+            />
+            <button onClick={downloadCSVTemplate} className="btn btn-link">
+              Download Template
+            </button>
+          </div>
         </div>
 
         {inputs.length > 0 && (
