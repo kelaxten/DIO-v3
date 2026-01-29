@@ -29,7 +29,7 @@ def merge_energy_data() -> None:
 
     # Paths
     multipliers_path = Path('backend/app/data/multipliers.json')
-    energy_path = Path('backend/app/data/energy_multipliers.json')
+    energy_path = Path('backend/app/data/energy_multipliers_io.json')
 
     # Load data
     print("📂 Loading files...")
