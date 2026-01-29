@@ -19,6 +19,52 @@ export function ResultsDashboard({ results }: Props) {
   const ghgValue = results.impacts.GHG || 0;
   const comparisons = getGHGComparisons(ghgValue);
 
+  // CSV Export Function
+  const exportToCSV = () => {
+    const rows: string[] = [];
+
+    // Header
+    rows.push('DIO Environmental Impact Analysis Results');
+    rows.push(`Generated: ${new Date().toISOString()}`);
+    rows.push(`Total Spending: $${results.totalSpending.toLocaleString()}`);
+    rows.push('');
+
+    // Summary
+    rows.push('Impact Category,Value,Unit');
+    rows.push(`Greenhouse Gas Emissions,${results.impacts.GHG},kg CO2 eq`);
+    rows.push(`Energy Use,${results.impacts.Energy},MJ`);
+    rows.push(`Water Consumption,${results.impacts.Water},gallons`);
+    rows.push(`Land Use,${results.impacts.Land},m2-year`);
+    rows.push('');
+
+    // Sector Breakdown
+    rows.push('Sector Breakdown');
+    rows.push('Sector Code,Sector Name,Spending (USD),GHG (kg CO2 eq),Energy (MJ),Water (gallons),Land (m2-year)');
+
+    Object.entries(results.sectorBreakdown).forEach(([code, data]) => {
+      const ghg = data.impacts.GHG !== undefined ? data.impacts.GHG : 0;
+      const energy = data.impacts.Energy !== undefined ? data.impacts.Energy : 0;
+      const water = data.impacts.Water !== undefined ? data.impacts.Water : 0;
+      const land = data.impacts.Land !== undefined ? data.impacts.Land : 0;
+
+      rows.push(`${code},"${data.name}",${data.spending},${ghg},${energy},${water},${land}`);
+    });
+
+    rows.push('');
+    rows.push('Data Source: Open DIO (Defense Input-Output Model v2.0)');
+    rows.push('Methodology: BEA Input-Output Tables 2017, Cornerstone v1.4.0, EIA MECS 2018');
+    rows.push('For more information: https://github.com/kelaxten/DIO-v3');
+
+    const csvContent = rows.join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `dio_results_${Date.now()}.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
   // Transform impacts object into array for rendering
   const impactsDisplay: ImpactDisplay[] = [
     {
@@ -53,7 +99,12 @@ export function ResultsDashboard({ results }: Props) {
 
   return (
     <div className="results-dashboard">
-      <h2>Environmental Impact Results</h2>
+      <div className="results-header">
+        <h2>Environmental Impact Results</h2>
+        <button onClick={exportToCSV} className="btn-export" title="Export results as CSV">
+          📊 Export CSV
+        </button>
+      </div>
 
       <div className="data-quality-notice">
         <div className="notice-icon">⚠️</div>
