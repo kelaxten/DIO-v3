@@ -1,0 +1,212 @@
+{
+  "total_spending": 100000000000,
+  "impacts": [
+    {
+      "category": "Greenhouse Gas Emissions",
+      "value": 10064900000.0,
+      "unit": "kg CO2 eq",
+      "description": "Total CO2 equivalent emissions"
+    },
+    {
+      "category": "Energy Use",
+      "value": 199950000000.0,
+      "unit": "MJ",
+      "description": "Total energy consumption"
+    },
+    {
+      "category": "Water Consumption",
+      "value": 220700000000.0,
+      "unit": "gallons",
+      "description": "Total freshwater use"
+    },
+    {
+      "category": "Land Use",
+      "value": 876300000.0,
+      "unit": "m2-year",
+      "description": "Total land occupation"
+    }
+  ],
+  "sector_breakdown": {
+    "336411": {
+      "name": "Aircraft Manufacturing",
+      "spending": 25000000000,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 3629999999.9999995,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 71250000000.0,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 80000000000.0,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 312500000.0,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336411"
+      ],
+      "naics_amounts": {
+        "336411": 25000000000
+      }
+    },
+    "336611": {
+      "name": "Ship Building",
+      "spending": 22000000000,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 3438600000.0000005,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 68200000000.0,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 99000000000.0,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 334400000.0,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336611"
+      ],
+      "naics_amounts": {
+        "336611": 22000000000
+      }
+    },
+    "336992": {
+      "name": "Armored Vehicle Manufacturing",
+      "spending": 3000000000,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 415500000.0,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 8250000000.0,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 9300000000.0,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 33900000.0,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336992"
+      ],
+      "naics_amounts": {
+        "336992": 3000000000
+      }
+    },
+    "324110": {
+      "name": "Petroleum Refineries",
+      "spending": 8000000000,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 2285600000.0,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 46400000000.0,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 16800000000.0,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 68000000.0,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "324110"
+      ],
+      "naics_amounts": {
+        "324110": 8000000000
+      }
+    },
+    "237990": {
+      "name": "Heavy Construction",
+      "spending": 3000000000,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 295200000.0,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 5850000000.0,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 15600000000.0,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 127500000.0,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "237990"
+      ],
+      "naics_amounts": {
+        "237990": 3000000000
+      }
+    }
+  },
+  "model_version": "DIO v2.0"
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "fiscal_year": 2024,
+    "agency": "Department of Defense",
+    "description": "Sample of FY2024 DOD spending for environmental impact case study",
+    "total_amount": 100000000000,
+    "num_categories": 13,
+    "data_source": "Based on DOD Green Book FY2024 and procurement patterns",
+    "note": "Sample data for methodological demonstration"
+  },
+  "spending_by_naics": {
+    "336411": 25000000000,
+    "336412": 5000000000,
+    "336413": 5000000000,
+    "336611": 22000000000,
+    "333618": 3000000000,
+    "336120": 4000000000,
+    "332994": 8000000000,
+    "336992": 3000000000,
+    "334220": 6000000000,
+    "334511": 6000000000,
+    "324110": 8000000000,
+    "237990": 3000000000,
+    "236220": 2000000000
+  }
+}
