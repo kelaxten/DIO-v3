@@ -1,0 +1,114 @@
+.glossary {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.glossary-header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.glossary-header h2 {
+  font-size: 2.5rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.glossary-intro {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.glossary-grid {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.glossary-entry {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #2563eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.glossary-entry:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.glossary-term {
+  font-size: 1.3rem;
+  color: #2563eb;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.glossary-definition {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.glossary-unit {
+  color: #6b7280;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.glossary-footer {
+  background: #f9fafb;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.glossary-footer h3 {
+  font-size: 1.5rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.glossary-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.glossary-footer li {
+  margin-bottom: 0.75rem;
+}
+
+.glossary-footer a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.glossary-footer a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .glossary {
+    padding: 1rem 0.5rem;
+  }
+
+  .glossary-header h2 {
+    font-size: 2rem;
+  }
+
+  .glossary-term {
+    font-size: 1.1rem;
+  }
+
+  .glossary-entry {
+    padding: 1rem;
+  }
+}

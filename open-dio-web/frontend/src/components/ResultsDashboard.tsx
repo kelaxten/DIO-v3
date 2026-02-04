@@ -14,10 +14,81 @@ interface ImpactDisplay {
   description: string;
 }
 
+interface SectorImpact {
+  code: string;
+  name: string;
+  spending: number;
+  ghg: number;
+  energy: number;
+  percentage: number;
+}
+
 export function ResultsDashboard({ results }: Props) {
   // Get GHG value for comparisons
   const ghgValue = results.impacts.GHG || 0;
   const comparisons = getGHGComparisons(ghgValue);
+
+  // CSV Export Function
+  const exportToCSV = () => {
+    const rows: string[] = [];
+
+    // Header
+    rows.push('DIO Environmental Impact Analysis Results');
+    rows.push(`Generated: ${new Date().toISOString()}`);
+    rows.push(`Total Spending: $${results.totalSpending.toLocaleString()}`);
+    rows.push('');
+
+    // Summary
+    rows.push('Impact Category,Value,Unit');
+    rows.push(`Greenhouse Gas Emissions,${results.impacts.GHG},kg CO2 eq`);
+    rows.push(`Energy Use,${results.impacts.Energy},MJ`);
+    rows.push(`Water Consumption,${results.impacts.Water},gallons`);
+    rows.push(`Land Use,${results.impacts.Land},m2-year`);
+    rows.push('');
+
+    // Sector Breakdown
+    rows.push('Sector Breakdown');
+    rows.push('Sector Code,Sector Name,Spending (USD),GHG (kg CO2 eq),Energy (MJ),Water (gallons),Land (m2-year)');
+
+    Object.entries(results.sectorBreakdown).forEach(([code, data]) => {
+      const ghg = data.impacts.GHG !== undefined ? data.impacts.GHG : 0;
+      const energy = data.impacts.Energy !== undefined ? data.impacts.Energy : 0;
+      const water = data.impacts.Water !== undefined ? data.impacts.Water : 0;
+      const land = data.impacts.Land !== undefined ? data.impacts.Land : 0;
+
+      rows.push(`${code},"${data.name}",${data.spending},${ghg},${energy},${water},${land}`);
+    });
+
+    rows.push('');
+    rows.push('Data Source: Open DIO (Defense Input-Output Model v2.0)');
+    rows.push('Methodology: BEA Input-Output Tables 2017, Cornerstone v1.4.0, EIA MECS 2018');
+    rows.push('For more information: https://github.com/kelaxten/DIO-v3');
+
+    const csvContent = rows.join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `dio_results_${Date.now()}.csv`;
+    link.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // Prepare sector data for visualization
+  const sectorData: SectorImpact[] = Object.entries(results.sectorBreakdown)
+    .map(([code, data]) => ({
+      code,
+      name: data.name,
+      spending: data.spending,
+      ghg: data.impacts.GHG || 0,
+      energy: data.impacts.Energy || 0,
+      percentage: (data.spending / results.totalSpending) * 100
+    }))
+    .sort((a, b) => b.spending - a.spending);
+
+  // Top 10 sectors for visualization
+  const topSectors = sectorData.slice(0, 10);
+  const maxSpending = topSectors[0]?.spending || 1;
 
   // Transform impacts object into array for rendering
   const impactsDisplay: ImpactDisplay[] = [
@@ -53,7 +124,12 @@ export function ResultsDashboard({ results }: Props) {
 
   return (
     <div className="results-dashboard">
-      <h2>Environmental Impact Results</h2>
+      <div className="results-header">
+        <h2>Environmental Impact Results</h2>
+        <button onClick={exportToCSV} className="btn-export" title="Export results as CSV">
+          📊 Export CSV
+        </button>
+      </div>
 
       <div className="data-quality-notice">
         <div className="notice-icon">⚠️</div>
@@ -106,6 +182,45 @@ export function ResultsDashboard({ results }: Props) {
               <li key={index}>{comparison}</li>
             ))}
           </ul>
+        </div>
+      )}
+
+      {topSectors.length > 0 && (
+        <div className="visualization-section">
+          <h3>Top Sectors by Spending</h3>
+          <p className="chart-description">
+            This chart shows the sectors with the highest spending amounts in your analysis.
+          </p>
+          <div className="bar-chart">
+            {topSectors.map((sector) => (
+              <div key={sector.code} className="bar-chart-row">
+                <div className="bar-label">
+                  <span className="bar-label-name" title={sector.name}>
+                    {sector.name.length > 35 ? sector.name.substring(0, 35) + '...' : sector.name}
+                  </span>
+                  <span className="bar-label-value">
+                    ${(sector.spending / 1e9).toFixed(1)}B
+                  </span>
+                </div>
+                <div className="bar-container">
+                  <div
+                    className="bar-fill"
+                    style={{ width: `${(sector.spending / maxSpending) * 100}%` }}
+                    title={`${sector.percentage.toFixed(1)}% of total spending`}
+                  >
+                    <span className="bar-percentage">
+                      {sector.percentage >= 5 ? `${sector.percentage.toFixed(1)}%` : ''}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          {sectorData.length > 10 && (
+            <p className="chart-note">
+              Showing top 10 of {sectorData.length} sectors. See full breakdown below.
+            </p>
+          )}
         </div>
       )}
 
