@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "fiscal_year": 2024,
+    "agency": "Department of Defense",
+    "description": "Complete environmental impact analysis of FY2024 DOD spending",
+    "methodology": "DIO v2.0 with EEIO life cycle assessment",
+    "data_sources": {
+      "spending": "USAspending.gov",
+      "ghg": "Cornerstone Supply Chain Factors v1.4.0",
+      "energy": "EIA MECS 2018",
+      "water": "EPA USEEIO v2.0",
+      "land": "EPA USEEIO v2.0"
+    },
+    "published_date": "2024-02-04"
+  },
+  "summary": {
+    "total_spending": 61000000000.0,
+    "total_ghg": 10064900000.0,
+    "total_energy": 199950000000.0,
+    "total_water": 220700000000.0,
+    "total_land": 876300000.0,
+    "num_sectors": 5,
+    "fiscal_year": 2024
+  },
+  "line_by_line": [
+    {
+      "NAICS_Code": "336411",
+      "BEA_Sector_Code": "336411",
+      "BEA_Sector_Name": "Aircraft Manufacturing",
+      "Spending_USD": 25000000000.0,
+      "Pct_of_Total": 25.0,
+      "GHG_kg_CO2e": 3629999999.9999995,
+      "Energy_MJ": 71250000000.0,
+      "Water_gallons": 80000000000.0,
+      "Land_m2_year": 312500000.0,
+      "GHG_Intensity_kg_per_1000USD": 145.2,
+      "Energy_Intensity_MJ_per_1000USD": 2850.0
+    },
+    {
+      "NAICS_Code": "336611",
+      "BEA_Sector_Code": "336611",
+      "BEA_Sector_Name": "Ship Building",
+      "Spending_USD": 22000000000.0,
+      "Pct_of_Total": 22.0,
+      "GHG_kg_CO2e": 3438600000.0000005,
+      "Energy_MJ": 68200000000.0,
+      "Water_gallons": 99000000000.0,
+      "Land_m2_year": 334400000.0,
+      "GHG_Intensity_kg_per_1000USD": 156.3,
+      "Energy_Intensity_MJ_per_1000USD": 3100.0
+    },
+    {
+      "NAICS_Code": "324110",
+      "BEA_Sector_Code": "324110",
+      "BEA_Sector_Name": "Petroleum Refineries",
+      "Spending_USD": 8000000000.0,
+      "Pct_of_Total": 8.0,
+      "GHG_kg_CO2e": 2285600000.0,
+      "Energy_MJ": 46400000000.0,
+      "Water_gallons": 16800000000.0,
+      "Land_m2_year": 68000000.0,
+      "GHG_Intensity_kg_per_1000USD": 285.7,
+      "Energy_Intensity_MJ_per_1000USD": 5800.0
+    },
+    {
+      "NAICS_Code": "336992",
+      "BEA_Sector_Code": "336992",
+      "BEA_Sector_Name": "Armored Vehicle Manufacturing",
+      "Spending_USD": 3000000000.0,
+      "Pct_of_Total": 3.0,
+      "GHG_kg_CO2e": 415500000.0,
+      "Energy_MJ": 8250000000.0,
+      "Water_gallons": 9300000000.0,
+      "Land_m2_year": 33900000.0,
+      "GHG_Intensity_kg_per_1000USD": 138.5,
+      "Energy_Intensity_MJ_per_1000USD": 2750.0
+    },
+    {
+      "NAICS_Code": "237990",
+      "BEA_Sector_Code": "237990",
+      "BEA_Sector_Name": "Heavy Construction",
+      "Spending_USD": 3000000000.0,
+      "Pct_of_Total": 3.0,
+      "GHG_kg_CO2e": 295200000.0,
+      "Energy_MJ": 5850000000.0,
+      "Water_gallons": 15600000000.0,
+      "Land_m2_year": 127500000.0,
+      "GHG_Intensity_kg_per_1000USD": 98.4,
+      "Energy_Intensity_MJ_per_1000USD": 1950.0
+    }
+  ]
+}
