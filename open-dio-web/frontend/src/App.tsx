@@ -6,8 +6,9 @@ import { SectorForm } from './components/SectorForm';
 import { ResultsDashboard } from './components/ResultsDashboard';
 import Methodology from './components/Methodology';
 import Glossary from './components/Glossary';
+import BudgetAnalysis from './components/BudgetAnalysis';
 
-type View = 'calculator' | 'methodology' | 'glossary';
+type View = 'calculator' | 'methodology' | 'glossary' | 'budget';
 
 function App() {
   const [view, setView] = useState<View>('calculator');
@@ -93,6 +94,12 @@ function App() {
             Calculator
           </button>
           <button
+            className={view === 'budget' ? 'nav-tab active' : 'nav-tab'}
+            onClick={() => setView('budget')}
+          >
+            Budget Analysis
+          </button>
+          <button
             className={view === 'methodology' ? 'nav-tab active' : 'nav-tab'}
             onClick={() => setView('methodology')}
           >
@@ -145,8 +152,10 @@ function App() {
             </>
           ) : view === 'methodology' ? (
             <Methodology />
-          ) : (
+          ) : view === 'glossary' ? (
             <Glossary />
+          ) : (
+            <BudgetAnalysis />
           )}
         </div>
       </main>
