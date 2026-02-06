@@ -14,12 +14,12 @@
     "published_date": "2024-02-04"
   },
   "summary": {
-    "total_spending": 289541810697.43,
-    "total_ghg": 48747050345.154045,
-    "total_energy": 1996199202130.97,
-    "total_water": 127248364076.07837,
-    "total_land": 392474991.1031968,
-    "num_sectors": 198,
+    "total_spending": 387134760488.84,
+    "total_ghg": 73340027164.34653,
+    "total_energy": 2497048020018.8315,
+    "total_water": 208027444543.01913,
+    "total_land": 673338634.0175185,
+    "num_sectors": 313,
     "fiscal_year": 2024
   },
   "line_by_line": [
@@ -89,6 +89,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9625.0
     },
     {
+      "NAICS_Code": "236220",
+      "BEA_Sector_Code": "236220",
+      "BEA_Sector_Name": "Commercial and Institutional Building Construction",
+      "Spending_USD": 19992575076.58,
+      "Pct_of_Total": 4.5302970932940765,
+      "GHG_kg_CO2e": 8996658784.461,
+      "Energy_MJ": 167937630643.27203,
+      "Water_gallons": 26989976353.383003,
+      "Land_m2_year": 89966587.84461,
+      "GHG_Intensity_kg_per_1000USD": 449.99999999999994,
+      "Energy_Intensity_MJ_per_1000USD": 8400.0
+    },
+    {
       "NAICS_Code": "336413",
       "BEA_Sector_Code": "336413",
       "BEA_Sector_Name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
@@ -115,6 +128,19 @@
       "Energy_Intensity_MJ_per_1000USD": 6600.0
     },
     {
+      "NAICS_Code": "524114",
+      "BEA_Sector_Code": "524100",
+      "BEA_Sector_Name": "Insurance Carriers",
+      "Spending_USD": 14305427272.61,
+      "Pct_of_Total": 3.2415952093811597,
+      "GHG_kg_CO2e": 510703753.6321771,
+      "Energy_MJ": 18310946908.9408,
+      "Water_gallons": 1019976964.5370932,
+      "Land_m2_year": 2574976.9090698003,
+      "GHG_Intensity_kg_per_1000USD": 35.7,
+      "Energy_Intensity_MJ_per_1000USD": 1280.0
+    },
+    {
       "NAICS_Code": "541512",
       "BEA_Sector_Code": "541512",
       "BEA_Sector_Name": "Computer Systems Design Services",
@@ -128,6 +154,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0000000000002
     },
     {
+      "NAICS_Code": "561210",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 11972775432.89,
+      "Pct_of_Total": 2.7130186849128397,
+      "GHG_kg_CO2e": 1276297861.1460738,
+      "Energy_MJ": 25142828409.069,
+      "Water_gallons": 2552595722.2921476,
+      "Land_m2_year": 6345570.9794317,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "324110",
       "BEA_Sector_Code": "324110",
       "BEA_Sector_Name": "Petroleum Refineries",
@@ -139,6 +178,19 @@
       "Land_m2_year": 48351133.7490078,
       "GHG_Intensity_kg_per_1000USD": 414.0,
       "Energy_Intensity_MJ_per_1000USD": 24300.000000000004
+    },
+    {
+      "NAICS_Code": "332993",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 9058346422.12,
+      "Pct_of_Total": 2.0526120476722984,
+      "GHG_kg_CO2e": 2223824046.6304603,
+      "Energy_MJ": 82453598307.3473,
+      "Water_gallons": 6142464708.839573,
+      "Land_m2_year": 19566028.271779202,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
     },
     {
       "NAICS_Code": "336412",
@@ -180,6 +232,32 @@
       "Energy_Intensity_MJ_per_1000USD": 9625.0
     },
     {
+      "NAICS_Code": "488190",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 6396936448.83,
+      "Pct_of_Total": 1.4495392659082567,
+      "GHG_kg_CO2e": 4287866501.6507483,
+      "Energy_MJ": 45619112591.18626,
+      "Water_gallons": 19250940549.109,
+      "Land_m2_year": 74844156.45131099,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
+      "NAICS_Code": "541990",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 5774005699.4,
+      "Pct_of_Total": 1.3083837943065972,
+      "GHG_kg_CO2e": 553149746.00252,
+      "Energy_MJ": 9353889233.028,
+      "Water_gallons": 1228708412.83232,
+      "Land_m2_year": 3348923.3056519995,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
       "NAICS_Code": "334220",
       "BEA_Sector_Code": "334220",
       "BEA_Sector_Name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
@@ -203,6 +281,45 @@
       "Water_gallons": 688040629.21576,
       "Land_m2_year": 1720101.5730394,
       "GHG_Intensity_kg_per_1000USD": 82.0,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "325411",
+      "BEA_Sector_Code": "325400",
+      "BEA_Sector_Name": "Pharmaceutical and Medicine Manufacturing",
+      "Spending_USD": 4181904328.03,
+      "Pct_of_Total": 0.9476152496184134,
+      "GHG_kg_CO2e": 2482378409.118608,
+      "Energy_MJ": 55201137129.996,
+      "Water_gallons": 10922715914.381557,
+      "Land_m2_year": 42195414.6698227,
+      "GHG_Intensity_kg_per_1000USD": 593.6,
+      "Energy_Intensity_MJ_per_1000USD": 13200.0
+    },
+    {
+      "NAICS_Code": "339999",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 3883023302.05,
+      "Pct_of_Total": 0.8798891143881352,
+      "GHG_kg_CO2e": 567698006.75971,
+      "Energy_MJ": 22424459569.338753,
+      "Water_gallons": 1291493550.26183,
+      "Land_m2_year": 3611211.6709065,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
+      "NAICS_Code": "541611",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 3758765485.68,
+      "Pct_of_Total": 0.8517324201071914,
+      "GHG_kg_CO2e": 360089733.52814394,
+      "Energy_MJ": 6089200086.8015995,
+      "Water_gallons": 799865295.3527039,
+      "Land_m2_year": 2180083.9816944,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
@@ -230,6 +347,19 @@
       "Land_m2_year": 15757022.840085,
       "GHG_Intensity_kg_per_1000USD": 450.0,
       "Energy_Intensity_MJ_per_1000USD": 8400.0
+    },
+    {
+      "NAICS_Code": "423850",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 3409017565.19,
+      "Pct_of_Total": 0.7724798985329401,
+      "GHG_kg_CO2e": 310220598.43229,
+      "Energy_MJ": 7670289521.677501,
+      "Water_gallons": 620441196.86458,
+      "Land_m2_year": 1568148.0799874,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "481212",
@@ -284,6 +414,32 @@
       "Energy_Intensity_MJ_per_1000USD": 12800.0
     },
     {
+      "NAICS_Code": "423450",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1711555154.9,
+      "Pct_of_Total": 0.3878366500340968,
+      "GHG_kg_CO2e": 155751519.0959,
+      "Energy_MJ": 3850999098.525,
+      "Water_gallons": 311503038.1918,
+      "Land_m2_year": 787315.371254,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "561990",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 1646673993.69,
+      "Pct_of_Total": 0.37313464516912426,
+      "GHG_kg_CO2e": 175535447.727354,
+      "Energy_MJ": 3458015386.7490005,
+      "Water_gallons": 351070895.454708,
+      "Land_m2_year": 872737.2166557001,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "336212",
       "BEA_Sector_Code": "336212",
       "BEA_Sector_Name": "Truck Trailer Manufacturing",
@@ -295,6 +451,32 @@
       "Land_m2_year": 1303226.9944991998,
       "GHG_Intensity_kg_per_1000USD": 193.0,
       "Energy_Intensity_MJ_per_1000USD": 9075.0
+    },
+    {
+      "NAICS_Code": "332992",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 1248095156.04,
+      "Pct_of_Total": 0.28281708763900076,
+      "GHG_kg_CO2e": 306407360.80782,
+      "Energy_MJ": 11360786157.8541,
+      "Water_gallons": 846333325.310724,
+      "Land_m2_year": 2695885.5370464004,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "561720",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 1128276055.85,
+      "Pct_of_Total": 0.25566620191104156,
+      "GHG_kg_CO2e": 120274227.55361,
+      "Energy_MJ": 2369379717.2850003,
+      "Water_gallons": 240548455.10722,
+      "Land_m2_year": 597986.3096005,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "541810",
@@ -373,6 +555,32 @@
       "Land_m2_year": 385634.7280448,
       "GHG_Intensity_kg_per_1000USD": 104.0,
       "Energy_Intensity_MJ_per_1000USD": 3875.0
+    },
+    {
+      "NAICS_Code": "541690",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 718771404.24,
+      "Pct_of_Total": 0.16287286609646678,
+      "GHG_kg_CO2e": 68858300.526192,
+      "Energy_MJ": 1164409674.8688,
+      "Water_gallons": 152954554.822272,
+      "Land_m2_year": 416887.4144592,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "541614",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 713378298.23,
+      "Pct_of_Total": 0.16165079378275315,
+      "GHG_kg_CO2e": 68341640.970434,
+      "Energy_MJ": 1155672843.1326,
+      "Water_gallons": 151806901.863344,
+      "Land_m2_year": 413759.4129734,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
       "NAICS_Code": "493190",
@@ -466,6 +674,32 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "488999",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 497990309.54,
+      "Pct_of_Total": 0.1128440955282688,
+      "GHG_kg_CO2e": 333802904.484662,
+      "Energy_MJ": 3551368093.453556,
+      "Water_gallons": 1498652037.529676,
+      "Land_m2_year": 5826486.621618,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
+      "NAICS_Code": "423610",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 490074748.49,
+      "Pct_of_Total": 0.1110504374787555,
+      "GHG_kg_CO2e": 44596802.11259,
+      "Energy_MJ": 1102668184.1025,
+      "Water_gallons": 89193604.22518,
+      "Land_m2_year": 225434.3843054,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "541219",
       "BEA_Sector_Code": "541200",
       "BEA_Sector_Name": "Offices of Certified Public Accountants",
@@ -477,6 +711,45 @@
       "Land_m2_year": 115435.01040000001,
       "GHG_Intensity_kg_per_1000USD": 49.0,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "561611",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 469776951.16,
+      "Pct_of_Total": 0.10645097733456974,
+      "GHG_kg_CO2e": 50078222.993656,
+      "Energy_MJ": 986531597.4360001,
+      "Water_gallons": 100156445.987312,
+      "Land_m2_year": 248981.78411480002,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561621",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 439136160.26,
+      "Pct_of_Total": 0.09950780541105346,
+      "GHG_kg_CO2e": 46811914.683716,
+      "Energy_MJ": 922185936.5460001,
+      "Water_gallons": 93623829.367432,
+      "Land_m2_year": 232742.1649378,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561612",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 431523583.21,
+      "Pct_of_Total": 0.09778280322649284,
+      "GHG_kg_CO2e": 46000413.97018599,
+      "Energy_MJ": 906199524.7409999,
+      "Water_gallons": 92000827.94037198,
+      "Land_m2_year": 228707.49910129997,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "493110",
@@ -492,6 +765,45 @@
       "Energy_Intensity_MJ_per_1000USD": 4000.0
     },
     {
+      "NAICS_Code": "488510",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 396622447.71,
+      "Pct_of_Total": 0.08987424156784332,
+      "GHG_kg_CO2e": 265856026.70001298,
+      "Energy_MJ": 2828473323.599094,
+      "Water_gallons": 1193595594.138474,
+      "Land_m2_year": 4640482.638207,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
+      "NAICS_Code": "332999",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 387614910.75,
+      "Pct_of_Total": 0.08783314289239408,
+      "GHG_kg_CO2e": 95159460.589125,
+      "Energy_MJ": 3528264725.1018753,
+      "Water_gallons": 262841670.979575,
+      "Land_m2_year": 837248.2072200001,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "541612",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 367755936.07,
+      "Pct_of_Total": 0.08333311951251465,
+      "GHG_kg_CO2e": 35231018.675505996,
+      "Energy_MJ": 595764616.4333999,
+      "Water_gallons": 78258463.195696,
+      "Land_m2_year": 213298.44292059998,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
       "NAICS_Code": "541310",
       "BEA_Sector_Code": "541300",
       "BEA_Sector_Name": "Architectural Services",
@@ -503,6 +815,19 @@
       "Land_m2_year": 163973.17760159995,
       "GHG_Intensity_kg_per_1000USD": 94.0,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "488310",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 341341316.27,
+      "Pct_of_Total": 0.07734759364393412,
+      "GHG_kg_CO2e": 228801084.29578096,
+      "Energy_MJ": 2434241462.8478775,
+      "Water_gallons": 1027232557.1829379,
+      "Land_m2_year": 3993693.400358999,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
     },
     {
       "NAICS_Code": "332510",
@@ -518,6 +843,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "561730",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 335588917.25,
+      "Pct_of_Total": 0.07604410590111198,
+      "GHG_kg_CO2e": 35773778.57885,
+      "Energy_MJ": 704736726.225,
+      "Water_gallons": 71547557.1577,
+      "Land_m2_year": 177862.1261425,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "336612",
       "BEA_Sector_Code": "336612",
       "BEA_Sector_Name": "Boat Building",
@@ -531,6 +869,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "541620",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 307391319.0,
+      "Pct_of_Total": 0.06965455893677458,
+      "GHG_kg_CO2e": 29448088.360199995,
+      "Energy_MJ": 497973936.78,
+      "Water_gallons": 65412872.683199994,
+      "Land_m2_year": 178286.96501999997,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
       "NAICS_Code": "541720",
       "BEA_Sector_Code": "541700",
       "BEA_Sector_Name": "Research and Development in Nanotechnology",
@@ -542,6 +893,71 @@
       "Land_m2_year": 212608.47390479996,
       "GHG_Intensity_kg_per_1000USD": 145.0,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "561110",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 266434891.46,
+      "Pct_of_Total": 0.06037387428632527,
+      "GHG_kg_CO2e": 28401959.429635998,
+      "Energy_MJ": 559513272.066,
+      "Water_gallons": 56803918.859271996,
+      "Land_m2_year": 141210.4924738,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561422",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 266258890.69,
+      "Pct_of_Total": 0.06033399269159851,
+      "GHG_kg_CO2e": 28383197.747553997,
+      "Energy_MJ": 559143670.449,
+      "Water_gallons": 56766395.49510799,
+      "Land_m2_year": 141117.2120657,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "332911",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 260176138.28,
+      "Pct_of_Total": 0.05895564720800288,
+      "GHG_kg_CO2e": 63873241.94774001,
+      "Energy_MJ": 2368253298.6937003,
+      "Water_gallons": 176425439.367668,
+      "Land_m2_year": 561980.4586848001,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "332919",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 249908412.81,
+      "Pct_of_Total": 0.05662899110325864,
+      "GHG_kg_CO2e": 61352515.34485501,
+      "Energy_MJ": 2274791327.603025,
+      "Water_gallons": 169462894.72646102,
+      "Land_m2_year": 539802.1716696001,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "488320",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 245822766.99,
+      "Pct_of_Total": 0.05570318793324792,
+      "GHG_kg_CO2e": 164775000.713397,
+      "Energy_MJ": 1753060480.512486,
+      "Water_gallons": 739779034.979706,
+      "Land_m2_year": 2876126.373783,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
     },
     {
       "NAICS_Code": "541380",
@@ -568,6 +984,19 @@
       "Land_m2_year": 2499106.0573696,
       "GHG_Intensity_kg_per_1000USD": 544.0,
       "Energy_Intensity_MJ_per_1000USD": 24299.999999999996
+    },
+    {
+      "NAICS_Code": "332991",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 192232878.22,
+      "Pct_of_Total": 0.04355977387104026,
+      "GHG_kg_CO2e": 47193171.603010006,
+      "Energy_MJ": 1749799773.99755,
+      "Water_gallons": 130353114.72098202,
+      "Land_m2_year": 415223.01695520006,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
     },
     {
       "NAICS_Code": "221320",
@@ -635,6 +1064,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "488390",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 145266644.92,
+      "Pct_of_Total": 0.032917273373382565,
+      "GHG_kg_CO2e": 97372232.08987598,
+      "Energy_MJ": 1035954551.5824878,
+      "Water_gallons": 437165441.22224796,
+      "Land_m2_year": 1699619.7455639997,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
       "NAICS_Code": "221210",
       "BEA_Sector_Code": "221200",
       "BEA_Sector_Name": "Natural Gas Distribution",
@@ -661,6 +1103,19 @@
       "Energy_Intensity_MJ_per_1000USD": 12800.0
     },
     {
+      "NAICS_Code": "339991",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 137695498.18,
+      "Pct_of_Total": 0.031201659254753863,
+      "GHG_kg_CO2e": 20131081.833915997,
+      "Energy_MJ": 795191501.9895,
+      "Water_gallons": 45797522.694667995,
+      "Land_m2_year": 128056.81330739999,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "541713",
       "BEA_Sector_Code": "541700",
       "BEA_Sector_Name": "Research and Development in Nanotechnology",
@@ -672,6 +1127,19 @@
       "Land_m2_year": 98906.68324079999,
       "GHG_Intensity_kg_per_1000USD": 145.0,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "561320",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 132124417.15,
+      "Pct_of_Total": 0.029939257983279826,
+      "GHG_kg_CO2e": 14084462.86819,
+      "Energy_MJ": 277461276.01500005,
+      "Water_gallons": 28168925.73638,
+      "Land_m2_year": 70025.9410895,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "336120",
@@ -687,6 +1155,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "325412",
+      "BEA_Sector_Code": "325400",
+      "BEA_Sector_Name": "Pharmaceutical and Medicine Manufacturing",
+      "Spending_USD": 116419651.19,
+      "Pct_of_Total": 0.02638057405652563,
+      "GHG_kg_CO2e": 69106704.946384,
+      "Energy_MJ": 1536739395.708,
+      "Water_gallons": 304076486.943161,
+      "Land_m2_year": 1174674.2805071,
+      "GHG_Intensity_kg_per_1000USD": 593.6,
+      "Energy_Intensity_MJ_per_1000USD": 13200.0
+    },
+    {
       "NAICS_Code": "315250",
       "BEA_Sector_Code": "315000",
       "BEA_Sector_Name": "Hosiery and Sock Mills",
@@ -698,6 +1179,19 @@
       "Land_m2_year": 59495.88641359999,
       "GHG_Intensity_kg_per_1000USD": 104.0,
       "Energy_Intensity_MJ_per_1000USD": 3875.0
+    },
+    {
+      "NAICS_Code": "541618",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 108423894.84,
+      "Pct_of_Total": 0.02456874383393836,
+      "GHG_kg_CO2e": 10387009.125672,
+      "Energy_MJ": 175646709.6408,
+      "Water_gallons": 23072604.821952,
+      "Land_m2_year": 62885.85900719999,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
       "NAICS_Code": "316210",
@@ -724,6 +1218,32 @@
       "Land_m2_year": 38746.4327931,
       "GHG_Intensity_kg_per_1000USD": 74.0,
       "Energy_Intensity_MJ_per_1000USD": 6600.0
+    },
+    {
+      "NAICS_Code": "332996",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 96388950.97,
+      "Pct_of_Total": 0.021841637844671014,
+      "GHG_kg_CO2e": 23663487.463135,
+      "Energy_MJ": 877380426.204425,
+      "Water_gallons": 65361347.652757004,
+      "Land_m2_year": 208200.13409520002,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "541930",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 93567110.84,
+      "Pct_of_Total": 0.02120221175324896,
+      "GHG_kg_CO2e": 8963729.218472,
+      "Energy_MJ": 151578719.5608,
+      "Water_gallons": 19911081.186752003,
+      "Land_m2_year": 54268.924287199996,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
       "NAICS_Code": "485410",
@@ -765,6 +1285,32 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "488330",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 74756648.98,
+      "Pct_of_Total": 0.01693978030750172,
+      "GHG_kg_CO2e": 50109381.811294004,
+      "Energy_MJ": 533119566.535972,
+      "Water_gallons": 224972659.440412,
+      "Land_m2_year": 874652.793066,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
+      "NAICS_Code": "325414",
+      "BEA_Sector_Code": "325400",
+      "BEA_Sector_Name": "Pharmaceutical and Medicine Manufacturing",
+      "Spending_USD": 71345491.86,
+      "Pct_of_Total": 0.01616681558803403,
+      "GHG_kg_CO2e": 42350683.968095995,
+      "Energy_MJ": 941760492.5519999,
+      "Water_gallons": 186347290.18913397,
+      "Land_m2_year": 719876.0128673998,
+      "GHG_Intensity_kg_per_1000USD": 593.6,
+      "Energy_Intensity_MJ_per_1000USD": 13200.0
+    },
+    {
       "NAICS_Code": "332618",
       "BEA_Sector_Code": "332600",
       "BEA_Sector_Name": "Spring Manufacturing",
@@ -791,6 +1337,45 @@
       "Energy_Intensity_MJ_per_1000USD": 7200.0
     },
     {
+      "NAICS_Code": "561499",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 67003185.65,
+      "Pct_of_Total": 0.015182853435784807,
+      "GHG_kg_CO2e": 7142539.590289999,
+      "Energy_MJ": 140706689.865,
+      "Water_gallons": 14285079.180579998,
+      "Land_m2_year": 35511.6883945,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "332912",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 62772460.04,
+      "Pct_of_Total": 0.014224175333534735,
+      "GHG_kg_CO2e": 15410638.93982,
+      "Energy_MJ": 571386317.5141,
+      "Water_gallons": 42566005.153124,
+      "Land_m2_year": 135588.5136864,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
+      "NAICS_Code": "488119",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 59699556.89,
+      "Pct_of_Total": 0.013527858618199402,
+      "GHG_kg_CO2e": 40016612.983366996,
+      "Energy_MJ": 425741420.00534594,
+      "Water_gallons": 179659846.504766,
+      "Land_m2_year": 698484.8156129998,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
       "NAICS_Code": "524292",
       "BEA_Sector_Code": "524200",
       "BEA_Sector_Name": "Insurance Agencies and Brokerages",
@@ -815,6 +1400,32 @@
       "Land_m2_year": 731976.407993,
       "GHG_Intensity_kg_per_1000USD": 685.0,
       "Energy_Intensity_MJ_per_1000USD": 12800.0
+    },
+    {
+      "NAICS_Code": "561920",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 53335722.91,
+      "Pct_of_Total": 0.012085820337919408,
+      "GHG_kg_CO2e": 5685588.062205999,
+      "Energy_MJ": 112005018.11099999,
+      "Water_gallons": 11371176.124411998,
+      "Land_m2_year": 28267.933142299997,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "325413",
+      "BEA_Sector_Code": "325400",
+      "BEA_Sector_Name": "Pharmaceutical and Medicine Manufacturing",
+      "Spending_USD": 50083543.31,
+      "Pct_of_Total": 0.011348879762114874,
+      "GHG_kg_CO2e": 29729591.308815997,
+      "Energy_MJ": 661102771.692,
+      "Water_gallons": 130813206.771389,
+      "Land_m2_year": 505342.9519979,
+      "GHG_Intensity_kg_per_1000USD": 593.6,
+      "Energy_Intensity_MJ_per_1000USD": 13200.0
     },
     {
       "NAICS_Code": "221118",
@@ -856,6 +1467,32 @@
       "Energy_Intensity_MJ_per_1000USD": 7200.0
     },
     {
+      "NAICS_Code": "423120",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 40880335.99,
+      "Pct_of_Total": 0.009263442382934054,
+      "GHG_kg_CO2e": 3720110.57509,
+      "Energy_MJ": 91980755.9775,
+      "Water_gallons": 7440221.15018,
+      "Land_m2_year": 18804.9545554,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "561790",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 37726350.73,
+      "Pct_of_Total": 0.008548752544284484,
+      "GHG_kg_CO2e": 4021628.9878179994,
+      "Energy_MJ": 79225336.53299999,
+      "Water_gallons": 8043257.975635999,
+      "Land_m2_year": 19994.965886899998,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "541350",
       "BEA_Sector_Code": "541300",
       "BEA_Sector_Name": "Architectural Services",
@@ -866,6 +1503,32 @@
       "Water_gallons": 7084839.27828,
       "Land_m2_year": 17712.098195699997,
       "GHG_Intensity_kg_per_1000USD": 94.0,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
+      "NAICS_Code": "339920",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 35987926.18,
+      "Pct_of_Total": 0.008154827316763305,
+      "GHG_kg_CO2e": 5261434.807515999,
+      "Energy_MJ": 207830273.6895,
+      "Water_gallons": 11969584.247468,
+      "Land_m2_year": 33468.7713474,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
+      "NAICS_Code": "541613",
+      "BEA_Sector_Code": "541600",
+      "BEA_Sector_Name": "Management and Technical Consulting",
+      "Spending_USD": 35791016.01,
+      "Pct_of_Total": 0.008110207673351983,
+      "GHG_kg_CO2e": 3428779.3337579994,
+      "Energy_MJ": 57981445.93619999,
+      "Water_gallons": 7616328.206927999,
+      "Land_m2_year": 20758.789285799994,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
@@ -934,6 +1597,19 @@
       "Energy_Intensity_MJ_per_1000USD": 2039.9999999999998
     },
     {
+      "NAICS_Code": "488111",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 29196268.95,
+      "Pct_of_Total": 0.006615844724982935,
+      "GHG_kg_CO2e": 19570259.077184997,
+      "Energy_MJ": 208210272.39003,
+      "Water_gallons": 87863251.77813,
+      "Land_m2_year": 341596.34671499993,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
       "NAICS_Code": "484210",
       "BEA_Sector_Code": "484000",
       "BEA_Sector_Name": "General Freight Trucking, Local",
@@ -958,6 +1634,32 @@
       "Land_m2_year": 417066.51409599994,
       "GHG_Intensity_kg_per_1000USD": 766.0,
       "Energy_Intensity_MJ_per_1000USD": 11200.0
+    },
+    {
+      "NAICS_Code": "561710",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 26942227.13,
+      "Pct_of_Total": 0.00610508115069623,
+      "GHG_kg_CO2e": 2872041.4120579995,
+      "Energy_MJ": 56578676.973,
+      "Water_gallons": 5744082.824115999,
+      "Land_m2_year": 14279.3803789,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "423310",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 25151325.18,
+      "Pct_of_Total": 0.0056992645979319035,
+      "GHG_kg_CO2e": 2288770.5913799996,
+      "Energy_MJ": 56590481.655,
+      "Water_gallons": 4577541.182759999,
+      "Land_m2_year": 11569.6095828,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "221121",
@@ -1038,6 +1740,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "561450",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 18548707.17,
+      "Pct_of_Total": 0.004203118100331709,
+      "GHG_kg_CO2e": 1977292.184322,
+      "Energy_MJ": 38952285.057000004,
+      "Water_gallons": 3954584.368644,
+      "Land_m2_year": 9830.8148001,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "541820",
       "BEA_Sector_Code": "541800",
       "BEA_Sector_Name": "Advertising Agencies",
@@ -1090,6 +1805,45 @@
       "Energy_Intensity_MJ_per_1000USD": 11550.0
     },
     {
+      "NAICS_Code": "339940",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 16353840.03,
+      "Pct_of_Total": 0.003705763448096003,
+      "GHG_kg_CO2e": 2390931.412386,
+      "Energy_MJ": 94443426.17325,
+      "Water_gallons": 5439287.193978,
+      "Land_m2_year": 15209.0712279,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
+      "NAICS_Code": "488210",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 15530048.18,
+      "Pct_of_Total": 0.0035190930562510737,
+      "GHG_kg_CO2e": 10409791.295053998,
+      "Energy_MJ": 110750985.59085199,
+      "Water_gallons": 46736126.992892,
+      "Land_m2_year": 181701.56370599996,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
+      "NAICS_Code": "488490",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 14550436.73,
+      "Pct_of_Total": 0.003297114102189706,
+      "GHG_kg_CO2e": 9753157.740118999,
+      "Energy_MJ": 103764984.496322,
+      "Water_gallons": 43788084.295262,
+      "Land_m2_year": 170240.109741,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
       "NAICS_Code": "485113",
       "BEA_Sector_Code": "485000",
       "BEA_Sector_Name": "Mixed Mode Transit Systems",
@@ -1101,6 +1855,32 @@
       "Land_m2_year": 71366.0229296,
       "GHG_Intensity_kg_per_1000USD": 493.0,
       "Energy_Intensity_MJ_per_1000USD": 8000.0
+    },
+    {
+      "NAICS_Code": "561599",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 14180855.49,
+      "Pct_of_Total": 0.003213367370670895,
+      "GHG_kg_CO2e": 1511679.195234,
+      "Energy_MJ": 29779796.529000003,
+      "Water_gallons": 3023358.390468,
+      "Land_m2_year": 7515.8534097,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561410",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 14110751.86,
+      "Pct_of_Total": 0.0031974819597119838,
+      "GHG_kg_CO2e": 1504206.1482759998,
+      "Energy_MJ": 29632578.906,
+      "Water_gallons": 3008412.2965519996,
+      "Land_m2_year": 7478.6984858,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "541430",
@@ -1168,6 +1948,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "423430",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 13392014.11,
+      "Pct_of_Total": 0.0030346167196319287,
+      "GHG_kg_CO2e": 1218673.2840099998,
+      "Energy_MJ": 30132031.7475,
+      "Water_gallons": 2437346.5680199997,
+      "Land_m2_year": 6160.3264905999995,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "712110",
       "BEA_Sector_Code": "712000",
       "BEA_Sector_Name": "Museums",
@@ -1220,6 +2013,19 @@
       "Energy_Intensity_MJ_per_1000USD": 3250.0
     },
     {
+      "NAICS_Code": "332913",
+      "BEA_Sector_Code": "332900",
+      "BEA_Sector_Name": "Other Fabricated Metal Product Manufacturing",
+      "Spending_USD": 10096969.36,
+      "Pct_of_Total": 0.002287962944616946,
+      "GHG_kg_CO2e": 2478805.97788,
+      "Energy_MJ": 91907663.5994,
+      "Water_gallons": 6846754.923016001,
+      "Land_m2_year": 21809.453817600002,
+      "GHG_Intensity_kg_per_1000USD": 245.50000000000003,
+      "Energy_Intensity_MJ_per_1000USD": 9102.5
+    },
+    {
       "NAICS_Code": "493120",
       "BEA_Sector_Code": "493000",
       "BEA_Sector_Name": "General Warehousing and Storage",
@@ -1231,6 +2037,45 @@
       "Land_m2_year": 21945.5961842,
       "GHG_Intensity_kg_per_1000USD": 221.0,
       "Energy_Intensity_MJ_per_1000USD": 4000.0
+    },
+    {
+      "NAICS_Code": "561330",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 9768801.67,
+      "Pct_of_Total": 0.002213600481231147,
+      "GHG_kg_CO2e": 1041354.258022,
+      "Energy_MJ": 20514483.507000003,
+      "Water_gallons": 2082708.516044,
+      "Land_m2_year": 5177.4648851,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561311",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 9628296.23,
+      "Pct_of_Total": 0.002181762092029865,
+      "GHG_kg_CO2e": 1026376.378118,
+      "Energy_MJ": 20219422.083000004,
+      "Water_gallons": 2052752.756236,
+      "Land_m2_year": 5102.9970019,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "339950",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 9610889.07,
+      "Pct_of_Total": 0.0021778176473523565,
+      "GHG_kg_CO2e": 1405111.982034,
+      "Energy_MJ": 55502884.379250005,
+      "Water_gallons": 3196581.7046820004,
+      "Land_m2_year": 8938.126835100002,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
     },
     {
       "NAICS_Code": "315240",
@@ -1259,6 +2104,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "339930",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 9124166.94,
+      "Pct_of_Total": 0.0020675269097992976,
+      "GHG_kg_CO2e": 1333953.2066279997,
+      "Energy_MJ": 52692064.078499995,
+      "Water_gallons": 3034697.9242439996,
+      "Land_m2_year": 8485.475254199999,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "336214",
       "BEA_Sector_Code": "336214",
       "BEA_Sector_Name": "Travel Trailer and Camper Manufacturing",
@@ -1272,6 +2130,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "423990",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 9016570.21,
+      "Pct_of_Total": 0.0020431456006732933,
+      "GHG_kg_CO2e": 820507.88911,
+      "Energy_MJ": 20287282.9725,
+      "Water_gallons": 1641015.77822,
+      "Land_m2_year": 4147.6222966,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "115210",
       "BEA_Sector_Code": "115000",
       "BEA_Sector_Name": "Cotton Ginning",
@@ -1283,6 +2154,19 @@
       "Land_m2_year": 27123.6256962,
       "GHG_Intensity_kg_per_1000USD": 319.0,
       "Energy_Intensity_MJ_per_1000USD": 6400.0
+    },
+    {
+      "NAICS_Code": "541910",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 8167884.31,
+      "Pct_of_Total": 0.001850834242523457,
+      "GHG_kg_CO2e": 782483.316898,
+      "Energy_MJ": 13231972.5822,
+      "Water_gallons": 1738125.781168,
+      "Land_m2_year": 4737.3728998,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
       "NAICS_Code": "512120",
@@ -1337,6 +2221,19 @@
       "Energy_Intensity_MJ_per_1000USD": 3850.0
     },
     {
+      "NAICS_Code": "561421",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 6950689.38,
+      "Pct_of_Total": 0.001575019114545727,
+      "GHG_kg_CO2e": 740943.4879079999,
+      "Energy_MJ": 14596447.698,
+      "Water_gallons": 1481886.9758159998,
+      "Land_m2_year": 3683.8653713999997,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "332812",
       "BEA_Sector_Code": "332800",
       "BEA_Sector_Name": "Metal Heat Treating",
@@ -1361,6 +2258,19 @@
       "Land_m2_year": 3465.0349188,
       "GHG_Intensity_kg_per_1000USD": 104.0,
       "Energy_Intensity_MJ_per_1000USD": 1800.0
+    },
+    {
+      "NAICS_Code": "339910",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 6657691.64,
+      "Pct_of_Total": 0.001508626125909728,
+      "GHG_kg_CO2e": 973354.5177679999,
+      "Energy_MJ": 38448169.221,
+      "Water_gallons": 2214348.239464,
+      "Land_m2_year": 6191.6532252,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
     },
     {
       "NAICS_Code": "541110",
@@ -1402,6 +2312,19 @@
       "Energy_Intensity_MJ_per_1000USD": 7999.999999999999
     },
     {
+      "NAICS_Code": "541940",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 6122293.95,
+      "Pct_of_Total": 0.0013873055561745822,
+      "GHG_kg_CO2e": 586515.76041,
+      "Energy_MJ": 9918116.199000001,
+      "Water_gallons": 1302824.1525600003,
+      "Land_m2_year": 3550.930491,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
       "NAICS_Code": "331222",
       "BEA_Sector_Code": "331200",
       "BEA_Sector_Name": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
@@ -1441,6 +2364,32 @@
       "Energy_Intensity_MJ_per_1000USD": 3850.0
     },
     {
+      "NAICS_Code": "423830",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 4430236.98,
+      "Pct_of_Total": 0.0010038871749247032,
+      "GHG_kg_CO2e": 403151.56518,
+      "Energy_MJ": 9968033.205,
+      "Water_gallons": 806303.13036,
+      "Land_m2_year": 2037.9090108,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "339944",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 4405587.22,
+      "Pct_of_Total": 0.0009983015644842946,
+      "GHG_kg_CO2e": 644096.8515639999,
+      "Energy_MJ": 25442266.195499998,
+      "Water_gallons": 1465298.3093719997,
+      "Land_m2_year": 4097.196114599999,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "332813",
       "BEA_Sector_Code": "332800",
       "BEA_Sector_Name": "Metal Heat Treating",
@@ -1454,6 +2403,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "339993",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 4161464.01,
+      "Pct_of_Total": 0.0009429834944291685,
+      "GHG_kg_CO2e": 608406.038262,
+      "Energy_MJ": 24032454.65775,
+      "Water_gallons": 1384102.929726,
+      "Land_m2_year": 3870.1615293,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "315110",
       "BEA_Sector_Code": "315000",
       "BEA_Sector_Name": "Hosiery and Sock Mills",
@@ -1465,6 +2427,19 @@
       "Land_m2_year": 2102.7436196,
       "GHG_Intensity_kg_per_1000USD": 104.0,
       "Energy_Intensity_MJ_per_1000USD": 3875.0
+    },
+    {
+      "NAICS_Code": "339992",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 3610050.5,
+      "Pct_of_Total": 0.000818033756239494,
+      "GHG_kg_CO2e": 527789.3831,
+      "Energy_MJ": 20848041.637500003,
+      "Water_gallons": 1200702.7963,
+      "Land_m2_year": 3357.346965,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
     },
     {
       "NAICS_Code": "336510",
@@ -1493,6 +2468,19 @@
       "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
+      "NAICS_Code": "488991",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 3454184.49,
+      "Pct_of_Total": 0.0007827146775644554,
+      "GHG_kg_CO2e": 2315339.863647,
+      "Energy_MJ": 24633171.271986,
+      "Water_gallons": 10395022.804206,
+      "Land_m2_year": 40413.958533,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
+    },
+    {
       "NAICS_Code": "327215",
       "BEA_Sector_Code": "327200",
       "BEA_Sector_Name": "Flat Glass Manufacturing",
@@ -1504,6 +2492,58 @@
       "Land_m2_year": 15916.5108416,
       "GHG_Intensity_kg_per_1000USD": 496.0,
       "Energy_Intensity_MJ_per_1000USD": 17400.0
+    },
+    {
+      "NAICS_Code": "561910",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 3177511.29,
+      "Pct_of_Total": 0.0007200208130196794,
+      "GHG_kg_CO2e": 338722.70351399994,
+      "Energy_MJ": 6672773.709,
+      "Water_gallons": 677445.4070279999,
+      "Land_m2_year": 1684.0809837,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "339994",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 3137660.69,
+      "Pct_of_Total": 0.0007109907077603769,
+      "GHG_kg_CO2e": 458725.99287799996,
+      "Energy_MJ": 18119990.48475,
+      "Water_gallons": 1043585.9454939999,
+      "Land_m2_year": 2918.0244417,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
+      "NAICS_Code": "423490",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 3028166.88,
+      "Pct_of_Total": 0.0006861795222439212,
+      "GHG_kg_CO2e": 275563.18607999996,
+      "Energy_MJ": 6813375.4799999995,
+      "Water_gallons": 551126.3721599999,
+      "Land_m2_year": 1392.9567647999997,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "423690",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 2936261.97,
+      "Pct_of_Total": 0.0006653539635033573,
+      "GHG_kg_CO2e": 267199.83927,
+      "Energy_MJ": 6606589.4325,
+      "Water_gallons": 534399.67854,
+      "Land_m2_year": 1350.6805062,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "481111",
@@ -1532,6 +2572,19 @@
       "Energy_Intensity_MJ_per_1000USD": 3875.0
     },
     {
+      "NAICS_Code": "561613",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 2608481.98,
+      "Pct_of_Total": 0.0005910793525415871,
+      "GHG_kg_CO2e": 278064.179068,
+      "Energy_MJ": 5477812.158,
+      "Water_gallons": 556128.358136,
+      "Land_m2_year": 1382.4954494,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "316990",
       "BEA_Sector_Code": "316000",
       "BEA_Sector_Name": "Leather and Hide Tanning and Finishing",
@@ -1545,6 +2598,19 @@
       "Energy_Intensity_MJ_per_1000USD": 3875.0
     },
     {
+      "NAICS_Code": "561622",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 2011765.46,
+      "Pct_of_Total": 0.00045586399855533145,
+      "GHG_kg_CO2e": 214454.198036,
+      "Energy_MJ": 4224707.466,
+      "Water_gallons": 428908.396072,
+      "Land_m2_year": 1066.2356938,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "484121",
       "BEA_Sector_Code": "484000",
       "BEA_Sector_Name": "General Freight Trucking, Local",
@@ -1556,6 +2622,32 @@
       "Land_m2_year": 28798.110716799998,
       "GHG_Intensity_kg_per_1000USD": 766.0,
       "Energy_Intensity_MJ_per_1000USD": 11200.0
+    },
+    {
+      "NAICS_Code": "423910",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1842863.18,
+      "Pct_of_Total": 0.00041759091441265396,
+      "GHG_kg_CO2e": 167700.54937999998,
+      "Energy_MJ": 4146442.155,
+      "Water_gallons": 335401.09875999996,
+      "Land_m2_year": 847.7170627999999,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "423440",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1799309.51,
+      "Pct_of_Total": 0.0004077216972734158,
+      "GHG_kg_CO2e": 163737.16541,
+      "Energy_MJ": 4048446.3975,
+      "Water_gallons": 327474.33082,
+      "Land_m2_year": 827.6823746,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "327110",
@@ -1582,6 +2674,19 @@
       "Land_m2_year": 5655.957284000001,
       "GHG_Intensity_kg_per_1000USD": 316.0,
       "Energy_Intensity_MJ_per_1000USD": 5600.000000000001
+    },
+    {
+      "NAICS_Code": "423620",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1773613.49,
+      "Pct_of_Total": 0.0004018990053855862,
+      "GHG_kg_CO2e": 161398.82759,
+      "Energy_MJ": 3990630.3525,
+      "Water_gallons": 322797.65518,
+      "Land_m2_year": 815.8622054,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "485320",
@@ -1662,6 +2767,19 @@
       "Energy_Intensity_MJ_per_1000USD": 5600.0
     },
     {
+      "NAICS_Code": "423320",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1486415.54,
+      "Pct_of_Total": 0.0003368202432400754,
+      "GHG_kg_CO2e": 135263.81414,
+      "Energy_MJ": 3344434.965,
+      "Water_gallons": 270527.62828,
+      "Land_m2_year": 683.7511483999999,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "541490",
       "BEA_Sector_Code": "541400",
       "BEA_Sector_Name": "Interior Design Services",
@@ -1686,6 +2804,19 @@
       "Land_m2_year": 14994.433676800003,
       "GHG_Intensity_kg_per_1000USD": 544.0,
       "Energy_Intensity_MJ_per_1000USD": 24299.999999999996
+    },
+    {
+      "NAICS_Code": "541922",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 1353321.98,
+      "Pct_of_Total": 0.0003066613784768023,
+      "GHG_kg_CO2e": 129648.24568399998,
+      "Energy_MJ": 2192381.6075999998,
+      "Water_gallons": 287986.917344,
+      "Land_m2_year": 784.9267483999998,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
       "NAICS_Code": "115112",
@@ -1740,6 +2871,19 @@
       "Energy_Intensity_MJ_per_1000USD": 7200.0
     },
     {
+      "NAICS_Code": "423840",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1286287.5,
+      "Pct_of_Total": 0.00029147143377326943,
+      "GHG_kg_CO2e": 117052.16249999999,
+      "Energy_MJ": 2894146.875,
+      "Water_gallons": 234104.32499999998,
+      "Land_m2_year": 591.69225,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "512290",
       "BEA_Sector_Code": "512200",
       "BEA_Sector_Name": "Music Publishers",
@@ -1764,6 +2908,19 @@
       "Land_m2_year": 6139.8603554,
       "GHG_Intensity_kg_per_1000USD": 493.0,
       "Energy_Intensity_MJ_per_1000USD": 8000.0
+    },
+    {
+      "NAICS_Code": "561510",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 1207821.84,
+      "Pct_of_Total": 0.00027369119535676777,
+      "GHG_kg_CO2e": 128753.80814400001,
+      "Energy_MJ": 2536425.8640000005,
+      "Water_gallons": 257507.61628800002,
+      "Land_m2_year": 640.1455752,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "321113",
@@ -1792,6 +2949,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1280.0
     },
     {
+      "NAICS_Code": "423730",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1122467.21,
+      "Pct_of_Total": 0.0002543499233741924,
+      "GHG_kg_CO2e": 102144.51610999998,
+      "Energy_MJ": 2525551.2224999997,
+      "Water_gallons": 204289.03221999996,
+      "Land_m2_year": 516.3349165999999,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "327211",
       "BEA_Sector_Code": "327200",
       "BEA_Sector_Name": "Flat Glass Manufacturing",
@@ -1805,6 +2975,19 @@
       "Energy_Intensity_MJ_per_1000USD": 17400.0
     },
     {
+      "NAICS_Code": "423710",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 1107216.27,
+      "Pct_of_Total": 0.00025089407594646715,
+      "GHG_kg_CO2e": 100756.68057,
+      "Energy_MJ": 2491236.6075,
+      "Water_gallons": 201513.36114,
+      "Land_m2_year": 509.31948420000003,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "113210",
       "BEA_Sector_Code": "113000",
       "BEA_Sector_Name": "Timber Tract Operations",
@@ -1816,6 +2999,19 @@
       "Land_m2_year": 2560.8703800000003,
       "GHG_Intensity_kg_per_1000USD": 249.0,
       "Energy_Intensity_MJ_per_1000USD": 7200.0
+    },
+    {
+      "NAICS_Code": "423860",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 911414.04,
+      "Pct_of_Total": 0.00020652549060757252,
+      "GHG_kg_CO2e": 82938.67764,
+      "Energy_MJ": 2050681.5899999999,
+      "Water_gallons": 165877.35528,
+      "Land_m2_year": 419.25045839999996,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "541840",
@@ -1868,6 +3064,19 @@
       "Land_m2_year": 20929.816580400002,
       "GHG_Intensity_kg_per_1000USD": 1547.0,
       "Energy_Intensity_MJ_per_1000USD": 3200.0
+    },
+    {
+      "NAICS_Code": "423210",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 652051.64,
+      "Pct_of_Total": 0.0001477542356627206,
+      "GHG_kg_CO2e": 59336.69924,
+      "Energy_MJ": 1467116.1900000002,
+      "Water_gallons": 118673.39848,
+      "Land_m2_year": 299.9437544,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "321114",
@@ -1961,6 +3170,32 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "561431",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 467832.11,
+      "Pct_of_Total": 0.00010601027831404246,
+      "GHG_kg_CO2e": 49870.90292599999,
+      "Energy_MJ": 982447.431,
+      "Water_gallons": 99741.80585199998,
+      "Land_m2_year": 247.9510183,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "541921",
+      "BEA_Sector_Code": "541900",
+      "BEA_Sector_Name": "Other Professional Services",
+      "Spending_USD": 452455.08,
+      "Pct_of_Total": 0.00010252585902109701,
+      "GHG_kg_CO2e": 43345.196664,
+      "Energy_MJ": 732977.2296000001,
+      "Water_gallons": 96282.44102400001,
+      "Land_m2_year": 262.4239464,
+      "GHG_Intensity_kg_per_1000USD": 95.8,
+      "Energy_Intensity_MJ_per_1000USD": 1620.0
+    },
+    {
       "NAICS_Code": "321213",
       "BEA_Sector_Code": "321200",
       "BEA_Sector_Name": "Hardwood Veneer and Plywood Manufacturing",
@@ -1987,6 +3222,32 @@
       "Energy_Intensity_MJ_per_1000USD": 3875.0
     },
     {
+      "NAICS_Code": "423410",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 410148.41,
+      "Pct_of_Total": 9.293921080825768e-05,
+      "GHG_kg_CO2e": 37323.50530999999,
+      "Energy_MJ": 922833.9224999999,
+      "Water_gallons": 74647.01061999999,
+      "Land_m2_year": 188.66826859999998,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "561492",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 404639.11,
+      "Pct_of_Total": 9.169080905508269e-05,
+      "GHG_kg_CO2e": 43134.529125999994,
+      "Energy_MJ": 849742.1309999999,
+      "Water_gallons": 86269.05825199999,
+      "Land_m2_year": 214.4587283,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
       "NAICS_Code": "327213",
       "BEA_Sector_Code": "327200",
       "BEA_Sector_Name": "Flat Glass Manufacturing",
@@ -2011,6 +3272,19 @@
       "Land_m2_year": 240.30922499999997,
       "GHG_Intensity_kg_per_1000USD": 130.0,
       "Energy_Intensity_MJ_per_1000USD": 3850.0
+    },
+    {
+      "NAICS_Code": "423110",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 367090.01,
+      "Pct_of_Total": 8.318222134518435e-05,
+      "GHG_kg_CO2e": 33405.19091,
+      "Energy_MJ": 825952.5225,
+      "Water_gallons": 66810.38182,
+      "Land_m2_year": 168.8614046,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "315299",
@@ -2050,6 +3324,32 @@
       "Land_m2_year": 203.97975000000002,
       "GHG_Intensity_kg_per_1000USD": 130.0,
       "Energy_Intensity_MJ_per_1000USD": 4375.0
+    },
+    {
+      "NAICS_Code": "339995",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 298161.24,
+      "Pct_of_Total": 6.756303246235067e-05,
+      "GHG_kg_CO2e": 43591.17328799999,
+      "Energy_MJ": 1721881.1609999998,
+      "Water_gallons": 99168.42842399998,
+      "Land_m2_year": 277.28995319999996,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
+      "NAICS_Code": "561740",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 295895.72,
+      "Pct_of_Total": 6.704966794419899e-05,
+      "GHG_kg_CO2e": 31542.483751999996,
+      "Energy_MJ": 621381.012,
+      "Water_gallons": 63084.96750399999,
+      "Land_m2_year": 156.82473159999998,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "321215",
@@ -2195,6 +3495,19 @@
       "Energy_Intensity_MJ_per_1000USD": 9075.0
     },
     {
+      "NAICS_Code": "524126",
+      "BEA_Sector_Code": "524100",
+      "BEA_Sector_Name": "Insurance Carriers",
+      "Spending_USD": 167347.37,
+      "Pct_of_Total": 3.792074312475695e-05,
+      "GHG_kg_CO2e": 5974.301109000001,
+      "Energy_MJ": 214204.6336,
+      "Water_gallons": 11931.867481000001,
+      "Land_m2_year": 30.122526600000004,
+      "GHG_Intensity_kg_per_1000USD": 35.7,
+      "Energy_Intensity_MJ_per_1000USD": 1280.0
+    },
+    {
       "NAICS_Code": "316213",
       "BEA_Sector_Code": "316000",
       "BEA_Sector_Name": "Leather and Hide Tanning and Finishing",
@@ -2234,6 +3547,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "339932",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 148720.0,
+      "Pct_of_Total": 3.369980010748812e-05,
+      "GHG_kg_CO2e": 21742.863999999998,
+      "Energy_MJ": 858858.0,
+      "Water_gallons": 49464.272,
+      "Land_m2_year": 138.3096,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "485111",
       "BEA_Sector_Code": "485000",
       "BEA_Sector_Name": "Mixed Mode Transit Systems",
@@ -2245,6 +3571,32 @@
       "Land_m2_year": 731.1645039000001,
       "GHG_Intensity_kg_per_1000USD": 493.0,
       "Energy_Intensity_MJ_per_1000USD": 8000.0
+    },
+    {
+      "NAICS_Code": "423390",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 132753.88,
+      "Pct_of_Total": 3.00818936221992e-05,
+      "GHG_kg_CO2e": 12080.60308,
+      "Energy_MJ": 298696.23000000004,
+      "Water_gallons": 24161.20616,
+      "Land_m2_year": 61.0667848,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "423740",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 127372.56,
+      "Pct_of_Total": 2.8862492006314127e-05,
+      "GHG_kg_CO2e": 11590.902959999998,
+      "Energy_MJ": 286588.25999999995,
+      "Water_gallons": 23181.805919999995,
+      "Land_m2_year": 58.591377599999994,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "721211",
@@ -2312,6 +3664,32 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "524128",
+      "BEA_Sector_Code": "524100",
+      "BEA_Sector_Name": "Insurance Carriers",
+      "Spending_USD": 107233.98,
+      "Pct_of_Total": 2.4299110346492596e-05,
+      "GHG_kg_CO2e": 3828.2530860000006,
+      "Energy_MJ": 137259.4944,
+      "Water_gallons": 7645.782774,
+      "Land_m2_year": 19.302116400000003,
+      "GHG_Intensity_kg_per_1000USD": 35.7,
+      "Energy_Intensity_MJ_per_1000USD": 1280.0
+    },
+    {
+      "NAICS_Code": "423810",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 98660.68,
+      "Pct_of_Total": 2.23564093226792e-05,
+      "GHG_kg_CO2e": 8978.121879999999,
+      "Energy_MJ": 221986.52999999997,
+      "Water_gallons": 17956.243759999998,
+      "Land_m2_year": 45.3839128,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "315211",
       "BEA_Sector_Code": "315000",
       "BEA_Sector_Name": "Hosiery and Sock Mills",
@@ -2323,6 +3701,58 @@
       "Land_m2_year": 49.532657199999996,
       "GHG_Intensity_kg_per_1000USD": 104.0,
       "Energy_Intensity_MJ_per_1000USD": 3875.0
+    },
+    {
+      "NAICS_Code": "561591",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 93390.0,
+      "Pct_of_Total": 2.1162078617793948e-05,
+      "GHG_kg_CO2e": 9955.373999999998,
+      "Energy_MJ": 196119.0,
+      "Water_gallons": 19910.747999999996,
+      "Land_m2_year": 49.4967,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "561312",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 76362.47,
+      "Pct_of_Total": 1.7303657710557146e-05,
+      "GHG_kg_CO2e": 8140.239302,
+      "Energy_MJ": 160361.187,
+      "Water_gallons": 16280.478604,
+      "Land_m2_year": 40.472109100000004,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
+    },
+    {
+      "NAICS_Code": "423940",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 75500.0,
+      "Pct_of_Total": 1.7108222889425452e-05,
+      "GHG_kg_CO2e": 6870.499999999999,
+      "Energy_MJ": 169875.0,
+      "Water_gallons": 13740.999999999998,
+      "Land_m2_year": 34.73,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "488410",
+      "BEA_Sector_Code": "488000",
+      "BEA_Sector_Name": "Support Activities for Transportation",
+      "Spending_USD": 71371.83,
+      "Pct_of_Total": 1.6172783783658043e-05,
+      "GHG_kg_CO2e": 47840.53764899999,
+      "Energy_MJ": 508981.06846199994,
+      "Water_gallons": 214786.38520199998,
+      "Land_m2_year": 835.0504109999998,
+      "GHG_Intensity_kg_per_1000USD": 670.3,
+      "Energy_Intensity_MJ_per_1000USD": 7131.4
     },
     {
       "NAICS_Code": "484122",
@@ -2375,6 +3805,19 @@
       "Land_m2_year": 157.87900000000002,
       "GHG_Intensity_kg_per_1000USD": 251.00000000000003,
       "Energy_Intensity_MJ_per_1000USD": 11550.0
+    },
+    {
+      "NAICS_Code": "423720",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 60414.48,
+      "Pct_of_Total": 1.3689859464751473e-05,
+      "GHG_kg_CO2e": 5497.71768,
+      "Energy_MJ": 135932.58000000002,
+      "Water_gallons": 10995.43536,
+      "Land_m2_year": 27.7906608,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
     },
     {
       "NAICS_Code": "441120",
@@ -2520,6 +3963,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1620.0
     },
     {
+      "NAICS_Code": "339941",
+      "BEA_Sector_Code": "339900",
+      "BEA_Sector_Name": "Other Miscellaneous Manufacturing",
+      "Spending_USD": 21559.64,
+      "Pct_of_Total": 4.885392404447319e-06,
+      "GHG_kg_CO2e": 3152.0193679999998,
+      "Energy_MJ": 124506.92099999999,
+      "Water_gallons": 7170.736263999999,
+      "Land_m2_year": 20.050465199999998,
+      "GHG_Intensity_kg_per_1000USD": 146.2,
+      "Energy_Intensity_MJ_per_1000USD": 5775.0
+    },
+    {
       "NAICS_Code": "441340",
       "BEA_Sector_Code": "441000",
       "BEA_Sector_Name": "New Car Dealers",
@@ -2546,6 +4002,19 @@
       "Energy_Intensity_MJ_per_1000USD": 1800.0
     },
     {
+      "NAICS_Code": "423510",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 10430.69,
+      "Pct_of_Total": 2.36358370080134e-06,
+      "GHG_kg_CO2e": 949.19279,
+      "Energy_MJ": 23469.0525,
+      "Water_gallons": 1898.38558,
+      "Land_m2_year": 4.7981174,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
       "NAICS_Code": "512250",
       "BEA_Sector_Code": "512200",
       "BEA_Sector_Name": "Music Publishers",
@@ -2570,6 +4039,32 @@
       "Land_m2_year": 18.4234851,
       "GHG_Intensity_kg_per_1000USD": 249.0,
       "Energy_Intensity_MJ_per_1000USD": 7200.0
+    },
+    {
+      "NAICS_Code": "423220",
+      "BEA_Sector_Code": "423000",
+      "BEA_Sector_Name": "Merchant Wholesalers, Durable Goods",
+      "Spending_USD": 7145.76,
+      "Pct_of_Total": 1.6192219178058386e-06,
+      "GHG_kg_CO2e": 650.26416,
+      "Energy_MJ": 16077.960000000001,
+      "Water_gallons": 1300.52832,
+      "Land_m2_year": 3.2870496,
+      "GHG_Intensity_kg_per_1000USD": 91.0,
+      "Energy_Intensity_MJ_per_1000USD": 2250.0
+    },
+    {
+      "NAICS_Code": "561440",
+      "BEA_Sector_Code": "561000",
+      "BEA_Sector_Name": "Administrative and Support Services",
+      "Spending_USD": 4344.0,
+      "Pct_of_Total": 9.843459633333e-07,
+      "GHG_kg_CO2e": 463.07039999999995,
+      "Energy_MJ": 9122.400000000001,
+      "Water_gallons": 926.1407999999999,
+      "Land_m2_year": 2.30232,
+      "GHG_Intensity_kg_per_1000USD": 106.6,
+      "Energy_Intensity_MJ_per_1000USD": 2100.0
     },
     {
       "NAICS_Code": "482112",
