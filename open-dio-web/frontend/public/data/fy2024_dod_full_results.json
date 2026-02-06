@@ -3,56 +3,106 @@
   "impacts": [
     {
       "category": "Greenhouse Gas Emissions",
-      "value": 18709288597.40248,
-      "unit": "kg CO2 eq",
+      "value": 48747050345.154045,
+      "unit": "kg CO2 eq per $1000 spending (2024 USD)",
       "description": "Total CO2 equivalent emissions"
     },
     {
       "category": "Energy Use",
-      "value": 372713246855.28253,
-      "unit": "MJ",
+      "value": 1996199202130.9702,
+      "unit": "MJ per $1000 spending",
       "description": "Total energy consumption"
     },
     {
       "category": "Water Consumption",
-      "value": 402404367084.7545,
-      "unit": "gallons",
+      "value": 127248364076.07835,
+      "unit": "gallons per $1000 spending",
       "description": "Total freshwater use"
     },
     {
       "category": "Land Use",
-      "value": 1521530002.5236537,
-      "unit": "m2-year",
+      "value": 392474991.1031966,
+      "unit": "m2-year per $1000 spending",
       "description": "Total land occupation"
     }
   ],
   "sector_breakdown": {
+    "541300": {
+      "name": "Architectural Services",
+      "spending": 44875406613.42,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 4218288221.6614795,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 72698158713.74039,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 8436576443.322959,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 21091441.108307395,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541330",
+        "541310",
+        "541380",
+        "541370",
+        "541320",
+        "541350",
+        "541360",
+        "541340"
+      ],
+      "naics_amounts": {
+        "541330": 44026326237.26,
+        "541310": 348879101.28,
+        "541380": 234067883.55,
+        "541370": 167731190.62,
+        "541320": 46543049.09,
+        "541350": 37685315.31,
+        "541360": 13421124.1,
+        "541340": 752712.21
+      }
+    },
     "336411": {
       "name": "Aircraft Manufacturing",
       "spending": 43405995587.44,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 6302550559.296288,
-          "unit": "kg CO2 eq",
+          "value": 5469155444.01744,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 123707087424.204,
-          "unit": "MJ",
+          "value": 417782707529.11,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 138899185879.80798,
-          "unit": "gallons",
+          "value": 10938310888.03488,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 542574944.8429999,
-          "unit": "m2-year",
+          "value": 27345777.2200872,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -63,32 +113,80 @@
         "336411": 43405995587.44
       }
     },
-    "336414": {
-      "name": "Guided Missile Manufacturing",
-      "spending": 25032303640.17,
+    "541700": {
+      "name": "Research and Development in Nanotechnology",
+      "spending": 40895941154.17999,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 3324289923.414576,
-          "unit": "kg CO2 eq",
+          "value": 5929911467.356098,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 66335604646.45049,
-          "unit": "MJ",
+          "value": 66251424669.77158,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 72593680556.493,
-          "unit": "gallons",
+          "value": 11859822934.712196,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 270348879.313836,
-          "unit": "m2-year",
+          "value": 29445077.631009594,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541715",
+        "541712",
+        "541714",
+        "541710",
+        "541720",
+        "541713",
+        "541711"
+      ],
+      "naics_amounts": {
+        "541715": 31821752978.77,
+        "541712": 7479717591.75,
+        "541714": 624869329.49,
+        "541710": 503207729.13,
+        "541720": 295289547.09,
+        "541713": 137370393.39,
+        "541711": 33733584.56
+      }
+    },
+    "336414": {
+      "name": "Guided Missile and Space Vehicle Manufacturing",
+      "spending": 25032303640.17,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 3304264080.5024395,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 240935922536.63623,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 6608528161.004879,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 16521320.402512198,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -100,31 +198,31 @@
       }
     },
     "336611": {
-      "name": "Ship Building",
+      "name": "Ship Building and Repairing",
       "spending": 22873781109.11,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 3575171987.3538933,
-          "unit": "kg CO2 eq",
+          "value": 4185901942.96713,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 70908721438.241,
-          "unit": "MJ",
+          "value": 220160143175.18378,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 102932014990.99501,
-          "unit": "gallons",
+          "value": 8371803885.93426,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 347681472.858472,
-          "unit": "m2-year",
+          "value": 21043878.620381203,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -135,32 +233,104 @@
         "336611": 22873781109.11
       }
     },
-    "541512": {
-      "name": "Computer Systems Design",
-      "spending": 12185894166.18,
+    "336413": {
+      "name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+      "spending": 16646884744.99,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 470375514.814548,
-          "unit": "kg CO2 eq",
+          "value": 2530326481.23848,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 9992433216.2676,
-          "unit": "MJ",
+          "value": 160226265670.52875,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 8773843799.6496,
-          "unit": "gallons",
+          "value": 5060652962.47696,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 34120503.665304,
-          "unit": "m2-year",
+          "value": 12651632.406192401,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336413"
+      ],
+      "naics_amounts": {
+        "336413": 16646884744.99
+      }
+    },
+    "334511": {
+      "name": "Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing",
+      "spending": 16603561909.65,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1062627962.2176,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 109583508603.69,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2125255924.4352,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 5313139.811088,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "334511"
+      ],
+      "naics_amounts": {
+        "334511": 16603561909.65
+      }
+    },
+    "541512": {
+      "name": "Computer Systems Design Services",
+      "spending": 12185894166.18,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1096730474.9562,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 19741148549.2116,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2193460949.9124,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 5483652.374781,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -177,26 +347,26 @@
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 3336695389.3940887,
-          "unit": "kg CO2 eq",
+          "value": 4835113374.90078,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 67738303319.866,
-          "unit": "MJ",
+          "value": 283800132874.611,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 24525937408.917,
-          "unit": "gallons",
+          "value": 14505340124.70234,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 99271651.417045,
-          "unit": "m2-year",
+          "value": 48351133.7490078,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -207,32 +377,68 @@
         "324110": 11679017813.77
       }
     },
-    "336992": {
-      "name": "Armored Vehicle Manufacturing",
-      "spending": 6565064391.16,
+    "336412": {
+      "name": "Aircraft Engine and Engine Parts Manufacturing",
+      "spending": 8354967908.31,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 909261418.17566,
-          "unit": "kg CO2 eq",
+          "value": 1161340539.25509,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 18053927075.69,
-          "unit": "MJ",
+          "value": 80416566117.48376,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 20351699612.596,
-          "unit": "gallons",
+          "value": 2322681078.51018,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 74185227.62010801,
-          "unit": "m2-year",
+          "value": 5848477.535817,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336412"
+      ],
+      "naics_amounts": {
+        "336412": 8354967908.31
+      }
+    },
+    "336992": {
+      "name": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
+      "spending": 6565064391.16,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 2901758460.89272,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 63188744764.915,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 8705275382.67816,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 29017584.6089272,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -243,32 +449,140 @@
         "336992": 6565064391.16
       }
     },
-    "237990": {
-      "name": "Heavy Construction",
-      "spending": 3501560631.13,
+    "334220": {
+      "name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+      "spending": 4619805912.53,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 344553566.10319203,
-          "unit": "kg CO2 eq",
+          "value": 489699426.72817993,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 6828043230.7035,
-          "unit": "MJ",
+          "value": 30490719022.697994,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 18208115281.876,
-          "unit": "gallons",
+          "value": 979398853.4563599,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 148816326.82302502,
-          "unit": "m2-year",
+          "value": 2448497.1336409,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "334220"
+      ],
+      "naics_amounts": {
+        "334220": 4619805912.53
+      }
+    },
+    "541511": {
+      "name": "Custom Computer Programming Services",
+      "spending": 4195369690.34,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 344020314.60788,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 6796498898.3508005,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 688040629.21576,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1720101.5730394,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541511"
+      ],
+      "naics_amounts": {
+        "541511": 4195369690.34
+      }
+    },
+    "511200": {
+      "name": "Software Publishers",
+      "spending": 3577535127.61,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 268315134.57075003,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 10947257490.4866,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 536630269.14150006,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1359463.3484918003,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "511210"
+      ],
+      "naics_amounts": {
+        "511210": 3577535127.61
+      }
+    },
+    "237990": {
+      "name": "Other Heavy and Civil Engineering Construction",
+      "spending": 3501560631.13,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1575702284.0085,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 29413109301.492,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 4727106852.0255,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 15757022.840085,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -279,32 +593,502 @@
         "237990": 3501560631.13
       }
     },
-    "221100": {
-      "name": "Electric Power",
-      "spending": 871345381.3199999,
+    "481000": {
+      "name": "Scheduled Passenger Air Transportation",
+      "spending": 5443893644.7,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 446390238.85023594,
-          "unit": "kg CO2 eq",
+          "value": 3729067146.6195,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 9149126503.859999,
-          "unit": "MJ",
+          "value": 69681838652.16,
+          "unit": "MJ per $1000 spending",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 16119889554.419998,
-          "unit": "gallons",
+          "value": 18645335733.0975,
+          "unit": "gallons per $1000 spending",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 4530995.982864,
-          "unit": "m2-year",
+          "value": 74581342.93239,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "481212",
+        "481211",
+        "481112",
+        "481219",
+        "481111"
+      ],
+      "naics_amounts": {
+        "481212": 3254648981.27,
+        "481211": 1993521185.81,
+        "481112": 139427362.95,
+        "481219": 53428934.89,
+        "481111": 2867179.78
+      }
+    },
+    "483000": {
+      "name": "Deep Sea Freight Transportation",
+      "spending": 3359852864.7700005,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1958794220.1609101,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 24190940626.344,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 9793971100.80455,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 39175884.4032182,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "483111",
+        "483113",
+        "483211",
+        "483112",
+        "483212",
+        "483114"
+      ],
+      "naics_amounts": {
+        "483111": 3211211786.82,
+        "483113": 69815260.29,
+        "483211": 41318310.92,
+        "483112": 35620311.48,
+        "483212": 1291116.76,
+        "483114": 596078.5
+      }
+    },
+    "334290": {
+      "name": "Other Communications Equipment Manufacturing",
+      "spending": 2375815323.69,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 163931257.33461,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 15680381136.354,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 327862514.66922,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 831535.3632914999,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "334290"
+      ],
+      "naics_amounts": {
+        "334290": 2375815323.69
+      }
+    },
+    "336212": {
+      "name": "Truck Trailer Manufacturing",
+      "spending": 1357528119.27,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 262002927.01911,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 12319567682.37525,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 524005854.03822,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1303226.9944991998,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336212"
+      ],
+      "naics_amounts": {
+        "336212": 1357528119.27
+      }
+    },
+    "541800": {
+      "name": "Advertising Agencies",
+      "spending": 980188226.05,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 82335810.9882,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 1587904926.201,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 164671621.9764,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 411679.05494099995,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541810",
+        "541890",
+        "541820",
+        "541850",
+        "541840",
+        "541860",
+        "541830"
+      ],
+      "naics_amounts": {
+        "541810": 939511210.03,
+        "541890": 19601088.24,
+        "541820": 18441917.04,
+        "541850": 1661488.92,
+        "541840": 768896.84,
+        "541860": 152212.54,
+        "541830": 51412.44
+      }
+    },
+    "622000": {
+      "name": "General Medical and Surgical Hospitals",
+      "spending": 901914381.46,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 117248869.58980002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 3945875418.8875003,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 234497739.17960003,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 586244.3479490001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "622110",
+        "622210",
+        "622310"
+      ],
+      "naics_amounts": {
+        "622110": 901006984.86,
+        "622210": 593581.6,
+        "622310": 313815.0
+      }
+    },
+    "541200": {
+      "name": "Offices of Certified Public Accountants",
+      "spending": 1275321297.71,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 62490743.587790005,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2066020502.2902002,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 124981487.17558001,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 306077.1114504,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541211",
+        "541219",
+        "541214",
+        "541213"
+      ],
+      "naics_amounts": {
+        "541211": 794204389.13,
+        "541219": 480979210.0,
+        "541214": 110226.58,
+        "541213": 27472.0
+      }
+    },
+    "492000": {
+      "name": "Couriers and Express Delivery Services",
+      "spending": 791367215.6999999,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 250072040.1612,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 4431656407.92,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 750216120.4835999,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 2500720.401612,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "492110",
+        "492210"
+      ],
+      "naics_amounts": {
+        "492110": 789577355.8,
+        "492210": 1789859.9
+      }
+    },
+    "336211": {
+      "name": "Motor Vehicle Body Manufacturing",
+      "spending": 751781485.21,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 163136582.29057002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 7235896795.146251,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 489409746.87171006,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1631365.8229057002,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336211"
+      ],
+      "naics_amounts": {
+        "336211": 751781485.21
+      }
+    },
+    "315000": {
+      "name": "Hosiery and Sock Mills",
+      "spending": 1679489425.42,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 174666900.24368,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 6508021523.5025,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 349333800.48736,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 873334.5012184,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "315210",
+        "315990",
+        "315220",
+        "315250",
+        "315120",
+        "315999",
+        "315240",
+        "315110",
+        "315280",
+        "315299",
+        "315190",
+        "315211",
+        "315992",
+        "315234"
+      ],
+      "naics_amounts": {
+        "315210": 741605246.24,
+        "315990": 593630220.02,
+        "315220": 170860586.39,
+        "315250": 114415166.18,
+        "315120": 29459936.44,
+        "315999": 12521504.71,
+        "315240": 9342152.22,
+        "315110": 4043737.73,
+        "315280": 2824940.74,
+        "315299": 366471.31,
+        "315190": 237293.07,
+        "315211": 95255.11,
+        "315992": 47266.05,
+        "315234": 39649.21
+      }
+    },
+    "493000": {
+      "name": "General Warehousing and Storage",
+      "spending": 1109393468.09,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 245175956.44788998,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 4437573872.36,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 735527869.3436699,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 2451759.5644789,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "493190",
+        "493110",
+        "493120",
+        "493130"
+      ],
+      "naics_amounts": {
+        "493190": 683537439.73,
+        "493110": 415722089.34,
+        "493120": 9930134.02,
+        "493130": 203805.0
+      }
+    },
+    "221100": {
+      "name": "Electric Power Generation",
+      "spending": 871345381.3199999,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 958479919.4519999,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2831872489.29,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2875439758.356,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 9584799.194519999,
+          "unit": "m2-year per $1000 spending",
           "description": "Total land occupation"
         }
       ],
@@ -325,6 +1109,1698 @@
         "221114": 10767174.91,
         "221111": 331912.97,
         "221115": 212790.0
+      }
+    },
+    "221300": {
+      "name": "Water Supply and Irrigation Systems",
+      "spending": 740706870.13,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 354798590.79226995,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2407297327.9224997,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 1064395772.37681,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 3547985.9079226996,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "221310",
+        "221320",
+        "221330"
+      ],
+      "naics_amounts": {
+        "221310": 534094358.49,
+        "221320": 174443737.87,
+        "221330": 32168773.77
+      }
+    },
+    "333618": {
+      "name": "Other Engine Equipment Manufacturing",
+      "spending": 504377254.05,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 129624954.29085,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 4161112345.9125,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 388874862.87255,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1296249.5429085,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "333618"
+      ],
+      "naics_amounts": {
+        "333618": 504377254.05
+      }
+    },
+    "332500": {
+      "name": "Hardware Manufacturing",
+      "spending": 340237968.38,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 61242834.3084,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 3087659563.0484996,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 122485668.6168,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 306214.17154199997,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "332510"
+      ],
+      "naics_amounts": {
+        "332510": 340237968.38
+      }
+    },
+    "336612": {
+      "name": "Boat Building",
+      "spending": 321019642.65,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 51363142.824,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2913253257.04875,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 102726285.648,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 256815.71412000002,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336612"
+      ],
+      "naics_amounts": {
+        "336612": 321019642.65
+      }
+    },
+    "324190": {
+      "name": "Petroleum Lubricating Oil and Grease Manufacturing",
+      "spending": 231075412.78,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 125705024.55232,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 5615132530.554,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 628525122.7616,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 2514100.4910464003,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "324191",
+        "324199"
+      ],
+      "naics_amounts": {
+        "324191": 229697247.92,
+        "324199": 1378164.86
+      }
+    },
+    "721000": {
+      "name": "Hotels (except Casino Hotels) and Motels",
+      "spending": 184706305.42,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 24011819.7046,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 711119275.867,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 48023639.4092,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 120059.098523,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "721110",
+        "721191",
+        "721214",
+        "721199",
+        "721120",
+        "721211",
+        "721310"
+      ],
+      "naics_amounts": {
+        "721110": 171691784.08,
+        "721191": 7343554.54,
+        "721214": 4814786.81,
+        "721199": 369706.5,
+        "721120": 252384.39,
+        "721211": 121685.1,
+        "721310": 112404.0
+      }
+    },
+    "221200": {
+      "name": "Natural Gas Distribution",
+      "spending": 139828730.94,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 74388884.86008,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 454443375.555,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 371944424.3004,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1487777.6972016,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "221210"
+      ],
+      "naics_amounts": {
+        "221210": 139828730.94
+      }
+    },
+    "336120": {
+      "name": "Heavy Duty Truck Manufacturing",
+      "spending": 130133206.38,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 32533301.595,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 1180958847.8985,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 97599904.785,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 325333.01595,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336120"
+      ],
+      "naics_amounts": {
+        "336120": 130133206.38
+      }
+    },
+    "316000": {
+      "name": "Leather and Hide Tanning and Finishing",
+      "spending": 115303238.82999998,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 28941112.946329996,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 446800050.46624994,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 86823338.83898999,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 289411.12946329993,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "316210",
+        "316998",
+        "316990",
+        "316999",
+        "316214",
+        "316213",
+        "316110"
+      ],
+      "naics_amounts": {
+        "316210": 105941378.1,
+        "316998": 4965121.39,
+        "316990": 2459495.96,
+        "316999": 1292613.14,
+        "316214": 439960.67,
+        "316213": 162745.02,
+        "316110": 41924.55
+      }
+    },
+    "334300": {
+      "name": "Audio and Video Equipment Manufacturing",
+      "spending": 104720088.63,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 7749286.55862,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 691152584.958,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 15498573.11724,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 38746.4327931,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "334310"
+      ],
+      "naics_amounts": {
+        "334310": 104720088.63
+      }
+    },
+    "485000": {
+      "name": "Mixed Mode Transit Systems",
+      "spending": 133203910.08,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 65669527.66944,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 1065631280.64,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 197008583.00832,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 656695.2766944,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "485410",
+        "485999",
+        "485113",
+        "485510",
+        "485320",
+        "485991",
+        "485210",
+        "485310",
+        "485111"
+      ],
+      "naics_amounts": {
+        "485410": 82473563.3,
+        "485999": 19933749.21,
+        "485113": 14475866.72,
+        "485510": 11317343.95,
+        "485320": 1702780.75,
+        "485991": 1624841.67,
+        "485210": 1245407.78,
+        "485310": 282047.47,
+        "485111": 148309.23
+      }
+    },
+    "484000": {
+      "name": "General Freight Trucking, Local",
+      "spending": 159918166.53000003,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 122497315.56198001,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 1791083465.1360002,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 612486577.8099,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 2449946.3112396,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "484230",
+        "484210",
+        "484220",
+        "484110",
+        "484121",
+        "484122"
+      ],
+      "naics_amounts": {
+        "484230": 79683104.97,
+        "484210": 27871007.9,
+        "484220": 27223662.8,
+        "484110": 23190354.12,
+        "484121": 1879772.24,
+        "484122": 70264.5
+      }
+    },
+    "332200": {
+      "name": "Metal Kitchen Cookware, Utensil, Cutlery, and Flatware (except Precious) Manufacturing",
+      "spending": 86491323.74000001,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 16606334.15808,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 784908762.9405,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 33212668.31616,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 83031.6707904,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "332216",
+        "332215",
+        "332212"
+      ],
+      "naics_amounts": {
+        "332216": 78290688.79,
+        "332215": 7657008.79,
+        "332212": 543626.16
+      }
+    },
+    "332600": {
+      "name": "Spring Manufacturing",
+      "spending": 83658943.97,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 17652037.17767,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 759204916.5277499,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 52956111.53301,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 176520.37177669996,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "332618",
+        "332613"
+      ],
+      "naics_amounts": {
+        "332618": 70094601.62,
+        "332613": 13564342.35
+      }
+    },
+    "524200": {
+      "name": "Insurance Agencies and Brokerages",
+      "spending": 59314960.760000005,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1542188.97976,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 75923149.7728,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 3084377.95952,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 7710.9448988,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "524292",
+        "524298",
+        "524210",
+        "524291"
+      ],
+      "naics_amounts": {
+        "524292": 58090511.59,
+        "524298": 1123773.01,
+        "524210": 67530.07,
+        "524291": 33146.09
+      }
+    },
+    "512100": {
+      "name": "Motion Picture and Video Production",
+      "spending": 37897231.14,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1856964.3258600002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 77310351.5256,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 3713928.6517200004,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 9474.307785,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "512110",
+        "512120",
+        "512191",
+        "512199"
+      ],
+      "naics_amounts": {
+        "512110": 29234639.3,
+        "512120": 8085870.8,
+        "512191": 575072.04,
+        "512199": 1649.0
+      }
+    },
+    "211000": {
+      "name": "Crude Petroleum Extraction",
+      "spending": 29919835.810000002,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 19058935.410970002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 390453857.3205001,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 95294677.05485001,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 381178.7082194001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "211130",
+        "211120"
+      ],
+      "naics_amounts": {
+        "211130": 23565958.48,
+        "211120": 6353877.33
+      }
+    },
+    "331110": {
+      "name": "Iron and Steel Mills and Ferroalloy Manufacturing",
+      "spending": 20457887.44,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 20580634.764640003,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 414272220.66,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 102903173.82320002,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 411612.6952928001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "331110"
+      ],
+      "naics_amounts": {
+        "331110": 20457887.44
+      }
+    },
+    "331200": {
+      "name": "Iron and Steel Pipe and Tube Manufacturing from Purchased Steel",
+      "spending": 40708255.34,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 16039052.603960002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 824342170.6350001,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 48117157.81188001,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 160390.52603960002,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "331210",
+        "331221",
+        "331222"
+      ],
+      "naics_amounts": {
+        "331210": 18154735.3,
+        "331221": 16992089.31,
+        "331222": 5561430.73
+      }
+    },
+    "321200": {
+      "name": "Hardwood Veneer and Plywood Manufacturing",
+      "spending": 18516959.36,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 4647756.7993600005,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 213870880.608,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 13943270.39808,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 46477.5679936,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "321212",
+        "321211",
+        "321213",
+        "321215",
+        "321219"
+      ],
+      "naics_amounts": {
+        "321212": 16396369.58,
+        "321211": 1311720.49,
+        "321213": 450430.84,
+        "321215": 295538.45,
+        "321219": 62900.0
+      }
+    },
+    "541400": {
+      "name": "Interior Design Services",
+      "spending": 30742885.64,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 2705373.93632,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 49803474.7368,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 5410747.87264,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 13526.869681600001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541430",
+        "541410",
+        "541420",
+        "541490"
+      ],
+      "naics_amounts": {
+        "541430": 13909502.85,
+        "541410": 13701180.51,
+        "541420": 1652361.1,
+        "541490": 1479841.18
+      }
+    },
+    "541100": {
+      "name": "Offices of Lawyers",
+      "spending": 20107848.73,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 723882.55428,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 32574714.9426,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 1447765.10856,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 3619.4127714,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "541199",
+        "541110"
+      ],
+      "naics_amounts": {
+        "541199": 13691624.5,
+        "541110": 6416224.23
+      }
+    },
+    "712000": {
+      "name": "Museums",
+      "spending": 16186766.600000001,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1893851.6922000002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 33992209.86,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 3787703.3844000003,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 9388.324628,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "712110",
+        "712120"
+      ],
+      "naics_amounts": {
+        "712110": 12636005.06,
+        "712120": 3550761.54
+      }
+    },
+    "332800": {
+      "name": "Metal Heat Treating",
+      "spending": 20220935.47,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 6915559.93074,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 183504989.39025,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 20746679.79222,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 69155.5993074,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "332811",
+        "332812",
+        "332813"
+      ],
+      "naics_amounts": {
+        "332811": 9153907.66,
+        "332812": 6724790.88,
+        "332813": 4342236.93
+      }
+    },
+    "336214": {
+      "name": "Travel Trailer and Camper Manufacturing",
+      "spending": 9105856.35,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1411407.73425,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 82635646.37625,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2822815.4685,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 7102.567953000001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336214"
+      ],
+      "naics_amounts": {
+        "336214": 9105856.35
+      }
+    },
+    "115000": {
+      "name": "Cotton Ginning",
+      "spending": 17485576.97,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 5577899.053429999,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 111907692.608,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 16733697.16029,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 55778.99053429999,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "115210",
+        "115310",
+        "115112"
+      ],
+      "naics_amounts": {
+        "115210": 8502703.98,
+        "115310": 7633898.58,
+        "115112": 1348974.41
+      }
+    },
+    "441000": {
+      "name": "New Car Dealers",
+      "spending": 7416127.88,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 771277.29952,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 13349030.184,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 1542554.59904,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 3856.3864976,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "441222",
+        "441227",
+        "441110",
+        "441120",
+        "441330",
+        "441340",
+        "441228"
+      ],
+      "naics_amounts": {
+        "441222": 6663528.69,
+        "441227": 545717.63,
+        "441110": 66403.1,
+        "441120": 59819.55,
+        "441330": 41592.71,
+        "441340": 20582.2,
+        "441228": 18484.0
+      }
+    },
+    "114000": {
+      "name": "Finfish Fishing",
+      "spending": 6354863.49,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1131165.7012200002,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 50838907.92,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2262331.4024400003,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 5655.828506100001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "114119",
+        "114210"
+      ],
+      "naics_amounts": {
+        "114119": 6199084.83,
+        "114210": 155778.66
+      }
+    },
+    "336500": {
+      "name": "Railroad Rolling Stock Manufacturing",
+      "spending": 3576239.37,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1419767.0298900001,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 32454372.282750003,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 4259301.089670001,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 14197.670298900002,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336510"
+      ],
+      "naics_amounts": {
+        "336510": 3576239.37
+      }
+    },
+    "327200": {
+      "name": "Flat Glass Manufacturing",
+      "spending": 5439404.6,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 2697944.6816,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 94645640.03999999,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 8093834.044799999,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 26979.446816,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "327215",
+        "327211",
+        "327212",
+        "327213"
+      ],
+      "naics_amounts": {
+        "327215": 3208973.96,
+        "327211": 1115694.68,
+        "327212": 738741.15,
+        "327213": 375994.81
+      }
+    },
+    "327100": {
+      "name": "Pottery, Ceramics, and Plumbing Fixture Manufacturing",
+      "spending": 2410953.35,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 988490.8735000001,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 41950588.29000001,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2965472.6205,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 9884.908735,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "327110",
+        "327120"
+      ],
+      "naics_amounts": {
+        "327110": 1795914.45,
+        "327120": 615038.9
+      }
+    },
+    "452000": {
+      "name": "Department Stores",
+      "spending": 1696617.36,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 247706.13456000003,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 3257505.3312000004,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 495412.26912000007,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 1238.5306728,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "452319"
+      ],
+      "naics_amounts": {
+        "452319": 1696617.36
+      }
+    },
+    "482000": {
+      "name": "Line-Haul Railroads",
+      "spending": 1591951.62,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 710010.42252,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 8914929.072,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 2130031.26756,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 7100.1042252,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "482111",
+        "482112"
+      ],
+      "naics_amounts": {
+        "482111": 1589141.6,
+        "482112": 2810.02
+      }
+    },
+    "512200": {
+      "name": "Music Publishers",
+      "spending": 1434356.11,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 57374.24440000001,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2926086.4644000004,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 114748.48880000002,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 286.87122200000005,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "512290",
+        "512230",
+        "512250"
+      ],
+      "naics_amounts": {
+        "512290": 1249535.27,
+        "512230": 177130.84,
+        "512250": 7690.0
+      }
+    },
+    "321100": {
+      "name": "Sawmills",
+      "spending": 1828500.65,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 559521.1989,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 21119182.5075,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 1678563.5966999999,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 5595.211989,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "321113",
+        "321114"
+      ],
+      "naics_amounts": {
+        "321113": 1195451.99,
+        "321114": 633048.66
+      }
+    },
+    "113000": {
+      "name": "Timber Tract Operations",
+      "spending": 1152317.86,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 286927.14714,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 8296688.592000001,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 860781.44142,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 2869.2714714000003,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "113210",
+        "113310",
+        "113110"
+      ],
+      "naics_amounts": {
+        "113210": 1028462.0,
+        "113310": 116456.87,
+        "113110": 7398.99
+      }
+    },
+    "486000": {
+      "name": "Pipeline Transportation of Crude Oil",
+      "spending": 934072.21,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 1445009.70887,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 2989031.0719999997,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 7225048.544349999,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 28900.1941774,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "486210",
+        "486990"
+      ],
+      "naics_amounts": {
+        "486210": 676464.66,
+        "486990": 257607.55
+      }
+    },
+    "327400": {
+      "name": "Lime Manufacturing",
+      "spending": 320900.84,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 380267.4954,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 5583674.616,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 1901337.4770000002,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 7605.349908,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "327410",
+        "327420"
+      ],
+      "naics_amounts": {
+        "327410": 287405.84,
+        "327420": 33495.0
+      }
+    },
+    "425000": {
+      "name": "Business to Business Electronic Markets",
+      "spending": 250467.73,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 20788.821590000003,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 563552.3925000001,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 41577.64318000001,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 105.1964466,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "425120"
+      ],
+      "naics_amounts": {
+        "425120": 250467.73
+      }
+    },
+    "336213": {
+      "name": "Motor Home Manufacturing",
+      "spending": 175322.08,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 17707.53008,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 1591047.876,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 35415.06016,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 89.41426080000001,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336213"
+      ],
+      "naics_amounts": {
+        "336213": 175322.08
+      }
+    },
+    "533000": {
+      "name": "Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)",
+      "spending": 117300.0,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 5747.7,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 168912.0,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 11495.4,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 28.151999999999997,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "533110"
+      ],
+      "naics_amounts": {
+        "533110": 117300.0
+      }
+    },
+    "454000": {
+      "name": "Electronic Shopping and Mail-Order Houses",
+      "spending": 56006.78,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 4984.60342,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 71688.6784,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 9969.20684,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 25.203051,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "454310"
+      ],
+      "naics_amounts": {
+        "454310": 56006.78
+      }
+    },
+    "213111": {
+      "name": "Drilling Oil and Gas Wells",
+      "spending": 28000.0,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 9996.0,
+          "unit": "kg CO2 eq per $1000 spending (2024 USD)",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 274400.0,
+          "unit": "MJ per $1000 spending",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 29988.0,
+          "unit": "gallons per $1000 spending",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 99.96,
+          "unit": "m2-year per $1000 spending",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "213111"
+      ],
+      "naics_amounts": {
+        "213111": 28000.0
       }
     }
   },
