@@ -41,8 +41,9 @@ const BudgetAnalysis: React.FC = () => {
 
   const loadBudgetData = async () => {
     try {
-      // Try to load published dataset
-      const response = await fetch('/data/fy2024_dod_budget_analysis.json');
+      // Try to load published dataset - use base path for GitHub Pages
+      const basePath = import.meta.env.BASE_URL || '/';
+      const response = await fetch(`${basePath}data/fy2024_dod_budget_analysis.json`);
       const jsonData = await response.json();
 
       setData(jsonData.line_by_line || []);
@@ -276,13 +277,13 @@ const BudgetAnalysis: React.FC = () => {
 
         <div className="download-section">
           <h3>Download Data</h3>
-          <a href="/data/fy2024_dod_line_by_line.csv" download className="download-link">
+          <a href={`${import.meta.env.BASE_URL}data/fy2024_dod_line_by_line.csv`} download className="download-link">
             📥 Download Full Dataset (CSV)
           </a>
-          <a href="/data/fy2024_dod_summary.csv" download className="download-link">
+          <a href={`${import.meta.env.BASE_URL}data/fy2024_dod_summary.csv`} download className="download-link">
             📥 Download Summary (CSV)
           </a>
-          <a href="/data/fy2024_dod_full_results.json" download className="download-link">
+          <a href={`${import.meta.env.BASE_URL}data/fy2024_dod_full_results.json`} download className="download-link">
             📥 Download Complete Results (JSON)
           </a>
         </div>
