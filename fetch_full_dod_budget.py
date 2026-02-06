@@ -67,7 +67,6 @@ class USAspendingFullFetcher:
                     }
                 ]
             },
-            "category": "naics",
             "limit": limit,
             "page": 1
         }

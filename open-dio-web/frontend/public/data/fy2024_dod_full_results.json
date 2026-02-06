@@ -1,27 +1,27 @@
 {
-  "total_spending": 100000000000,
+  "total_spending": 441308255614.71,
   "impacts": [
     {
       "category": "Greenhouse Gas Emissions",
-      "value": 10064900000.0,
+      "value": 18709288597.40248,
       "unit": "kg CO2 eq",
       "description": "Total CO2 equivalent emissions"
     },
     {
       "category": "Energy Use",
-      "value": 199950000000.0,
+      "value": 372713246855.28253,
       "unit": "MJ",
       "description": "Total energy consumption"
     },
     {
       "category": "Water Consumption",
-      "value": 220700000000.0,
+      "value": 402404367084.7545,
       "unit": "gallons",
       "description": "Total freshwater use"
     },
     {
       "category": "Land Use",
-      "value": 876300000.0,
+      "value": 1521530002.5236537,
       "unit": "m2-year",
       "description": "Total land occupation"
     }
@@ -29,29 +29,29 @@
   "sector_breakdown": {
     "336411": {
       "name": "Aircraft Manufacturing",
-      "spending": 25000000000,
+      "spending": 43405995587.44,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 3629999999.9999995,
+          "value": 6302550559.296288,
           "unit": "kg CO2 eq",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 71250000000.0,
+          "value": 123707087424.204,
           "unit": "MJ",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 80000000000.0,
+          "value": 138899185879.80798,
           "unit": "gallons",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 312500000.0,
+          "value": 542574944.8429999,
           "unit": "m2-year",
           "description": "Total land occupation"
         }
@@ -60,34 +60,70 @@
         "336411"
       ],
       "naics_amounts": {
-        "336411": 25000000000
+        "336411": 43405995587.44
       }
     },
-    "336611": {
-      "name": "Ship Building",
-      "spending": 22000000000,
+    "336414": {
+      "name": "Guided Missile Manufacturing",
+      "spending": 25032303640.17,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 3438600000.0000005,
+          "value": 3324289923.414576,
           "unit": "kg CO2 eq",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 68200000000.0,
+          "value": 66335604646.45049,
           "unit": "MJ",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 99000000000.0,
+          "value": 72593680556.493,
           "unit": "gallons",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 334400000.0,
+          "value": 270348879.313836,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336414"
+      ],
+      "naics_amounts": {
+        "336414": 25032303640.17
+      }
+    },
+    "336611": {
+      "name": "Ship Building",
+      "spending": 22873781109.11,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 3575171987.3538933,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 70908721438.241,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 102932014990.99501,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 347681472.858472,
           "unit": "m2-year",
           "description": "Total land occupation"
         }
@@ -96,70 +132,70 @@
         "336611"
       ],
       "naics_amounts": {
-        "336611": 22000000000
+        "336611": 22873781109.11
       }
     },
-    "336992": {
-      "name": "Armored Vehicle Manufacturing",
-      "spending": 3000000000,
+    "541512": {
+      "name": "Computer Systems Design",
+      "spending": 12185894166.18,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 415500000.0,
+          "value": 470375514.814548,
           "unit": "kg CO2 eq",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 8250000000.0,
+          "value": 9992433216.2676,
           "unit": "MJ",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 9300000000.0,
+          "value": 8773843799.6496,
           "unit": "gallons",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 33900000.0,
+          "value": 34120503.665304,
           "unit": "m2-year",
           "description": "Total land occupation"
         }
       ],
       "naics_codes": [
-        "336992"
+        "541512"
       ],
       "naics_amounts": {
-        "336992": 3000000000
+        "541512": 12185894166.18
       }
     },
     "324110": {
       "name": "Petroleum Refineries",
-      "spending": 8000000000,
+      "spending": 11679017813.77,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 2285600000.0,
+          "value": 3336695389.3940887,
           "unit": "kg CO2 eq",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 46400000000.0,
+          "value": 67738303319.866,
           "unit": "MJ",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 16800000000.0,
+          "value": 24525937408.917,
           "unit": "gallons",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 68000000.0,
+          "value": 99271651.417045,
           "unit": "m2-year",
           "description": "Total land occupation"
         }
@@ -168,34 +204,70 @@
         "324110"
       ],
       "naics_amounts": {
-        "324110": 8000000000
+        "324110": 11679017813.77
       }
     },
-    "237990": {
-      "name": "Heavy Construction",
-      "spending": 3000000000,
+    "336992": {
+      "name": "Armored Vehicle Manufacturing",
+      "spending": 6565064391.16,
       "impacts": [
         {
           "category": "Greenhouse Gas Emissions",
-          "value": 295200000.0,
+          "value": 909261418.17566,
           "unit": "kg CO2 eq",
           "description": "Total CO2 equivalent emissions"
         },
         {
           "category": "Energy Use",
-          "value": 5850000000.0,
+          "value": 18053927075.69,
           "unit": "MJ",
           "description": "Total energy consumption"
         },
         {
           "category": "Water Consumption",
-          "value": 15600000000.0,
+          "value": 20351699612.596,
           "unit": "gallons",
           "description": "Total freshwater use"
         },
         {
           "category": "Land Use",
-          "value": 127500000.0,
+          "value": 74185227.62010801,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "336992"
+      ],
+      "naics_amounts": {
+        "336992": 6565064391.16
+      }
+    },
+    "237990": {
+      "name": "Heavy Construction",
+      "spending": 3501560631.13,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 344553566.10319203,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 6828043230.7035,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 18208115281.876,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 148816326.82302502,
           "unit": "m2-year",
           "description": "Total land occupation"
         }
@@ -204,7 +276,55 @@
         "237990"
       ],
       "naics_amounts": {
-        "237990": 3000000000
+        "237990": 3501560631.13
+      }
+    },
+    "221100": {
+      "name": "Electric Power",
+      "spending": 871345381.3199999,
+      "impacts": [
+        {
+          "category": "Greenhouse Gas Emissions",
+          "value": 446390238.85023594,
+          "unit": "kg CO2 eq",
+          "description": "Total CO2 equivalent emissions"
+        },
+        {
+          "category": "Energy Use",
+          "value": 9149126503.859999,
+          "unit": "MJ",
+          "description": "Total energy consumption"
+        },
+        {
+          "category": "Water Consumption",
+          "value": 16119889554.419998,
+          "unit": "gallons",
+          "description": "Total freshwater use"
+        },
+        {
+          "category": "Land Use",
+          "value": 4530995.982864,
+          "unit": "m2-year",
+          "description": "Total land occupation"
+        }
+      ],
+      "naics_codes": [
+        "221122",
+        "221112",
+        "221118",
+        "221121",
+        "221114",
+        "221111",
+        "221115"
+      ],
+      "naics_amounts": {
+        "221122": 618215837.37,
+        "221112": 169989589.52,
+        "221118": 48083609.14,
+        "221121": 23744467.41,
+        "221114": 10767174.91,
+        "221111": 331912.97,
+        "221115": 212790.0
       }
     }
   },
