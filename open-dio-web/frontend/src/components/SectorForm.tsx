@@ -23,6 +23,7 @@ export function SectorForm({
   const [amount, setAmount] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
+  const [validationError, setValidationError] = useState<string>('');
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Sort sectors alphabetically
@@ -77,24 +78,48 @@ export function SectorForm({
   };
 
   const handleAddSector = () => {
-    if (!selectedSector || !amount || parseFloat(amount) <= 0) {
-      alert('Please select a sector and enter a valid amount');
+    // Clear previous validation
+    setValidationError('');
+
+    // Validate inputs
+    if (!selectedSector) {
+      setValidationError('Please select a sector from the dropdown');
+      return;
+    }
+
+    if (!amount || amount.trim() === '') {
+      setValidationError('Please enter a spending amount');
+      return;
+    }
+
+    const parsedAmount = parseFloat(amount);
+    if (isNaN(parsedAmount) || parsedAmount <= 0) {
+      setValidationError('Spending amount must be a positive number');
+      return;
+    }
+
+    if (parsedAmount > 1e15) {
+      setValidationError('Spending amount seems unrealistically large. Please verify.');
       return;
     }
 
     const sector = sectors.find((s) => s.code === selectedSector);
-    if (!sector) return;
+    if (!sector) {
+      setValidationError('Selected sector not found. Please try again.');
+      return;
+    }
 
     const newInput: SectorInput = {
       sectorCode: sector.code,
       sectorName: sector.name,
-      amount: parseFloat(amount),
+      amount: parsedAmount,
     };
 
     onInputsChange([...inputs, newInput]);
     setSelectedSector('');
     setSearchQuery('');
     setAmount('');
+    setValidationError(''); // Clear on success
   };
 
   const handleRemoveSector = (index: number) => {
@@ -275,6 +300,20 @@ export function SectorForm({
           >
             Add Sector
           </button>
+
+          {validationError && (
+            <div className="validation-error" style={{
+              color: '#d32f2f',
+              fontSize: '0.9rem',
+              marginTop: '0.5rem',
+              padding: '0.5rem',
+              background: '#ffebee',
+              borderRadius: '4px',
+              border: '1px solid #ffcdd2'
+            }}>
+              {validationError}
+            </div>
+          )}
         </div>
 
         <div className="csv-upload-section">
