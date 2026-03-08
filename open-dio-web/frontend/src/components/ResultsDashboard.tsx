@@ -109,10 +109,16 @@ export function ResultsDashboard({ results }: Props) {
       <div className="data-quality-notice">
         <div className="notice-icon">⚠️</div>
         <div className="notice-content">
-          <strong>Data Quality Notice:</strong> These estimates are based on sector-averaged environmental
-          multipliers with uncertainty ranges of ±25-50% depending on impact category.
-          Results are suitable for order-of-magnitude estimates and comparative analysis.
-          See <strong>Methodology</strong> tab for details.
+          <div><strong>Methodological Proof-of-Concept:</strong> These estimates demonstrate methodological
+          feasibility but have not undergone peer review.</div>
+          <div style={{ marginTop: '0.5rem', fontSize: '0.9em' }}>
+            <strong>Uncertainty by impact:</strong> GHG ±25% (Cornerstone v1.4.0), Energy ±25-35% (EIA + IO multipliers),
+            Water ±40% (EPA USEEIO), Land ±50% (EPA USEEIO).
+            Results include full supply chain (Scope 1+2+3 equivalent).
+          </div>
+          <div style={{ marginTop: '0.5rem', fontSize: '0.9em' }}>
+            <strong>Data vintage:</strong> BEA 2012 Input-Output tables. See <strong>Research Context</strong> tab for limitations and validation.
+          </div>
         </div>
       </div>
 
@@ -148,7 +154,20 @@ export function ResultsDashboard({ results }: Props) {
 
       {comparisons.length > 0 && (
         <div className="comparisons-section">
-          <h3>Context</h3>
+          <h3>Context & Validation</h3>
+          <div style={{
+            background: '#e3f2fd',
+            border: '2px solid #2196f3',
+            borderRadius: '8px',
+            padding: '1rem',
+            marginBottom: '1rem'
+          }}>
+            <strong>Supply Chain vs Operational Emissions:</strong><br/>
+            These results include full supply chain (Scope 1+2+3), capturing manufacturing and
+            procurement impacts. Crawford (2019) reported ~59M tons CO2e for DOD operational
+            emissions (Scope 1 only). Our methodology shows supply chain emissions are approximately
+            2.5× larger than operational alone when procurement spending is included.
+          </div>
           <p className="comparisons-intro">
             To help understand the scale of these emissions:
           </p>
@@ -157,6 +176,10 @@ export function ResultsDashboard({ results }: Props) {
               <li key={index}>{comparison}</li>
             ))}
           </ul>
+          <p style={{ fontSize: '0.85rem', color: '#666', marginTop: '1rem' }}>
+            Note: Comparisons use EPA equivalency factors (2024) and should be interpreted as
+            order-of-magnitude estimates given ±25-50% uncertainty ranges.
+          </p>
         </div>
       )}
 

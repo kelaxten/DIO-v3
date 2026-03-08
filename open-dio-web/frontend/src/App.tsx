@@ -6,8 +6,9 @@ import { SectorForm } from './components/SectorForm';
 import { ResultsDashboard } from './components/ResultsDashboard';
 import Methodology from './components/Methodology';
 import Glossary from './components/Glossary';
+import ResearchContext from './components/ResearchContext';
 
-type View = 'calculator' | 'methodology' | 'glossary';
+type View = 'calculator' | 'research' | 'methodology' | 'glossary';
 
 function App() {
   const [view, setView] = useState<View>('calculator');
@@ -31,8 +32,9 @@ function App() {
         setLoading(false);
       } catch (error) {
         console.error('Failed to load data:', error);
-        alert('Failed to connect to API. Make sure the backend server is running.');
+        // Set loading false to show app, but with degraded state
         setLoading(false);
+        // Note: Sectors may be empty, calculator will show appropriate message
       }
     }
 
@@ -79,10 +81,10 @@ function App() {
       <header className="header">
         <h1>Open DIO</h1>
         <p className="tagline">
-          Defense Environmental Impact Analysis
+          Full Supply Chain Environmental Assessment of U.S. Military Spending
         </p>
         <p className="subtitle">
-          Using the Defense Input-Output Model v2.0
+          Revealing that procurement emissions are 2.5× larger than operational estimates
         </p>
 
         <nav className="nav-tabs">
@@ -91,6 +93,12 @@ function App() {
             onClick={() => setView('calculator')}
           >
             Calculator
+          </button>
+          <button
+            className={view === 'research' ? 'nav-tab active' : 'nav-tab'}
+            onClick={() => setView('research')}
+          >
+            Research Context
           </button>
           <button
             className={view === 'methodology' ? 'nav-tab active' : 'nav-tab'}
@@ -128,21 +136,32 @@ function App() {
 
               <footer className="footer">
                 <p>
-                  <strong>About:</strong> Open DIO makes military environmental
-                  impact analysis accessible to researchers, journalists, and the public.
+                  <strong>About:</strong> Open DIO is an open-source research tool for full supply chain
+                  environmental assessment of military spending. First publicly accessible defense IO-LCA
+                  calculator, revealing procurement emissions are 2.5× operational estimates.
                 </p>
                 <p>
-                  <strong>Data:</strong> Based on EPA's Defense Input-Output Model v2.0
-                  | <strong>Method:</strong> Environmentally-Extended Input-Output Analysis
+                  <strong>Research:</strong> Methodological proof-of-concept demonstrating feasibility
+                  of environmentally-extended input-output analysis for defense sector. See Research Context
+                  tab for limitations, validation, and dissertation vision.
+                </p>
+                <p>
+                  <strong>Data:</strong> USAspending.gov, Cornerstone v1.4.0 (GHG), EIA MECS 2018 (Energy),
+                  EPA USEEIO v2.0 (Water, Land) | <strong>BEA Data:</strong> 2012 Input-Output tables
                 </p>
                 <p className="credit">
                   Open Source |{' '}
                   <a href="https://github.com/kelaxten/DIO-v3" target="_blank" rel="noopener noreferrer">
                     View on GitHub
+                  </a>{' '}
+                  | <a href="/data/fy2024_dod_line_by_line.csv" download>
+                    Download Dataset
                   </a>
                 </p>
               </footer>
             </>
+          ) : view === 'research' ? (
+            <ResearchContext />
           ) : view === 'methodology' ? (
             <Methodology />
           ) : (
