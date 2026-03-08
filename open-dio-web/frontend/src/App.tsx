@@ -7,8 +7,9 @@ import { ResultsDashboard } from './components/ResultsDashboard';
 import Methodology from './components/Methodology';
 import Glossary from './components/Glossary';
 import ResearchContext from './components/ResearchContext';
+import BudgetAnalysis from './components/BudgetAnalysis';
 
-type View = 'calculator' | 'research' | 'methodology' | 'glossary';
+type View = 'calculator' | 'budget' | 'research' | 'methodology' | 'glossary';
 
 function App() {
   const [view, setView] = useState<View>('calculator');
@@ -95,6 +96,12 @@ function App() {
             Calculator
           </button>
           <button
+            className={view === 'budget' ? 'nav-tab active' : 'nav-tab'}
+            onClick={() => setView('budget')}
+          >
+            Budget Analysis
+          </button>
+          <button
             className={view === 'research' ? 'nav-tab active' : 'nav-tab'}
             onClick={() => setView('research')}
           >
@@ -160,6 +167,8 @@ function App() {
                 </p>
               </footer>
             </>
+          ) : view === 'budget' ? (
+            <BudgetAnalysis />
           ) : view === 'research' ? (
             <ResearchContext />
           ) : view === 'methodology' ? (
