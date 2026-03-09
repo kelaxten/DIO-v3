@@ -42,8 +42,18 @@ const BudgetAnalysis: React.FC = () => {
   const loadBudgetData = async () => {
     try {
       // Try to load published dataset
+      console.log('Fetching budget data from /data/fy2024_dod_budget_analysis.json...');
       const response = await fetch('/data/fy2024_dod_budget_analysis.json');
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
       const jsonData = await response.json();
+      console.log('Budget data loaded:', {
+        lineCount: jsonData.line_by_line?.length,
+        totalSpending: jsonData.summary?.total_spending
+      });
 
       setData(jsonData.line_by_line || []);
       setSummary(jsonData.summary || null);
@@ -137,8 +147,17 @@ const BudgetAnalysis: React.FC = () => {
       <div className="budget-analysis">
         <div className="error">
           <h2>No Data Available</h2>
-          <p>The FY2024 DOD budget analysis dataset has not been published yet.</p>
-          <p>Check back soon for the complete line-by-line environmental impact analysis.</p>
+          <p>Unable to load the FY2024 DOD budget analysis dataset.</p>
+          <p><strong>Troubleshooting:</strong></p>
+          <ul style={{ textAlign: 'left', maxWidth: '600px', margin: '1rem auto' }}>
+            <li>Make sure the dev server is running (<code>npm run dev</code>)</li>
+            <li>Check the browser console for error messages</li>
+            <li>Verify the data file exists at: <code>public/data/fy2024_dod_budget_analysis.json</code></li>
+            <li>If deploying, make sure the public directory is included in the build</li>
+          </ul>
+          <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
+            Expected file: 313 sectors, $387B total spending
+          </p>
         </div>
       </div>
     );
