@@ -2790,6 +2790,76 @@
       "Energy": 3250.0,
       "Water": 3300.0,
       "Land": 11.0
+    },
+    "236220": {
+      "name": "Commercial and Institutional Building Construction",
+      "GHG": 450.0,
+      "Energy": 8400.0,
+      "Water": 1350.0,
+      "Land": 4.5
+    },
+    "561000": {
+      "name": "Administrative and Support Services",
+      "GHG": 106.6,
+      "Energy": 2100.0,
+      "Water": 213.2,
+      "Land": 0.53
+    },
+    "524100": {
+      "name": "Insurance Carriers",
+      "GHG": 35.7,
+      "Energy": 1280.0,
+      "Water": 71.3,
+      "Land": 0.18
+    },
+    "332900": {
+      "name": "Other Fabricated Metal Product Manufacturing",
+      "GHG": 245.5,
+      "Energy": 9102.5,
+      "Water": 678.1,
+      "Land": 2.16
+    },
+    "488000": {
+      "name": "Support Activities for Transportation",
+      "GHG": 670.3,
+      "Energy": 7131.4,
+      "Water": 3009.4,
+      "Land": 11.7
+    },
+    "541600": {
+      "name": "Management and Technical Consulting",
+      "GHG": 95.8,
+      "Energy": 1620.0,
+      "Water": 212.8,
+      "Land": 0.58
+    },
+    "541900": {
+      "name": "Other Professional Services",
+      "GHG": 95.8,
+      "Energy": 1620.0,
+      "Water": 212.8,
+      "Land": 0.58
+    },
+    "423000": {
+      "name": "Merchant Wholesalers, Durable Goods",
+      "GHG": 91.0,
+      "Energy": 2250.0,
+      "Water": 182.0,
+      "Land": 0.46
+    },
+    "325400": {
+      "name": "Pharmaceutical and Medicine Manufacturing",
+      "GHG": 593.6,
+      "Energy": 13200.0,
+      "Water": 2611.9,
+      "Land": 10.09
+    },
+    "339900": {
+      "name": "Other Miscellaneous Manufacturing",
+      "GHG": 146.2,
+      "Energy": 5775.0,
+      "Water": 332.6,
+      "Land": 0.93
     }
   },
   "last_updated": "2026-01-29",

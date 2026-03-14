@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - claude/update-dio-model-jcHg1  # Deploy from our feature branch for testing
+      - claude/professional-updates-jcHg1  # Deploy from professional branch
   workflow_dispatch:  # Allow manual trigger
 
 permissions:

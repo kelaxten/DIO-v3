@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "fiscal_year": 2024,
+    "agency": "Department of Defense",
+    "description": "Sample of FY2024 DOD spending for environmental impact case study",
+    "total_amount": 100000000000,
+    "num_categories": 13,
+    "data_source": "Based on DOD Green Book FY2024 and procurement patterns",
+    "note": "Sample data for methodological demonstration"
+  },
+  "spending_by_naics": {
+    "336411": {
+      "name": "Aircraft Manufacturing",
+      "naics": "336411",
+      "amount": 25000000000,
+      "description": "Combat aircraft, tankers, transport aircraft procurement"
+    },
+    "336412": {
+      "name": "Aircraft Engine and Engine Parts Manufacturing",
+      "naics": "336412",
+      "amount": 5000000000,
+      "description": "Jet engines, propulsion systems"
+    },
+    "336413": {
+      "name": "Other Aircraft Parts and Auxiliary Equipment Manufacturing",
+      "naics": "336413",
+      "amount": 5000000000,
+      "description": "Avionics, weapons systems, aircraft components"
+    },
+    "336611": {
+      "name": "Ship Building and Repairing",
+      "naics": "336611",
+      "amount": 22000000000,
+      "description": "Naval vessels, submarines, carriers"
+    },
+    "333618": {
+      "name": "Other Engine Equipment Manufacturing",
+      "naics": "333618",
+      "amount": 3000000000,
+      "description": "Marine propulsion systems"
+    },
+    "336120": {
+      "name": "Heavy Duty Truck Manufacturing",
+      "naics": "336120",
+      "amount": 4000000000,
+      "description": "Military tactical vehicles"
+    },
+    "332994": {
+      "name": "Small Arms, Ordnance, and Ordnance Accessories Manufacturing",
+      "naics": "332994",
+      "amount": 8000000000,
+      "description": "Weapons systems, ammunition"
+    },
+    "336992": {
+      "name": "Military Armored Vehicle, Tank, and Tank Component Manufacturing",
+      "naics": "336992",
+      "amount": 3000000000,
+      "description": "Tanks, armored personnel carriers"
+    },
+    "334220": {
+      "name": "Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing",
+      "naics": "334220",
+      "amount": 6000000000,
+      "description": "Military communications equipment"
+    },
+    "334511": {
+      "name": "Search, Detection, and Navigation Instruments Manufacturing",
+      "naics": "334511",
+      "amount": 6000000000,
+      "description": "Radar, navigation systems, sensors"
+    },
+    "324110": {
+      "name": "Petroleum Refineries",
+      "naics": "324110",
+      "amount": 8000000000,
+      "description": "Jet fuel, diesel, military fuel operations"
+    },
+    "237990": {
+      "name": "Other Heavy and Civil Engineering Construction",
+      "naics": "237990",
+      "amount": 3000000000,
+      "description": "Military base construction and infrastructure"
+    },
+    "236220": {
+      "name": "Commercial and Institutional Building Construction",
+      "naics": "236220",
+      "amount": 2000000000,
+      "description": "Military facilities, barracks, office buildings"
+    }
+  }
+}

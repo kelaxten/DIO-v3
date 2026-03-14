@@ -47,12 +47,12 @@ class DIOCalculator:
 
     def _load_multipliers(self):
         """Load impact multipliers from JSON file"""
-        # Try to load from open-dio-web data first (demo multipliers)
-        multipliers_file = Path("open-dio-web/data/multipliers.json")
+        # Use data_path if provided, otherwise fall back to demo data
+        multipliers_file = self.data_path / "multipliers.json"
 
         if not multipliers_file.exists():
-            # Fallback to backend data directory
-            multipliers_file = self.data_path / "multipliers.json"
+            # Fallback to open-dio-web demo data (for frontend dev)
+            multipliers_file = Path("open-dio-web/data/multipliers.json")
 
         if not multipliers_file.exists():
             raise FileNotFoundError(f"Multipliers file not found: {multipliers_file}")
