@@ -42,8 +42,9 @@ const BudgetAnalysis: React.FC = () => {
   const loadBudgetData = async () => {
     try {
       // Try to load published dataset
-      console.log('Fetching budget data from /data/fy2024_dod_budget_analysis.json...');
-      const response = await fetch('/data/fy2024_dod_budget_analysis.json');
+      const dataUrl = `${import.meta.env.BASE_URL}data/fy2024_dod_budget_analysis.json`;
+      console.log('Fetching budget data from', dataUrl);
+      const response = await fetch(dataUrl);
 
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
